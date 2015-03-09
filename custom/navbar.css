@@ -1,0 +1,35 @@
+#logo{
+    padding-top: 2em;
+    padding-bottom: 0;
+}
+#logo a img{
+    max-height: 50px;
+}
+#header{
+    background-color: #fff!important;
+    border-bottom: 2px solid #ddd;
+}
+.sf-menu{
+    margin-top: 2em;
+}
+.sf-menu > li > a, .sf-menu > li.dropdown > a{
+    color: #393939;
+    padding-bottom: 2em;
+}
+.sf-menu .sf-mega, .sf-menu li.dropdown ul{
+    position: absolute;
+    top: 50%;
+}
+#mobile-menu-trigger{
+    margin-bottom: 2em;
+}
+@media (min-width: 1400px){
+    #header.stuck .sf-menu > li > a, #header.stuck .sf-menu > li.dropdown > a{
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+
+.page-header #content{
+    padding-top: 120px;
+}

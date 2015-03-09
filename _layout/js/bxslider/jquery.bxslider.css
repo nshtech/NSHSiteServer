@@ -1,0 +1,256 @@
+/**
+ * Name: bxslider.css
+ *	
+ *	T.O.C
+ *
+ *	=Basics
+ *	=Slider theme
+ *	=Loader
+ *	=Pager
+ *	=Directional Controls (Next / Prev)
+ *	=Auto Controls (Start / Stop)
+ *	=Pager with auto controls hibrid layout	
+ *	=Image Captions
+ *
+ */
+
+ 
+ /* ==========================================================================
+   =Basics
+   ========================================================================== */
+
+	.bx-wrapper {
+		position: relative;
+		padding: 0;
+		margin: 0 auto 60px auto;
+	}
+	
+	.bx-wrapper ul { list-style: none; }
+	
+	.bx-wrapper img {
+		display: block;
+		max-width: 100%;
+	}
+
+/* ==========================================================================
+   =Slider theme
+   ========================================================================== */
+
+	.bx-wrapper .bx-viewport {
+		/*fix other elements on the page moving (on Chrome)*/
+		-webkit-transform: translatez(0);
+		    -moz-transform: translatez(0);
+		   -ms-transform: translatez(0);
+			-o-transform: translatez(0);
+			   transform: translatez(0);
+	}
+	
+	.bx-wrapper .bx-pager,
+	.bx-wrapper .bx-controls-auto {
+		position: absolute;
+		bottom: -40px;
+		width: 100%;
+	}
+
+/* ==========================================================================
+   =Loader
+   ========================================================================== */
+
+	.bx-wrapper .bx-loading {
+		position: absolute;
+		z-index: 10000;
+		top: 0;
+		left: 0;
+		width: 100%;
+		min-height: 50px;
+		height: 100%;
+		background: #fff url(images/bx_loader.gif) no-repeat center center;
+	}
+
+/* ==========================================================================
+   =Pager
+   ========================================================================== */
+
+	.bx-wrapper .bx-pager {
+		padding-top: 20px;
+		color: #393939;
+		text-align: center;
+	}
+	
+	.bx-wrapper .bx-pager .bx-pager-item,
+	.bx-wrapper .bx-controls-auto .bx-controls-auto-item { display: inline-block; }
+	
+	.bx-wrapper .bx-pager.bx-default-pager a {
+		display: block;
+		width: 8px;
+		height: 8px;
+		border-radius: 3px;
+		outline: 0;
+		margin: 0 5px;
+		border: 1px solid #393939;
+		text-indent: -9999px;	
+	}
+	
+	.bx-wrapper .bx-pager.bx-default-pager a:hover,
+	.bx-wrapper .bx-pager.bx-default-pager a.active { background: #393939; }
+
+/* ==========================================================================
+   =Directional Controls (Next / Prev)
+   ========================================================================== */
+
+	.bx-wrapper .bx-prev {
+		left: 30px;
+		background: url(images/controls.png) no-repeat 0 -32px;
+	}
+	
+	.bx-wrapper .bx-next {
+		right: 30px;
+		background: url(images/controls.png) no-repeat -43px -32px;
+	}
+	
+	.bx-wrapper .bx-prev:hover { background-position: 0 0; }
+	
+	.bx-wrapper .bx-next:hover { background-position: -43px 0; }
+	
+	/**
+	 * 1. changing the z-index from the original 9999 to 
+	 */
+	
+	.bx-wrapper .bx-controls-direction a {
+		position: absolute;
+		z-index: 1000; /* 1 */
+		top: 50%;
+		width: 32px;
+		height: 32px;
+		outline: 0;
+		margin-top: -16px;
+		text-indent: -9999px;
+	}
+	
+	.bx-wrapper .bx-controls-direction a.disabled { display: none; }
+
+/* ==========================================================================
+   =Auto Controls (Start / Stop)
+   ========================================================================== */
+
+	.bx-wrapper .bx-controls-auto { text-align: center; }
+	
+	.bx-wrapper .bx-controls-auto .bx-start {
+		display: block;
+		width: 10px;
+		height: 11px;
+		outline: 0;
+		margin: 0 3px;
+		background: url(images/controls.png) -86px -11px no-repeat;
+		text-indent: -9999px;
+	}
+	
+	.bx-wrapper .bx-controls-auto .bx-start:hover,
+	.bx-wrapper .bx-controls-auto .bx-start.active { background-position: -86px 0; }
+	
+	.bx-wrapper .bx-controls-auto .bx-stop {
+		display: block;
+		width: 9px;
+		height: 11px;
+		outline: 0;
+		margin: 0 3px;
+		background: url(images/controls.png) -86px -44px no-repeat;
+		text-indent: -9999px;
+	}
+	
+	.bx-wrapper .bx-controls-auto .bx-stop:hover,
+	.bx-wrapper .bx-controls-auto .bx-stop.active { background-position: -86px -33px; }
+
+/* ==========================================================================
+   =Pager with auto controls hibrid layout
+   ========================================================================== */
+
+	.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+		width: 80%;
+		text-align: left;	
+	}
+	
+	.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+		right: 0;
+		width: 35px;
+	}
+
+/* ==========================================================================
+   =Image Captions
+   ========================================================================== */
+
+	.bx-wrapper .bx-caption {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background: rgba(80, 80, 80, 0.75);
+	}
+	
+	.bx-wrapper .bx-caption span {
+		display: block;
+		padding: 10px;
+		color: #fff;
+	}
+	
+	
+	.info-slider {
+		margin-top: 60px;
+		text-align: right; 
+	}
+	
+	.info-slider .sub-headline:before { right: 0; }
+	
+	.info-slider .bx-wrapper .bx-pager {
+		bottom: -70px;
+		text-align: right; 
+	}
+	
+	.info-slider .bx-wrapper .bx-pager.bx-default-pager a { text-indent: 99999px; }
+	
+	.testimonial-slider .bx-wrapper .bx-pager.bx-default-pager a { background-color: #fff; }	
+	
+	.testimonial-slider .bx-wrapper .bx-pager.bx-default-pager a:hover,
+	.testimonial-slider .bx-wrapper .bx-pager.bx-default-pager a.active { background: #8ec63f; }
+	
+	.images-slider .bx-wrapper .bx-pager { bottom: 30px }
+	
+	
+	.services-slider-control {
+		margin: 80px 0 30px 0;
+		list-style: none;
+	}
+	
+	.services-slider-control li {
+		padding-bottom: 10px;
+		border-bottom: 1px solid #d7d7d7;
+		margin-bottom: 10px;
+		font-size: 18px;
+		font-weight: 500;
+	}
+	
+	.services-slider-control li a {
+		position: relative;
+		display: block;
+		color: #393939;
+		text-decoration: none;
+	}
+	
+	.services-slider-control li a.active,
+	.services-slider-control li a:hover { color: #8ec63f; }
+	
+	.services-slider-control li a.active:after,
+	.services-slider-control li a:hover:after {
+		position: absolute;
+		top: 5px;
+		right: 0;
+		font-family: "FontAwesome";
+		font-size: 30px;
+		content: "";
+	}
+	
+	.services-slider-control li:last-child {
+		padding-bottom: 0;
+		border-bottom: none;
+		margin-bottom: 0;
+	}

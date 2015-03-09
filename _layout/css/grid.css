@@ -1,0 +1,364 @@
+/**
+ *	Name: grid.css
+ *
+ *	T.O.C
+ *	
+ *	=Base Grid
+ *	=Large Display
+ *	=Tablet (Portrait)
+ *	=Mobile (Portrait and Landscape )
+ *	=Portrait and landscape
+ *	=Landscape
+ *	=Align
+ *	=Responsive Images and Embeds
+ *	=Clearing
+ *	=ResponsiveFormInputs
+ * 
+ */
+ 
+
+/* ==========================================================================
+   =Base Grid
+   ========================================================================== */
+
+	.row-container,
+	.container-fluid {
+		padding-right: 31px;
+		padding-left: 31px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.row { 
+		position: relative; 
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+ 	.span1, 
+	.span2, 
+	.span3, 
+	.span4, 
+	.span5, 
+	.span6, 
+	.span7, 
+	.span8, 
+	.span9, 
+	.span10, 
+	.span11, 
+	.span12 { 
+		float: left; 
+		min-height: 1px;
+		padding-left: 15px;
+		padding-right: 15px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+
+	.span12 { width: 100%; }
+	.span11 { width: 91.66666667%; }
+	.span10 { width: 83.33333333%; }
+	.span9  { width: 75%; }
+	.span8  { width: 66.66666667%; }
+	.span7  { width: 58.33333333%; }
+	.span6  { width: 50%; }
+	.span5  { width: 41.66666667%; }
+	.span4  { width: 33.33333333%; }
+	.span3  { width: 25%; }
+	.span2  { width: 16.66666667%; }
+	.span1  { width: 8.33333333%;  }
+	
+	.offset-12 { margin-left: 100%; }
+	.offset-11 { margin-left: 91.66666667%; }
+	.offset-10 { margin-left: 83.33333333%; }
+	.offset-9  { margin-left: 75%; }
+	.offset-8  { margin-left: 66.66666667%; }
+	.offset-7  { margin-left: 58.33333333%; }
+	.offset-6  { margin-left: 50%; }
+	.offset-5  { margin-left: 41.66666667%; }
+	.offset-4  { margin-left: 33.33333333%; }
+	.offset-3  { margin-left: 25%; }
+	.offset-2  { margin-left: 16.66666667%; }
+	.offset-1  { margin-left: 8.33333333%; }
+	.offset-0  { margin-left: 0%; }
+		
+	.visible-phone { display: none !important; }
+	.visible-tablet { display: none !important; }
+	.hidden-desktop { display: none !important; }
+	.visible-desktop { display: inherit !important; } 
+
+/* ==========================================================================
+   =Large Display
+   ========================================================================== */
+
+	@media (min-width: 1400px) {
+	
+		.row-container,
+		.container-fluid {
+			padding-right: 62px;
+			padding-left: 62px;
+		}
+		
+		.row { 
+			position: relative; 
+			margin-left: -20px;
+			margin-right: -20px;
+		}
+		
+		.span1, 
+		.span2, 
+		.span3, 
+		.span4, 
+		.span5, 
+		.span6, 
+		.span7, 
+		.span8, 
+		.span9, 
+		.span10, 
+		.span11, 
+		.span12 {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		
+	}
+ 
+/* ==========================================================================
+   =Tablet (Portrait)
+   ========================================================================== */
+
+	@media (min-width: 768px) and (max-width: 979px) {
+
+		.row-container,
+		.container-fluid {
+			padding-right: 21px;
+			padding-left: 21px;
+		}
+		
+		.row { 
+			margin-left: -10px;
+			margin-right: -10px;
+		}
+		
+		.span1, 
+		.span2, 
+		.span3, 
+		.span4, 
+		.span5, 
+		.span6, 
+		.span7, 
+		.span8, 
+		.span9, 
+		.span10, 
+		.span11, 
+		.span12 {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		
+		.hidden-desktop { display: inherit !important; } 
+		.visible-desktop { display: none !important; }
+		.visible-tablet { display: inherit !important; } 
+		.hidden-tablet { display: none !important; }
+		
+	}
+
+/* ==========================================================================
+   =Mobile (Portrait and Landscape )
+   ========================================================================== */
+
+/* =Portrait and landscape
+   ========================================================================== */
+   
+	@media (max-width: 767px) {
+
+		.row-container,
+		.container-fluid {
+			padding-right: 20px;
+			padding-left: 20px;
+		}
+		
+		.row { 
+			margin-left: -10px;
+			margin-right: -10px;
+		}	
+		
+		.span1,
+		.span2,
+		.span3,
+		.span4,
+		.span5,
+		.span6,
+		.span7,
+		.span8,
+		.span9,
+		.span10,
+		.span11,
+		.span12 { 
+			float: none;
+			width: 100%;
+		}
+		
+		.offset-12, 
+		.offset-11, 
+		.offset-10, 
+		.offset-9,  
+		.offset-8, 
+		.offset-7,  
+		.offset-6,  
+		.offset-5,  
+		.offset-4,  
+		.offset-3,  
+		.offset-2,  
+		.offset-1,
+		.offset-0 { margin-left: 0%; }
+		
+		.hidden-desktop { display: inherit !important; }
+		.visible-desktop { display: none !important; }
+		.visible-phone { display: inherit !important; }
+		.hidden-phone { display: none !important; }
+		
+	}
+	
+/* =Landscape
+   ========================================================================== */
+	
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		
+		
+	}	
+	
+/* ==========================================================================
+   =Align
+   ========================================================================== */
+
+	.float-left { float: left; }
+	.float-right { float: right; }
+
+/* ==========================================================================
+   =Responsive Images and Embeds
+   ========================================================================== */
+
+	.responsive-img { 
+		max-width: 100%; 
+		height: auto; 
+	}
+	
+	/**
+ 	 * 1. 16/9 ratio
+ 	 */
+	 
+	.responsive-embed {
+		position: relative;
+		overflow: hidden;
+		height: 0;
+		padding: 0;
+		padding-bottom: 56.25%; /* 1 */	
+		margin-bottom: 20px;
+	}
+
+	.responsive-embed iframe,
+	.responsive-embed object,
+	.responsive-embed embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+/* ==========================================================================
+   =Clearing
+   ========================================================================== */
+
+	/**
+ 	 * Automatically Clear Fix rows
+ 	 */
+	 
+	.row:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+
+	/**
+ 	 * Clear Fix hack
+	 * Usage:  add  class="fixed"  to div's that have floated elements in them
+ 	 */
+	 
+	.fixed:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+	
+	/**
+ 	 * Clear content
+	 * Usage:  <br class="clear"> 
+ 	 */	
+	 
+	.clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+	} 
+	
+/* ==========================================================================
+   =ResponsiveFormInputs
+   ========================================================================== */
+	
+	/**
+	 * 1. Reset float inherited from .span*	
+ 	 * 2. Reset margin-left inherited from .span*
+ 	 */
+	 
+	input.span1,
+	textarea.span1,
+	select.span1,
+	input.span2,
+	textarea.span2,
+	select.span2,
+	input.span3,
+	textarea.span3,
+	select.span3,
+	input.span4,
+	textarea.span4,
+	select.span4,
+	input.span5,
+	textarea.span5,
+	select.span5,
+	input.span6,
+	textarea.span6,
+	select.span6,
+	input.span7,
+	textarea.span7,
+	select.span7,
+	input.span8,
+	textarea.span8,
+	select.span8,
+	input.span9,
+	textarea.span9,
+	select.span9,
+	input.span10,
+	textarea.span10,
+	select.span10,
+	input.span11,
+	textarea.span11,
+	select.span11,
+	input.span12,
+	textarea.span12,
+	select.span12 {
+		float: none; 	/* 1 */
+		margin-left: 0; /* 2 */
+	}
