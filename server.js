@@ -18,6 +18,12 @@ app.get('/pf', function(req, res){
 app.get('/apply', function(req, res){
   res.sendFile(__dirname + '/apply.html');
 });
+app.get('/team', function(req, res){
+  res.sendFile(__dirname + '/team.html');
+});
+app.get('/about', function(req, res){
+  res.sendFile(__dirname + '/about-us.html');
+});
 
 
 

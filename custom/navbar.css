@@ -8,10 +8,6 @@
 #gray-logo{
     display: none;
 }
-#header{
-    background-color: transparent;
-    border-bottom: 0px solid #ddd;
-}
 .stuck{
     background-color: #fff!important;
     border-bottom: 0px solid #ddd;
@@ -19,15 +15,14 @@
 .sf-menu{
     margin-top: 2em;
 }
-#header .sf-menu > li > a, .sf-menu > li.dropdown > a{
-    color: #fff;
-    padding-bottom: 2em;
-    font-weight: 500;
-}
 .stuck .sf-menu a{
     color: #393939!important;
     padding-bottom: 2em;
     padding-top: 22px!important;
+}
+#header .sf-menu > li > a, .sf-menu > li.dropdown > a{
+    padding-bottom: 2em;
+    font-weight: 500;
 }
 #mobile-menu-trigger{
     margin-bottom: 2em;
