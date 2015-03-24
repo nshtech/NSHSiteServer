@@ -19,10 +19,12 @@
 #header .sf-menu > li > a, .sf-menu > li.dropdown > a{
     color: #fff;
     padding-bottom: 2em;
+    font-weight: 500;
 }
 .stuck .sf-menu a{
     color: #393939!important;
     padding-bottom: 2em;
+    padding-top: 22px!important;
 }
 #mobile-menu-trigger{
     margin-bottom: 2em;
