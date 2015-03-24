@@ -6,14 +6,22 @@
     max-height: 50px;
 }
 #header{
+    background-color: transparent;
+    border-bottom: 0px solid #ddd;
+}
+.stuck{
     background-color: #fff!important;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 0px solid #ddd;
 }
 .sf-menu{
     margin-top: 2em;
 }
-.sf-menu > li > a, .sf-menu > li.dropdown > a{
-    color: #393939;
+#header .sf-menu > li > a, .sf-menu > li.dropdown > a{
+    color: #fff;
+    padding-bottom: 2em;
+}
+.stuck .sf-menu a{
+    color: #393939!important;
     padding-bottom: 2em;
 }
 #mobile-menu-trigger{
