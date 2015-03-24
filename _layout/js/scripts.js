@@ -486,8 +486,12 @@
 			
 			if (h >= a) {
 				$('#header').addClass("stuck");
+				$('#white-logo').css("display", "none")
+				$('#gray-logo').css("display", "inline")
 			} else {
 				$('#header').removeClass("stuck");
+				$('#white-logo').css("display", "inline")
+				$('#gray-logo').css("display", "none")
 			}
 			
 			e = false;
