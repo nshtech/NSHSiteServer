@@ -383,3 +383,28 @@
 			margin-left: 30px;
 		}
 	}
+	.team-group-name-container{
+		text-align:center;
+		margin: 24px;
+	}
+	.team-group-name {
+		display: inline-block;
+		vertical-align: top;
+		zoom: 1; /* Fix for IE7 */
+		*display: inline; /* Fix for IE7 */;
+	}
+	.groups-btn-group-row-container {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+	#groups-btn-group{
+		display: inline-block;
+	}
+	#groups-btn-group > .btn{
+		padding: 10px 15px;
+	}
+	@media (min-width: 800px) {
+		#groups-btn-group {
+			width: 750px;
+		}	
+	}

@@ -368,6 +368,72 @@
 	}
 	
 /* ==========================================================================
+   handleStickyHeader
+   ========================================================================== */	 
+
+	function handleStickyHeader() {
+	
+		var b = document.documentElement,
+        	e = false,
+       		a = 420; // the sticky menu trigger point, in pixels
+
+		function c() {
+			
+			return window.pageYOffset || b.scrollTop;
+			
+		}
+		
+		function d() {
+			
+			var h = c();
+			
+			if (h >= a) {
+				$('#header').addClass("stuck");
+				$('#white-logo').css("display", "none")
+				$('#gray-logo').css("display", "inline")
+			} else {
+				$('#header').removeClass("stuck");
+				$('#white-logo').css("display", "inline")
+				$('#gray-logo').css("display", "none")
+			}
+			
+			e = false;
+		}
+		
+		function f() {
+			
+			window.addEventListener("scroll", function (h) {
+				
+				if (!e) {
+					e = true;
+					setTimeout(d(), 250);
+				}
+			}, false);
+			
+			window.addEventListener("load", function (h) {
+				
+				if (!e) {
+					e = true;
+					setTimeout(d(), 250);
+				}
+			}, false);
+		}
+	
+
+		var stickyHeader = false;
+		
+		if ($('body').hasClass('sticky-header')){
+			stickyHeader = true;
+		}
+		
+		if(stickyHeader && ($(window).width() > 1024)){ 
+		
+			f();
+
+		}
+		
+	}
+/* ==========================================================================
    handleAccordionsAndToogles
    ========================================================================== */
    
@@ -463,73 +529,6 @@
 		});
 
 	}
-
-/* ==========================================================================
-   handleStickyHeader
-   ========================================================================== */	 
-
-	function handleStickyHeader() {
-	
-		var b = document.documentElement,
-        	e = false,
-       		a = 420; // the sticky menu trigger point, in pixels
-
-		function c() {
-			
-			return window.pageYOffset || b.scrollTop;
-			
-		}
-		
-		function d() {
-			
-			var h = c();
-			
-			if (h >= a) {
-				$('#header').addClass("stuck");
-				$('#white-logo').css("display", "none")
-				$('#gray-logo').css("display", "inline")
-			} else {
-				$('#header').removeClass("stuck");
-				$('#white-logo').css("display", "inline")
-				$('#gray-logo').css("display", "none")
-			}
-			
-			e = false;
-		}
-		
-		function f() {
-			
-			window.addEventListener("scroll", function (h) {
-				
-				if (!e) {
-					e = true;
-					setTimeout(d(), 250);
-				}
-			}, false);
-			
-			window.addEventListener("load", function (h) {
-				
-				if (!e) {
-					e = true;
-					setTimeout(d(), 250);
-				}
-			}, false);
-		}
-	
-
-		var stickyHeader = false;
-		
-		if ($('body').hasClass('sticky-header')){
-			stickyHeader = true;
-		}
-		
-		if(stickyHeader && ($(window).width() > 1024)){ 
-		
-			f();
-
-		}
-		
-	}
 	
 /* ==========================================================================
    handleHeightToDiv
@@ -543,11 +542,11 @@
 			$(".portfolio-item-2").css("height", "auto");			
 		}
 		
-		if (($(window).width() > 1400) || (($(window).width() > 767) && ($(window).width() < 979))) {					
-			$(".team-member-description").css("height", $(".team-member > img").height() + "px");		
-		} else {			
-			$(".team-member-description").css("height", "auto");
-		}
+		// if (($(window).width() > 1400) || (($(window).width() > 767) && ($(window).width() < 979))) {					
+		// 	$(".team-member-description").css("height", $(".team-member > img").height() + "px");		
+		// } else {			
+		// 	$(".team-member-description").css("height", "auto");
+		// }
 		
 	}
 	 
