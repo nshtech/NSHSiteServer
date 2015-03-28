@@ -6,6 +6,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "*"
+    "express": "*",
+    "hbs": "^3.0.1"
   }
 }
