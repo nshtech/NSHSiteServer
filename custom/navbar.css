@@ -37,3 +37,17 @@
 .page-header #content{
     padding-top: 120px;
 }
+
+#footer{
+    padding: 30px 0 0px 0;
+}
+#footer-links h4{
+    display: inline-block;
+    margin-right: 5px;
+}
+#footer-links div{
+    display: inline-block;
+}
+#footer-links > *{
+    float: right;
+}
