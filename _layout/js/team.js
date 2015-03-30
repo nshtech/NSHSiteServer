@@ -32,18 +32,30 @@ $(function(){
     };
 
     //Grayscale effect
-    $('.team-member-pic-color').each(function() {
+    $('.team-member-pic').each(function() {
         $(this).wrap('<div class="member-pic-wrapper" style="display:inline-block">').clone().addClass('gotcolors').css({'position': 'absolute', 'opacity' : 0 }).insertBefore(this);
         this.src = grayscale(this.src);
     }).animate({opacity: 1}, 500);
 
     $(".member-pic-wrapper").hover(
         function() {
-            $(this).find('.gotcolors').css({'width': $(this).width(), 'height':$(this).width()}).stop().animate({opacity: 1}, 200);
-            $(this).next().css({background-color: })
+            $(this).find('.gotcolors').css({'width': $(this).width(), 'height':$(this).width()}).stop().animate({opacity: 1}, 400);
+            $(this).next().animate({'color': '#CE4115'}, 400);
         }, 
         function() {
-            $(this).find('.gotcolors').stop().animate({opacity: 0}, 500);
+            $(this).find('.gotcolors').stop().animate({opacity: 0}, 400);
+            $(this).next().animate({'color': '#000000'}, 400);
+        }
+    );
+
+    $(".team-member-description").hover(
+        function() {
+            $(this).prev().find('.gotcolors').css({'width': $(this).width(), 'height':$(this).width()}).stop().animate({opacity: 1}, 400);
+            $(this).animate({'color': '#CE4115'}, 400);
+        }, 
+        function() {
+            $(this).prev().find('.gotcolors').stop().animate({opacity: 0}, 400);
+            $(this).animate({'color': '#000000'}, 400);
         }
     );
 });
