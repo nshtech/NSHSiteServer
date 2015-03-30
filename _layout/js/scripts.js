@@ -375,7 +375,7 @@
 	
 		var b = document.documentElement,
         	e = false,
-       		a = 420; // the sticky menu trigger point, in pixels
+       		a = 100; // the sticky menu trigger point, in pixels
 
 		function c() {
 			

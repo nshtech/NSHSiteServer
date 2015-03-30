@@ -32,6 +32,9 @@
         padding-top: 2em;
         padding-bottom: 2em;
     }
+    #white-logo{
+        display: none;
+    }
 }
 
 .page-header #content{
