@@ -1,4 +1,4 @@
-$(function(){
+$(window).load(function(){
     //Scroll to group effect
     $('#groups-btn-group').localScroll({duration:400, offset: -100});
 
@@ -40,22 +40,23 @@ $(function(){
     $(".member-pic-wrapper").hover(
         function() {
             $(this).find('.gotcolors').css({'width': $(this).width(), 'height':$(this).width()}).stop().animate({opacity: 1}, 400);
-            $(this).next().animate({'color': '#CE4115'}, 400);
+            $(this).next().stop().animate({'color': '#CE4115'}, 400);
         }, 
         function() {
             $(this).find('.gotcolors').stop().animate({opacity: 0}, 400);
-            $(this).next().animate({'color': '#000000'}, 400);
+            $(this).next().stop().animate({'color': '#000000'}, 400);
         }
     );
 
+    //Description font color effect
     $(".team-member-description").hover(
         function() {
             $(this).prev().find('.gotcolors').css({'width': $(this).width(), 'height':$(this).width()}).stop().animate({opacity: 1}, 400);
-            $(this).animate({'color': '#CE4115'}, 400);
+            $(this).stop().animate({'color': '#CE4115'}, 400);
         }, 
         function() {
             $(this).prev().find('.gotcolors').stop().animate({opacity: 0}, 400);
-            $(this).animate({'color': '#000000'}, 400);
+            $(this).stop().animate({'color': '#393939'}, 400);
         }
     );
 });
