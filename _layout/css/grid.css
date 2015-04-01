@@ -403,8 +403,8 @@
 	#groups-btn-group > .btn{
 		padding: 10px 15px;
 	}
-	@media (min-width: 800px) {
+	@media (min-width: 900px) {
 		#groups-btn-group {
-			width: 750px;
+			width: 800px;
 		}	
 	}

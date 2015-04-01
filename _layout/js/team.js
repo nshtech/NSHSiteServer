@@ -39,6 +39,7 @@ $(window).load(function(){
 
     $(".member-pic-wrapper").hover(
         function() {
+            console.log($(this).next())
             $(this).find('.gotcolors').css({'width': $(this).width(), 'height':$(this).width()}).stop().animate({opacity: 1}, 400);
             $(this).next().stop().animate({'color': '#CE4115'}, 400);
         }, 
