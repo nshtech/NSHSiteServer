@@ -45,7 +45,7 @@ $(window).load(function(){
         }, 
         function() {
             $(this).find('.gotcolors').stop().animate({opacity: 0}, 400);
-            $(this).next().stop().animate({'color': '#000000'}, 400);
+            $(this).next().stop().animate({'color': '#393939'}, 400);
         }
     );
 
