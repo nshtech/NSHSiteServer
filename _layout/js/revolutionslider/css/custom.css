@@ -18,7 +18,7 @@
 	.fullwidthbanner-container {
 		position: relative;
 		width: 100% !important;
-		max-height: 915px !important;
+		max-height: 600px !important;
 		overflow: hidden;
 		padding: 0;
 	}
@@ -28,7 +28,7 @@
 	.fullwidthbanner-container .fullwidthbanner {
 		position: relative;
 		width: 100% !important;
-		max-height: 915px !important;
+		max-height: 600px !important;
 	}
 
 /* ==========================================================================
