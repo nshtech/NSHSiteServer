@@ -25,15 +25,42 @@
     font-weight: 500;
 }
 #mobile-menu-trigger{
-    margin-bottom: 2em;
+    top: 28px;
 }
 @media (min-width: 1400px){
     #header.stuck .sf-menu > li > a, #header.stuck .sf-menu > li.dropdown > a{
         padding-top: 2em;
         padding-bottom: 2em;
     }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #white-logo{
+        display: none!important;
+    }
+}
+
+@media (max-width: 767px) {
+    #white-logo{
+        display: none!important;
+    }
 }
 
 .page-header #content{
     padding-top: 120px;
+}
+
+#footer{
+    padding: 30px 0 0px 0;
+}
+#footer-links h4{
+    display: inline-block;
+    margin-right: 5px;
+}
+#footer-links div{
+    display: inline-block;
+}
+#footer-links > *{
+    float: right;
 }
