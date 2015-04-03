@@ -216,7 +216,8 @@
 	.sf-menu > li.sfHover > a,
 	.sf-menu > li > a:hover {
 		background-color: transparent;
-		color: #bbb;
+		/*color: #bbb;*/
+		color: #CE4115
 		text-decoration: none;	
 	}
 
