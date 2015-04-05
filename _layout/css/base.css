@@ -14,6 +14,8 @@
  *
  */
 
+/*Import Open Sans from Google Fonts*/
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /* ==========================================================================
    =CssReset
@@ -105,7 +107,7 @@
 	body {
 		background-color: #fff;
 		color: #393939;
-		font: 14px "Raleway", Arial, sans-serif; 
+		font: 14px "Open Sans", Arial, sans-serif; 
 		line-height: 30px;
 		font-weight: 300;
 	}
@@ -116,7 +118,7 @@
 	h4, 
 	h5, 
 	h6 {
-		font-family: 'Raleway', Arial, sans-serif;
+		font-family: 'Open Sans', Arial, sans-serif;
 		font-weight: 300;
 	}
 		
@@ -444,7 +446,7 @@
 		margin-bottom: 40px;
 		background: #fff;
 		color: #393939;
-		font: 18px "Raleway", Arial, sans-serif; 
+		font: 18px "Open Sans", Arial, sans-serif; 
 		line-height: 21px;	
 	}
 	

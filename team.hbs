@@ -47,10 +47,9 @@
     <!-- <link rel="stylesheet" href="_layout/css/skins/orange.css"> -->
 
     <link rel="stylesheet" href="custom/navbar.css">
+    <link rel="stylesheet" href="custom/splash.css">
     <style>
-    .sf-menu > li > a, .sf-menu > li.dropdown > a{
-        color: #393939!important;
-    }
+    /* end index-2.hbs*/
     #footer{
         padding: 40px 0 10px 0;
     }
@@ -89,38 +88,34 @@
 
     <div id="wrap">
         
-        {{> header}}
+        {{> header_homepage}}
         <div id="content">
-        
-            
-            <div class="row-container">    
-            <div class="row">
-                <div class="span12">
-                    
-                    <div class="headline">
-                        
-                        <h1>The Team</h1>
-                        <h4>Introducing the <span style="color: purple;">Northwestern Wildcats</span></h4>
-                        
-                    </div><!-- end .headline -->
-                    
-                </div><!-- end .span12 -->
-            </div><!-- end .row -->
-        </div>  <!-- end .row-content -->
+
+            <div class="splash-container" style="background: url(_content/NSH/team-splash-smaller.png) no-repeat center center fixed; ">
+                <div class="splash">
+                    <h1><strong>The Team</strong></h1>
+                    <h3 style="font-style: none; max-width:600px; margin: 0 auto;">"The immense privilege of NSH is the opportunity to be 
+surrounded by so many driven, talented, and intelligent
+people."
+</h3>
+<br>
+<h3>-Bomani McClendon, VP of Technology</h3>
+                </div><!-- end .row -->
+            </div><!-- end .row-container --> 
 
         <div class="row-container groups-btn-group-row-container">
                 <div id="groups-btn-group">
-                    <a href="#exec" class="btn alt">Exec</a>
+                    <a href="#exec" class="btn alt">Executive Team</a>
                     <a href="#advisory" class="btn alt">Advisory</a>
                     <a href="#boxco" class="btn alt">BoxCo.</a>
                     <a href="#designworks" class="btn alt">DesignWorks</a>
-                    <a href="#finance" class="btn alt">Finance</a>
+                    <a href="#finance" class="btn alt">Finance & Analytics</a>
+                    <a href="#growth" class="btn alt">Growth</a>
                     <a href="#marketing" class="btn alt">Marketing</a>
                     <a href="#nututors" class="btn alt">NU Tutors</a>
-                    <a href="#pops" class="btn alt">POps</a>
-                    <a href="#restructuring" class="btn alt">Restructuring</a>
+                    <a href="#pops" class="btn alt">People Operations</a>
                     <a href="#rezessentials" class="btn alt">RezEssentials</a>
-                    <a href="#tech" class="btn alt">Tech</a>
+                    <a href="#tech" class="btn alt">Technology</a>
                 </div>
         </div>
 
@@ -146,10 +141,18 @@
                                 
                                 <div class="team-member-description-inner">
                                 
-                                    <h3>Priya Kumar</h3>
-                                            
-                                    <p>CEO</p>
-                                
+                                    <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
+                                            <h3>Priya Kumar</h3>
+                                        </div>
+                                    </div>
+                                               
+                                    <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
+                                            <p>CEO</p>
+                                        </div>
+                                    </div>
+
                                 </div><!-- .team-member-description-inner -->
 
                             </div><!-- end .team-member-description -->
@@ -162,10 +165,17 @@
                             <div class="team-member-description">
                                
                                <div class="team-member-description-inner">
-                               
+                           <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                    <h3>Bomani McClendon</h3>
+                                   </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>VP of Technology</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- end .team-member-description-inner -->
                                 
@@ -182,9 +192,17 @@
                             
                                 <div class="team-member-description-inner">
                                
+                           <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                    <h3>David Olodort</h3>
+                                   </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>VP of Portfolio Growth</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- end .team-member-description-inner -->
                                 
@@ -201,9 +219,17 @@
                             
                                 <div class="team-member-description-inner">
                                
+                           <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                    <h3>Katie Ostazeski</h3>
+                                   </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>VP of People Operations</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- end .team-member-description-inner -->
                                 
@@ -229,20 +255,23 @@
                             <img src="_content/team/michael-perugini.jpg" class="team-member-pic">
 
                             <div class="team-member-description">
-                            
-                                <div class="team-member-description team-member-label">
                                 
                                     <div class="team-member-description-inner">
                                     
+                                <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                         <h3>Michael Perugini</h3>
+                                        </div>
+                                    </div>
                                                 
+                                <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                         <p>VP of Finance</p>
+                                        </div>
+                                    </div>
                                     
                                     </div><!-- .team-member-description-inner -->
                                     
-                                    
-                                </div><!-- end .team-member-description .team-member-label-->
-
                             </div><!-- end .team-member-description -->
                             
                         </div><!-- end .team-member -->
@@ -254,9 +283,17 @@
                                
                                <div class="team-member-description-inner">
                                
+                           <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                    <h3>Connor Regan</h3>
+                                   </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>VP of Business Operations</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- end .team-member-description-inner -->
                                 
@@ -273,9 +310,17 @@
                             
                                 <div class="team-member-description-inner">
                                
+                           <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                    <h3>Jasmin Williams</h3>
+                                   </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>VP of Marketing</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- end .team-member-description-inner -->
                                 
@@ -292,9 +337,17 @@
                             
                                 <div class="team-member-description-inner">
                                
+                           <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                    <h3></h3>
+                                   </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p></p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- end .team-member-description-inner -->
                                 
@@ -329,9 +382,17 @@
                                 
                                 <div class="team-member-description-inner">
                                 
+                            <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                     <h3>Priya Kumar</h3>
+                                    </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>CEO</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- .team-member-description-inner -->
 
@@ -346,9 +407,17 @@
                                
                                <div class="team-member-description-inner">
                                
+                           <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                    <h3>Bomani McClendon</h3>
+                                   </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>VP of Technology</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- end .team-member-description-inner -->
                                 
@@ -365,9 +434,17 @@
                             
                                 <div class="team-member-description-inner">
                                
+                           <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                    <h3>David Olodort</h3>
+                                   </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>VP of Portfolio Growth</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- end .team-member-description-inner -->
                                 
@@ -384,9 +461,17 @@
                             
                                 <div class="team-member-description-inner">
                                
+                           <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                    <h3>Katie Ostazeski</h3>
+                                   </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>VP of People Operations</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- end .team-member-description-inner -->
                                 
@@ -421,9 +506,17 @@
                                 
                                 <div class="team-member-description-inner">
                                 
+                            <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                     <h3>Priya Kumar</h3>
+                                    </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>CEO</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- .team-member-description-inner -->
 
@@ -438,9 +531,17 @@
                                
                                <div class="team-member-description-inner">
                                
+                           <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                    <h3>Bomani McClendon</h3>
+                                   </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>VP of Technology</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- end .team-member-description-inner -->
                                 
@@ -457,9 +558,17 @@
                             
                                 <div class="team-member-description-inner">
                                
+                           <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                    <h3>David Olodort</h3>
+                                   </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>VP of Portfolio Growth</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- end .team-member-description-inner -->
                                 
@@ -476,9 +585,17 @@
                             
                                 <div class="team-member-description-inner">
                                
+                           <div class="team-member-name"> <!--tr-->
+                                        <div class="team-member-name-inner"><!--td-->        
                                    <h3>Katie Ostazeski</h3>
+                                   </div>
+                                    </div>
                                             
+                            <div class="team-member-title"> <!--tr-->
+                                        <div class="team-member-title-inner"><!--td-->
                                     <p>VP of People Operations</p>
+                                    </div>
+                                    </div>
                                 
                                 </div><!-- end .team-member-description-inner -->
                                 
@@ -570,11 +687,8 @@
     <script src="_layout/js/scripts.js"></script>
     <script type="text/javascript" src="_layout/js/jquery.scrollTo.min.js"></script>
     <script type="text/javascript" src="_layout/js/jquery.localScroll.min.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            $('#groups-btn-group').localScroll({duration:400, offset: -100});
-        });
-    </script>
+    <script type="text/javascript" src="_layout/js/jquery.color-2.1.2.min.js"></script>
+    <script type="text/javascript" src="_layout/js/team.js"></script>
 
 </body>
 </html>

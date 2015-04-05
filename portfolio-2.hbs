@@ -46,10 +46,8 @@
     <!-- <link rel="stylesheet" href="_layout/css/skins/blue.css"> -->
     <!-- <link rel="stylesheet" href="_layout/css/skins/orange.css"> -->
     <link rel="stylesheet" href="custom/navbar.css">
+    <link rel="stylesheet" href="custom/splash.css">
     <style type="text/css">
-    .sf-menu > li > a, .sf-menu > li.dropdown > a{
-        color: #393939!important;
-    }
     .portfolio-item-2 .portfolio-item-description h2 span{
         border-left: 2px solid #CE4115;
     }
@@ -78,19 +76,6 @@
         transform: translateY(-50%);
         padding: 0px;
         vertical-align: middle;
-    }
-    #footer{
-        padding: 40px 0 10px 0;
-    }
-    #footer-links h4{
-        display: inline-block;
-        margin-right: 5px;
-    }
-    #footer-links div{
-        display: inline-block;
-    }
-    #footer-links > *{
-        float: right;
     }
     @media (max-width: 767px) {
         .portfolio-item-2 .portfolio-item-description h2 span{
@@ -133,8 +118,18 @@
 
     <div id="wrap">
         
-        {{> header}}
+                {{> header_homepage}}
         <div id="content">
+
+            <div class="splash-container" style="background: url(_content/NSH/portfolio-splash.png) no-repeat center center fixed; ">
+                <div class="splash">
+                    <h1><strong>Our Portfolio</strong></h1>
+                    <h3 style="font-style: none; max-width:600px; margin: 0 auto;">"The nature of what we do attracts the best and the brightest from all corners of this campus."
+                    </h3>
+                    <br>
+                    <h3>-Danielle Lay, Portfolio Advisor</h3>    
+                </div><!-- end .row -->
+            </div><!-- end .row-container --> 
         
         <!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
             
@@ -144,7 +139,7 @@
                         
                         <div class="headline">
                             
-                            <h1 class="text-left">Portfolio Companies</h1>  
+                            <h1>Portfolio Companies</h1>  
                             
                         </div><!-- end .headline -->
                         

@@ -49,61 +49,23 @@
     <!-- <link rel="stylesheet" href="_layout/css/skins/blue.css"> -->
     <!-- <link rel="stylesheet" href="_layout/css/skins/orange.css"> -->
     <link rel="stylesheet" href="custom/navbar.css">
+    <link rel="stylesheet" href="custom/splash.css">
     <style type="text/css">
-    #header .sf-menu > li > a, .sf-menu > li.dropdown > a{
-        color: #fff;
-        padding-bottom: 2em;
-        font-weight: 500;
-    }
-    #header{
-        background-color: transparent;
-        border-bottom: 0px solid #ddd;
-    }
-    .splash-container { 
-        height: 100vh;
-      background: url(_content/NSH/home-splash.jpg) no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      position: relative;
-    }
-
-    .splash{
-        width: 80vw;
-        color: #fff;
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-    }
-    .splash h1 strong{
-        font-size: 1.7em!important;
-    }
-    .splash h2{
-        font-size: 1.7em!important;
-        font-weight: 600!important;
-    }
     #content{
         padding-top: 0!important;
+    }
+    .icon-box-1 i{
+        color: #CE4115;
+        border-bottom: 2px solid #CE4115;
+    }
+    .portfolio-item-overlay{
+        background-color: #393939!important;
     }
     .headline h1{
         margin-top: 2.5em;
     }
-    #footer{
-        padding: 40px 0 10px 0;
-    }
-    #footer-links h4{
-        display: inline-block;
-        margin-right: 5px;
-    }
-    #footer-links div{
-        display: inline-block;
-    }
-    #footer-links > *{
-        float: right;
+    .hp-grey h1{
+        margin-top: 70px;
     }
     </style>
     
@@ -133,210 +95,270 @@
         <div id="content">
         
         <!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-            <div class="splash-container">
+            <div class="splash-container" style="background: url(_content/NSH/home-splash-dark.png) no-repeat center center fixed; ">
                 <div class="splash">
                     <h1><strong>Northwestern Student Holdings</strong></h1>
                     <h2>Break the Mold. Defy Expectations.</h2>
-                </div><!-- end .row -->
-            </div><!-- end .row-container --> 
-            <div class="row-container">
-                <div class="row">
-                    <div class="span12">
-                        
-                        <div class="headline wow fadeIn" data-wow-delay="0.25s">
-                            
-                            <h1>What is Northwestern Student Holdings?</h1>
-                            <h4>Northwestern Student Holdings (NSH) is a student-run holdings company that funds and manages a portfolio of businesses serving the Northwestern and Evanston communities.</h4>
-                            
-                        </div><!-- end .headline -->
-                        
-                    </div><!-- end. span12 -->
-                </div><!-- end .row -->
-            </div><!-- end .row-container --> 
-
-            <div class="row-container">
-                <div class="row">
-                    <div class="span4 wow fadeIn" data-wow-delay="0.25s">
-                        
-                        <div class="icon-box-1">
-                        
-                            <i class="ifc-copy"></i>
-      
-                            <div class="icon-box-content">
-                            
-                                <h3>Building Businesses</h3>
-                                
-                                <p>Integer vitae rhoncus eros. Integer fringilla lectus a augue tempor, viverra consectetur sapien dictum. 
-                                Nam lectus massa, mollis ut consequat id. </p>
-                            
-                            </div><!-- end .icon-box-content -->
-                            
-                        </div><!-- end .icon-box-1 -->
-                        
-                    </div><!-- end. span4 -->
-                    <div class="span4 wow fadeIn" data-wow-delay="0.5s">
-                        
-                        <div class="icon-box-1">
-                        
-                            <i class="ifc-design"></i>
-      
-                            <div class="icon-box-content">
-                            
-                                <h3>Developing People</h3>
-                                
-                                <p>Curabitur elementum volutpat ex vitae lacinia. Vivamus auctor nisl non commodo ultricies. Proin lorem felis, 
-                                tincidunt quis laoreet quis, cursus semper leo. </p>
-                            
-                            </div><!-- end .icon-box-content -->
-                            
-                        </div><!-- end .icon-box-1 -->
-                        
-                    </div><!-- end. span3 -->
-                    <div class="span4 wow fadeIn" data-wow-delay="0.75s">
-                        
-                        <div class="icon-box-1">
-                        
-                            <i class="ifc-multiple_devices"></i>
-      
-                            <div class="icon-box-content">
-                            
-                                <h3>Serving Northwestern</h3>
-                                
-                                <p>Praesent quis metus aliquet, efficitur risus porta, commodo ante. Nunc vel iaculis ligula, id condimentum 
-                                lectus. Integer commodo nisi sit amet risus. </p>
-                            
-                            </div><!-- end .icon-box-content -->
-                            
-                        </div><!-- end .icon-box-1 -->
-                        
-                    </div><!-- end. span3 -->
                 </div><!-- end .row -->
             </div><!-- end .row-container --> 
 
             <div class="row-container">    
                 <div class="row">
                     <div class="span12">
-                        <h1 class="text-left">Our Portfolio Companies</h1>
+                        
+                        <div class="headline">
+                            
+                            <h1>Our Mission</h1>
+                            <h4>Lorem ipsum consectetur adipiscing elit. Suspendisse eget <span class="text-highlight">enim ac tellus </span>lobortis</h4>
+                            
+                        </div><!-- end .headline -->
+                        
                     </div><!-- end .span12 -->
                 </div><!-- end .row -->
-            </div><!-- end .row-container -->
+            </div>  <!-- end .row-content -->                                                         
             
-            <div class="portfolio-grid fixed">
-                
-                <div class="item width-2">
-                    
-                    <div class="portfolio-item">
-            
-                        <div class="portfolio-item-preview">
-                            <!-- should be 960x610 -->
-                            <img src="https://media.licdn.com/media/p/3/005/0b5/2bb/3a7a957.png" alt="">
-                            
-                            <div class="portfolio-item-overlay">
-                                
-                                <div class="portfolio-item-description">
-                                    
-                                    <h2>DesignWorks</h2>
-                                    
-                                    <p class="hidden-phone">DesignWorks is a company devoted to offering high-quality design services to members and groups of the Northwestern community. The mission of DesignWorks is both to address the design needs of Northwestern as well as to generate design opportunities for talented...</p>
-                                    
-                                    <a class="btn" href="portfolio-2.html">Learn more</a>
-                                    
-                                </div><!-- end .portfolio-item-description -->
-                                
-                            </div><!-- end .portfolio-item-overlay -->
-                            
-                        </div><!-- end .portfolio-item-preview -->
+            <div class="row-container">    
+                <div class="row">
+                    <div class="span4 wow fadeIn" data-wow-delay="0.25s">
                         
-                    </div><!-- end .portfolio-item -->
-                    
-                </div><!-- item -->
-                
-                <div class="item width-2">
-                    
-                    <div class="portfolio-item">
-            
-                        <div class="portfolio-item-preview">
-                            
-                            <img src="_content/NSH/RezEssentials-logo.png" alt="">
-                            
-                            <div class="portfolio-item-overlay">
-                                
-                                <div class="portfolio-item-description">
-                                    
-                                    <h2>RezEssentials</h2>
-                                    
-                                    <p class="hidden-phone">RezEssentials is a student run business that aims to make your move-in experience easy and stress free.  We provide the room essentials that you'll need in your residence hall, residential college, or residential community and deliver them into your room, before you arrive!</p>
-                                    
-                                    <a class="btn" href="portfolio-2.html">Learn more</a>
-                                    
-                                </div><!-- end .portfolio-item-description -->
-                                
-                            </div><!-- end .portfolio-item-overlay -->
-                            
-                        </div><!-- end .portfolio-item-preview -->
-                        
-                    </div><!-- end .portfolio-item -->
-                    
-                </div><!-- item -->
-                
-                <div class="item width-2">
-                    
-                    <div class="portfolio-item">
-            
-                        <div class="portfolio-item-preview">
-                            
-                            <img src="_content/NSH/boxco-logo.png" alt="">
-                            
-                            <div class="portfolio-item-overlay">
-                                
-                                <div class="portfolio-item-description">
-                                    
-                                    <h2>BoxCo.</h2>
-                                    
-                                    <p class="hidden-phone">BoxCo. provides the best in storage and shipping services at Northwestern University. BoxCo. aims to offer a more affordable and convenient service to the student body by making storage simple. BoxCo. was launched in May 2012. In addition to offering...</p>
-                                    
-                                    <a class="btn" href="portfolio-2.html">Learn more</a>
-                                    
-                                </div><!-- end .portfolio-item-description -->
-                                
-                            </div><!-- end .portfolio-item-overlay -->
-                            
-                        </div><!-- end .portfolio-item-preview -->
-                        
-                    </div><!-- end .portfolio-item -->
-                    
-                </div><!-- item -->
-                
-                <div class="item width-2">
-                    
-                    <div class="portfolio-item">
-            
-                        <div class="portfolio-item-preview">
-                            
-                            <img src="_content/NSH/nututors-logo.png" alt="">
-                            
-                            <div class="portfolio-item-overlay">
-                                
-                                <div class="portfolio-item-description">
-                                    
-                                    <h2>NU|Tutors</h2>
-                                    
-                                    <p class="hidden-phone">NU|Tutors provides individual and group tutoring for local area high school students. Since its inception, the company has helped over 300 students with their academic needs and continues to make a positive impact on the North Shore community. With a...</p>
-                                    
-                                    <a class="btn" href="portfolio-2.html">Learn more</a>
-                                    
-                                </div><!-- end .portfolio-item-description -->
-                                
-                            </div><!-- end .portfolio-item-overlay -->
-                            
-                        </div><!-- end .portfolio-item-preview -->
-                        
-                    </div><!-- end .portfolio-item -->
-                    
-                </div><!-- item -->
-                
-            </div><!-- end .portfolio-grid -->
+                        <h3 class="text-uppercase" style ="text-align:center"><strong>Building Businesses</strong></h3>
+                        <img src="http://souk-dc.com/wp-content/uploads/2013/12/Business1.jpg" alt="">
+                        <p>NSH aims to create and maintain a strong portfolio of businesses that add value to the Northwestern, Evanston, and Chicago communities. Our unique access to and knowledge of students gives us an opportunity to touch this community in special ways.</p>
+                    </div><!-- end .span4 -->
 
+
+                    <div class="span4 wow fadeIn" data-wow-delay="0.5s">
+                        
+                        <h3 class="text-uppercase" style ="text-align:center"><strong>Developing People</strong></h3>
+                        <img src="http://rbtrainings.com/wp-content/uploads/2015/02/learning.jpg" alt="">   
+                        <p>
+                             Our approach to developing people is centered around offering members high-impact roles on teams as soon as they enter the organization, imparting them with a core set of business skills through workshops, and introducing them to a strong community of peers and mentors to grow with.
+                        </p>
+                        
+                    </div><!-- end .span4 -->
+                    <div class="span4 wow fadeIn" data-wow-delay="0.75s">
+                        
+                        <h3 class="text-uppercase" style ="text-align:center"><strong>Giving Back</strong></h3>
+                        <img src="http://www.dw.de/image/0,,18228473_303,00.jpg" alt="">    
+                        <p>We support philanthropic causes that better local as well as global communities. Our organization and its members have gained tremendously from opportunities afforded to us, and we do whatever we can to give back to those communities.</p>
+                        
+                    </div><!-- end .span4 -->
+                </div><!-- end .row -->
+
+            </div>  <!-- end .row-content -->
+
+                    <!--- INFOGRAPHIC////////////////////////////////////////////////////////////////////-->
+        <div class="row-container">
+                <div class="row">
+                    <div class="span12">
+                        
+                        <div class="headline" style="margin-bottom:0;">
+                            
+                            <h1>Our Impact</h1>
+                            
+                        </div><!-- end .headline -->
+                        
+                    </div><!-- end .span12 -->
+                </div><!-- end .row -->
+            </div><!-- end .row-container --> 
+            
+            <div class="row-container">
+                <div class="row">
+                    <div class="span2">
+                        
+                        <div class="milestone">
+    
+                            <div class="milestone-content">
+                                <span class="milestone-value" data-stop="12" data-speed="2000"></span>
+                                <div class="milestone-description">Total partner philanthropies</div>
+                            </div><!-- end .milestone-content -->
+                           
+                        </div><!-- end .milestone -->
+                        
+                    </div><!-- end .span2 -->
+                    <div class="span2">
+                        
+                        <div class="milestone">
+    
+                            <div class="milestone-content">
+                                <span>$</span>
+                                <span class="milestone-value" data-stop="7500" data-speed="2000"></span>
+                                <span>+</span>
+                                <div class="milestone-description">Donated to philanthropies</div>
+                            </div><!-- end .milestone-content -->
+                           
+                        </div><!-- end .milestone -->
+                        
+                    </div><!-- end .span2 -->
+                    <div class="span2">
+                        
+                        <div class="milestone">
+    
+                            <div class="milestone-content">
+                                <span class="milestone-value" data-stop="15000" data-speed="2000"></span>
+                                <span>+</span>
+                                <div class="milestone-description">Social media impressions</div>
+                            </div><!-- end .milestone-content -->
+                           
+                        </div><!-- end .milestone -->
+                        
+                    </div><!-- end .span2 -->
+                    <div class="span2">
+                                    
+                        <div class="milestone">
+
+                            <div class="milestone-content">
+                                <span class="milestone-value" data-stop="1000" data-speed="2000"></span>
+                                <span>+</span>
+                                <div class="milestone-description">Students engaged</div>
+                            </div><!-- end .milestone-content -->
+                           
+                        </div><!-- end .milestone -->
+                        
+                    </div><!-- end .span2 -->
+                    <div class="span2">
+                        
+                        <div class="milestone">
+
+                            <div class="milestone-content">
+                                <span class="milestone-value" data-stop="80" data-speed="2000"></span>
+                                <span>+</span>
+                                <div class="milestone-description">Projects</div>
+                            </div><!-- end .milestone-content -->
+                           
+                        </div><!-- end .milestone -->
+                        
+                    </div><!-- end .span2 -->
+                    <div class="span2">
+                        
+                        <div class="milestone">
+
+                            <div class="milestone-content">
+                                <span class="milestone-value" data-stop="24" data-speed="2000"></span>
+                                <span>h</span>
+                                <div class="milestone-description">Support</div>
+                            </div><!-- end .milestone-content -->
+                           
+                        </div><!-- end .milestone -->
+                        
+                    </div><!-- end .span2 -->
+                </div><!-- end .row -->                                                          
+            </div><!-- end .row-container -->
+        <!--///////////END INFOGRAPHIC ////////////////////////////////////////////////////-->
+        <br>
+        <br>
+        <!-- OUR HISTORY ///////////////////////////////////////////////////////////////-->
+            <div class="row-container">
+                <div class="row">
+                    <div class="span12">
+                        
+                        <div class="headline">
+                            
+                            <h1>Our History</h1>
+                            <h4>Lorem ipsum consectetur adipiscing elit. <span class="text-highlight">Suspendisse eget</span> enim ac tellus lobortis.</h4>
+                            
+                        </div><!-- end .headline -->
+                        
+                    </div><!-- end. span12 -->
+                </div><!-- end .row -->
+            </div><!-- end .row-container -->                                                
+            
+            <div class="row-container">
+                <div class="row">
+                    <div class="span1">
+                        
+                        <img src= "_content/about/history.png"  alt="">
+                    </div><!-- end. span1 -->
+                    <div class="span7">
+                        
+                        <h3 class="text-uppercase"><strong>The Story</strong></h3>
+                        
+                        <br>
+                        
+                        <div class="row">
+                            <div class="span6">
+                            
+                                <p>
+                                    <strong>Northwestern Student Holdings was founded in 2007 by a group of students who were searching for an organization that could offer them real-world entrepreneurial experience at Northwestern. </strong> 
+                                    Unsatisfied with their options, they proposed a new organization – a holdings company that could oversee the inception and management of student-run businesses; the companies’ profits, in addition to being used for capital expansion and manager compensation, would be used to launch new ventures. Under the guidance of several trusted business leaders, professors and advisors who later became members of the original board of directors, the students launched Northwestern Student Holdings (NSH).
+                                </p>
+                            
+                            </div><!-- end .span6 -->
+                            <div class="span6">
+                            
+                                <p>
+                                    <strong>Initially, NSH started with two companies: Chicago Unzipped and NU|Tutors. </strong> 
+                                    Since then, the NSH portfolio has grown to include six businesses, and the group has instituted infrastructure to ensure continued expansion. Further, NSH continues to dedicate resources to the personal and professional development of its members.
+
+                                    With revenues and profits growing at double-digit rates annually, and the establishment of NSH as Northwestern’s premiere student entrepreneurship organization, Northwestern Student Holdings is on a path to ever-higher levels of success.
+                                </p>
+                            
+                            </div><!-- end .span6 -->
+                        </div><!-- end .row -->                                                
+                        
+                    </div><!-- end .span8 -->
+
+
+                    <!--////////////////////////// SIDE INFOGRAPHIC: Replace with chart ////////////////////-->
+                    <div class="span4">
+                        
+                        <br><br>
+
+                    <canvas id="revenueChart" height = "300px" width = "400px"></canvas>
+
+                        
+
+                        <!-- ORIGINAL GRAPHIC -->
+                        <!--
+                        <div class="fixed">
+                        
+                            <div class="progress-bar-description">
+                                Marketing
+                                <span style="left:68%">68%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="fixed">
+                    
+                            <div class="progress-bar-description">
+                                Social Media
+                                <span style="left:80%">80%</span>
+                            </div>
+                           
+                            <div class="progress-bar">  
+                                <span class="progress-bar-outer" data-width="80"> 
+                                    <span class="progress-bar-inner"></span> 
+                                </span>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="fixed">
+                    
+                            <div class="progress-bar-description">
+                                Adverising
+                                <span style="left:75%">75%</span>
+                            </div>
+                           
+                            <div class="progress-bar">  
+                                <span class="progress-bar-outer" data-width="75"> 
+                                    <span class="progress-bar-inner"></span> 
+                                </span>
+                            </div>
+                            
+                        </div>
+                        -->
+                        <!-- END ORIGINAL GRAPHIC -->
+
+                    </div><!-- span3 -->
+                     <!--//////////////////////////  END OF SIDE INFOGRAPHIC: Replace with chart ////////////////////-->
+
+
+                </div><!-- end .row -->
+            </div><!-- end .row-container -->
+
+    <!--  END OF OUR HISTORY SECTION///////////////////////////////////////////////////////////////-->
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
             
         <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -418,7 +440,40 @@
     <script>
      new WOW().init();
     </script>
-   
+       <!-- /// Chart JS //////// -->
+    <script src="_layout/js/charts/Chart.min.js"></script>
+
+    <script>
+
+    var revenueData = {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        datasets: [
+            {
+                label: "My First dataset",
+                fillColor: "rgba(220,220,220,0.2)",
+                strokeColor: "rgba(220,220,220,1)",
+                pointColor: "rgba(220,220,220,1)",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [65, 59, 80, 81, 56, 55, 40]
+            },
+            {
+                label: "My Second dataset",
+                fillColor: "rgba(206,65,21,0.2)",
+                strokeColor: "#CE4115",
+                pointColor: "#CE4115",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(151,187,205,1)",
+                data: [28, 48, 40, 19, 86, 27, 90]
+            }
+        ]
+    };
+
+    var revenue = document.getElementById('revenueChart').getContext('2d');
+    new Chart(revenue).Line(revenueData);
+    </script>
 
 </body>
 </html>
