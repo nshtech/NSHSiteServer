@@ -20,6 +20,9 @@
     padding-bottom: 2em;
     padding-top: 22px!important;
 }
+.sf-menu a:hover{
+    color: #CE4115!important;
+}
 #header .sf-menu > li > a, .sf-menu > li.dropdown > a{
     padding-bottom: 2em;
     font-weight: 500;
