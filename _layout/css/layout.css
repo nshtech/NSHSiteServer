@@ -495,7 +495,7 @@
 		#header.stuck .sf-menu > li.current > a,
 		#header.stuck .sf-menu > li.sfHover > a,
 		#header.stuck .sf-menu > li > a:hover {
-			color: #bbb;
+			color: #CE4115!important;
 		}
 	
 	}
