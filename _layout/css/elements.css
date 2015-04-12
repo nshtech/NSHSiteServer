@@ -268,10 +268,10 @@
 	.btn { 
 		display: inline-block; 
 		padding: 15px 40px; 
-		border: 2px solid #393939;
+		border: 2px solid #ffffff;
 		border-radius: 10px;
 		margin: 0 5px 20px 0;
-		color: #393939;
+		color: #ffffff; /*393939*/
 		line-height: 14px;
 		font-weight: 600;
 		text-decoration: none !important;
@@ -280,9 +280,9 @@
 		cursor: pointer;
 		-webkit-transition: all 0.3s;
 				transition: all 0.3s; 	
-	}
+	} 
 	
-	a.btn { color: #393939; }
+	a.btn { color: #ffffff; }
 	
 	.btn:focus { outline: 0; }
 	
@@ -671,8 +671,8 @@
 	.milestone {
 		position: relative;
 		padding: 10px 0 15px 0;
-		border-bottom: 1px solid #CE4115;
-		border-top: 1px solid #CE4115;
+		border-bottom: 1px solid #ffffff; /*CE4115*/
+		border-top: 1px solid #ffffff;/*CE4115*/
 		margin: 40px 0;
 		text-align: center;
 	}
@@ -697,13 +697,13 @@
 	
 	.milestone .milestone-content {
 		z-index: 10;
-		color: #CE4115;
+		color: #CE4115; /*CE4115*/
 		font-size: 36px;
 		line-height: 50px;
 	}
 	
 	.milestone .milestone-description { 
-		color: #393939;
+		color: #ffffff; /*393939*/
 		font-size: 14px; 
 		line-height: 30px;
 	}
