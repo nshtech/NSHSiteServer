@@ -1371,6 +1371,10 @@
 			margin-left: 30px;
 		}
 	}
+
+	.member-pic-wrapper {
+		max-width: 100%;
+	}
 /*	@media (min-width: 510px) and (max-width: 650px) {
 		.team-member-description h3 {
 			margin-top: 6px;
