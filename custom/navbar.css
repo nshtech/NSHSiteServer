@@ -64,6 +64,6 @@
 #footer-links div{
     display: inline-block;
 }
-#footer-links > *{
+/*#footer-links > *{
     float: right;
-}
+}*/
