@@ -49,10 +49,19 @@
     <!-- <link rel="stylesheet" href="_layout/css/skins/orange.css"> -->
 
     <link rel="stylesheet" href="custom/navbar.css">
-    <style>
-    .sf-menu > li > a, .sf-menu > li.dropdown > a{
-        color: #393939!important;
-    }
+    <link rel="stylesheet" href="custom/splash.css">
+    
+    <link rel="stylesheet" type="text/css" href="_layout/ElasticStack/css/component.css" />
+
+    <style type="text/css">
+        #overview h3 {
+            color: #CE4115;
+        }
+        .elasticstack p {
+            font-style: italic;
+            line-height: 28px;
+            margin-top:10px;
+        }
     </style>
     
 </head>
@@ -76,90 +85,30 @@
 
     <div id="wrap">
         
-        <div id="header-wrap" style="background-image:url(_content/backgrounds/1920x355-1.jpg);">
-        
-        <!-- /// HEADER WRAP  //////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-            <div class="header-wrap-content">
-                
-                <div id="header" class="stuck">
-
-                    <div class="row-container">                    
-                        
-                        <div class="header-content">
-                        
-                            <div class="row">
-                                <div class="span3">
-                                
-                                    <!-- // Logo // -->
-                                    <div id="logo">
-                                        <a href="index.html">
-                                            <img src="_content/NSH/nsh_condensed_logo.png" id="white-logo" alt="website logo white">
-                                            <img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray">
-                                        </a>
-                                    </div>
-                                
-                                </div><!-- end .span3 -->
-                                <div class="span9">
-                                
-                                    <!-- // Mobile menu trigger // -->
-                                    
-                                    <a href="#" id="mobile-menu-trigger">
-                                        <i class="fa fa-bars"></i>
-                                    </a>
-                                    
-                                    <!-- // Menu // -->
-                                    
-                                    <nav>
-                            
-                                        <ul class="sf-menu fixed" id="menu">
-                                            <li>
-                                                <a href="/">Home</a>
-                                            </li>
-                                            <li>
-                                                <a href="about">About</a>
-                                            </li>
-                                            <li>
-                                                <a href="pf">Portfolio</a>
-                                            </li>
-                                            <li>
-                                                <a href="team">Team</a>
-                                            </li>
-                                            <li>
-                                                <a href="apply">Apply</a>         
-                                            </li>
-                                        </ul>
-                                        
-                                    </nav>
-                
-                                </div><!-- end .span9 -->
-                            </div><!-- end .row -->
-                            
-                        </div><!-- end .header-content -->
-                                                        
-                    </div><!-- end .row-container -->
-
-                </div><!-- end #header -->
-
-                
-            </div><!-- end .header-wrap-content --> 
-
-            <div class="header-wrap-overlay"></div>
-            
-        <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-        
-        </div><!-- end #header-wrap -->
+{{> header_homepage}}
         <div id="content">
+
+            <div class="splash-container" style="background-image: url(_content/NSH/Optimized-team-splash-smaller.png)">
+                <div class="splash">
+                    <h1><strong>The Team</strong></h1>
+                    <h3 style="font-style: none; max-width:600px; margin: 0 auto;">"The immense privilege of NSH is the opportunity to be 
+surrounded by so many driven, talented, and intelligent
+people."
+</h3>
+<br>
+<h3>-Bomani McClendon, VP of Technology</h3>
+                </div><!-- end .row -->
+            </div><!-- end .row-container --> 
         
         <!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-            
+        <div class="section" id="overview">
             <div class="row-container">    
                 <div class="row">
                     <div class="span12">
                         
                         <div class="headline">
                             
-                            <h1>Our Mission</h1>
-                            <h4>Lorem ipsum consectetur adipiscing elit. Suspendisse eget <span class="text-highlight">enim ac tellus </span>lobortis</h4>
+                            <h1>Overview</h1>
                             
                         </div><!-- end .headline -->
                         
@@ -169,448 +118,79 @@
             
              <div class="row-container">    
                 <div class="row">
-                    <div class="span4 wow fadeIn" data-wow-delay="0.25s">
-                        
-                        <h3 class="text-uppercase" style ="text-align:center"><strong>Building Businesses</strong></h3>
-                        <img src="http://souk-dc.com/wp-content/uploads/2013/12/Business1.jpg" alt="">
-                        <p>NSH aims to create and maintain a strong portfolio of businesses that add value to the Northwestern, Evanston, and Chicago communities. Our unique access to and knowledge of students gives us an opportunity to touch this community in special ways.</p>
-                    </div><!-- end .span4 -->
-
-
-                    <div class="span4 wow fadeIn" data-wow-delay="0.5s">
-                        
-                        <h3 class="text-uppercase" style ="text-align:center"><strong>Developing People</strong></h3>
-                        <img src="http://rbtrainings.com/wp-content/uploads/2015/02/learning.jpg" alt="">   
-                        <p>
-                             Our approach to developing people is centered around offering members high-impact roles on teams as soon as they enter the organization, imparting them with a core set of business skills through workshops, and introducing them to a strong community of peers and mentors to grow with.
-                        </p>
-                        
-                    </div><!-- end .span4 -->
-                    <div class="span4 wow fadeIn" data-wow-delay="0.75s">
-                        
-                        <h3 class="text-uppercase" style ="text-align:center"><strong>Giving Back</strong></h3>
-                        <img src="http://www.dw.de/image/0,,18228473_303,00.jpg" alt="">    
-                        <p>We support philanthropic causes that better local as well as global communities. Our organization and its members have gained tremendously from opportunities afforded to us, and we do whatever we can to give back to those communities.</p>
-                        
-                    </div><!-- end .span4 -->
-                </div><!-- end .row -->
-
-            </div>  <!-- end .row-content -->
-        
-
-            <!-- NEW SECTION ON CULTURE: REPLACING THE ORIGINAL QUOTE SECTION ///////////////////////////////////////////-->
-            <br><br>
-            <div class="row-container">    
-                <div class="row">
-                    <div class="span12">
-                        <div class="headline">
-                            <h1>Our Culture</h1>
-                            <h4>Hear what our members have to say about us</h4>
-                        </div><!-- end .headline -->
-                    </div><!-- end .span12 -->
-                </div><!-- end .row -->
-            </div>  <!-- end .row-content --> 
-
-                <div class="fullwidthbanner-container">
-                    <div class="fullwidthbanner">
-                    
-                        <ul>                            
-                            <li data-transition="fade">
+                        <div class="span7">
                             
-                                <img src="http://webneel.com/daily/sites/default/files/images/daily/07-2013/3-birds-black-and-white-photography-by-cohen.jpg"  alt="">                            
+                            <h3 class="text-uppercase wow fadeIn" data-wow-delay="0.25s"><strong>Building Businesses</strong></h3>
+                            <p class="wow fadeIn" data-wow-delay="0.25s">NSH aims to create and maintain a strong portfolio of businesses that add value to the Northwestern, Evanston, and Chicago communities. Our unique access to and knowledge of students gives us an opportunity to touch this community in special ways.</p>
+                            <br>
+                            
+                            <h3 class="text-uppercase wow fadeIn" data-wow-delay="0.5s"><strong>Developing People</strong></h3>
+                            <p class="wow fadeIn" data-wow-delay="0.5s">
+                                 Our approach to developing people is centered around offering members high-impact roles on teams as soon as they enter the organization, imparting them with a core set of business skills through workshops, and introducing them to a strong community of peers and mentors to grow with.
+                            </p>
+                            <br>
+                            
+                            <h3 class="text-uppercase wow fadeIn" data-wow-delay="0.75s"><strong>Giving Back</strong></h3>
+                            <p class="wow fadeIn" data-wow-delay="0.75s">We support philanthropic causes that better local as well as global communities. Our organization and its members have gained tremendously from opportunities afforded to us, and we do whatever we can to give back to those communities.</p>
+                            
+                        </div><!-- end .span7 -->
+                        <div class="span5">
+                            <ul class='elasticstack wow fadeIn' id='elasticstack' data-wow-delay="0.5s">                            
+                            <li>
+                            
+                                <img src="http://webneel.com/daily/sites/default/files/images/daily/07-2013/3-birds-black-and-white-photography-by-cohen.jpg"  alt="01"/>                            
 
-                                 <div class="caption title sft"
-                                     data-x="390"
-                                     data-y="100"
-                                     data-speed="1000"
-                                     data-start="1000"
-                                     data-easing="easeOutExpo">
-                                     
-                                     <blockquote style= "text-align: center; line-height: 120%; font-size:80%">
-                                     <em>
-                                    NSH means empowerment. <br>
-                                    It means this ridiculously amazing feeling of being <br>
-                                    20 years old and having the power to transform this <br>
-                                    community through business and social impact. <br>
-                                    But the empowerment just begins at community<br>
-                                    --it ends with you. <br><br>
-                                    NSH means being in a room with 40 of the most <br>
-                                    passionate, driven, dynamic people you've ever met, <br>
-                                    and having them challenge you to be a better leader and <br>
-                                    a better person. It means being empowered with a <br>
-                                    business toolkit, a community, and a level of confidence, <br>
-                                    that can take you anywhere you want to go."<br>
-                                 </em>
-
-                                     <br> 
-
-                                     <em> Priya Kumar </em>
-                                     </blockquote>
-                                                                     
-                                </div>
+                                 <p>
+                                    NSH means empowerment; it's this ridiculously amazing feeling of being 20 years old and having the power to transform this community through business and social impact. -Priya Kumar
+                                </p>
 
 
                             </li>
                                  
                                 
                                 
-                            <li data-transition="fade">
+                            <li>
 
-                                <img src="https://jefflynchdev.files.wordpress.com/2008/12/hill_country_landscape_large.jpg"  alt="">
+                                <img src="https://jefflynchdev.files.wordpress.com/2008/12/hill_country_landscape_large.jpg"  alt="02"/>
 
-                               <div class="caption title sft"
-                                     data-x="250"
-                                     data-y="250"
-                                     data-speed="1000"
-                                     data-start="1000"
-                                     data-easing="easeOutExpo">
-                                     
-                                     <blockquote style= "text-align: center; line-height: 120%;">
-                                     <em>
-                                        NSH is the most influential experience I've had at NU,  <br>
-                                        more influential than all my classes combined.  <br>
-                                        NSH teaches you the importance of taking initiative,  <br>
-                                        and how to get people excited about the ideas that you have. <br>
-                                    </em>
-
-                                     <br> <br>
-
-                                     <em> Oskar Melking </em>
-                                     </blockquote>
-                                                                     
-                                </div>            
+                               <p>
+                                        NSH teaches you the importance of taking initiative, and how to get people excited about the ideas that you have. -Oskar Melking            
+                                </p>            
                             </li>
 
-                            <li data-transition="fade">
+                            <li>
 
-                                <img src="http://fc01.deviantart.net/fs70/i/2012/227/f/e/the_sweet_sound_of_rain___variation____grayscale_by_elementinfinity-d57j7vh.jpg"  alt="">
+                                <img src="http://fc01.deviantart.net/fs70/i/2012/227/f/e/the_sweet_sound_of_rain___variation____grayscale_by_elementinfinity-d57j7vh.jpg"  alt="03"/>
 
-                               <div class="caption title sft"
-                                     data-x="250"
-                                     data-y="250"
-                                     data-speed="1000"
-                                     data-start="1000"
-                                     data-easing="easeOutExpo">
-                                     
-                                     <blockquote style= "text-align: center; line-height: 120%;">
-                                     <em>
-                                        NSH has the highest concentration of high achieving, <br>
-                                        driven, inspiring, hilarious, and all round A-grade <br>
-                                        human beings I have ever had the pleasure of knowing. <br>
-                                        The nature of what we do attracts the best and the brightest <br>
-                                        from all corners of this campus.<br>
-                                    </em>
-
-                                     <br> <br>
-
-                                     <em> Danielle Lay</em>
-                                     </blockquote>
-                                                                     
-                                </div>     
+                               <p>
+                                        The nature of what we do attracts the best and the brightest from all corners of this campus. -Danielle Lay                     
+                                </p>     
                                 
                             </li>
 
-                            <li data-transition="fade">
+                            <li>
 
-                                <img src="http://fc01.deviantart.net/fs70/i/2012/227/f/e/the_sweet_sound_of_rain___variation____grayscale_by_elementinfinity-d57j7vh.jpg"  alt="">
+                                <img src="http://fc01.deviantart.net/fs70/i/2012/227/f/e/the_sweet_sound_of_rain___variation____grayscale_by_elementinfinity-d57j7vh.jpg"  alt="04"/>
 
-                               <div class="caption title sft"
-                                     data-x="320"
-                                     data-y="250"
-                                     data-speed="1000"
-                                     data-start="1000"
-                                     data-easing="easeOutExpo">
-                                     
-                                     <blockquote style= "text-align: center; line-height: 120%;">
-                                        <em>
-                                        Every day, I’m blown away by the experiences <br>
-                                        I’ve had and the people I’ve shared them with. <br>
-                                        I truly believe NSH is more than just a student group: <br>
-                                        it’s a launch pad for opportunity, a training ground <br>
-                                        for ideas, and a chance to make your vision a reality.<br>
-                                        </em>
-
-                                     <br> <br>
-
-                                     <em> Liz Huizenga </em>
-                                     </blockquote>
+                               <p>
+                                        I truly believe NSH is more than just a student group. It’s a launch pad for opportunity, a training ground for ideas, and a chance to make your vision a reality. -Liz Huizenga </em>
                                                                      
-                                </div>     
+                                </p>     
                                 
                             </li>
                         </ul>
-                        
-                    </div><!-- end .fullwidthbanner -->
-                </div><!-- end .fullwidthbanner-container -->   
-            
-
-            <br><br>
-             <!--  END  OF NEW SECTION ON CULTURE: REPLACING THE ORIGINAL QUOTE SECTION ///////////////////////////////////////////-->
-
-             <!--  ORIGINAL QUOTE SECTION ///////////////////////////////////////////-->
-            <!--
-             <div class="row-container">       
-                
-                <div class="info-box dark-bg" id="bg-2">
-                    
-                                            
-                    <div class="row">
-                        <div class="span12">                                               
-                                
-                                <div class="headline-2">
-                                
-                                    <h5>Founded in 2007</h5>
-                                    
-                                    <h2>What Our Members say about the Company</h2>
-                                
-                                </div>
-                                
-                                <div class="testimonial-slider">
-                                    
-                                    <ul class="slides">
-                                        <li>
-
-                                            <div class="testimonial">                   
-                                    
-                                                <blockquote>
-                                                    
-                                                    <h2><strong><em>NSH means inspiration. The immense privilege of NSH is the opportunity to be surrounded by so many driven, talented, and intelligent people. I've been able to find a lot of role models in the NSH community. Pushing myself to gain the positive traits that I admire in those people has been important for my development as a person.<br class="hidden-phone hidden-tablet">
-                                                    </em></strong></h2>
-                                                    
-                                                    <h3>Bomani Olusegun McClendon, VP of Technology</h3>
-                                                    
-                                                </blockquote>
-                                                
-                                            </div>
-                                            
-                                        </li>
-                                        <li>
-                                            
-                                            <div class="testimonial">                   
-                                    
-                                                <blockquote>
-                                                    
-                                                    <h2><strong><em>Aliquam elementum nunc vel mi lacinia, ut elementum dolor portt <br class="hidden-phone hidden-tablet">
-                                                    itor.  Pellentesque at dui convallis, mollis tellus a, interdum libero.</em></strong></h2>
-                                                    
-                                                    <h3>John Smith, founder</h3>
-                                                    
-                                                </blockquote>
-                                                
-                                            </div>
-                                            
-                                        </li>
-                                        <li>
-                                            
-                                            <div class="testimonial">                   
-                                    
-                                                <blockquote>
-                                                    
-                                                    <h2><strong><em>Curabitur posuere, nibh non posuere euismod, metus nunc faucibus, <br class="hidden-phone hidden-tablet">
-                                                    ut placerat leo arcu quis sem dolor amet elementum nunc lobortis nibh. </em></strong></h2>
-                                                    
-                                                    <h3>William Doe, founder</h3>
-                                                    
-                                                </blockquote>
-                                                
-                                            </div>
-                                            
-                                        </li>
-                                    </ul>
-                                    
-                                </div>                                                                                                                    
-                        
                         </div>
                     </div>
-                
-                </div>
-                
-            </div> 
+                </div><!-- end .row -->
 
-        -->
-            
-            <!--  END OF ORIGINAL QUOTE SECTION ///////////////////////////////////////////-->
-            <!--  TEAM ////////////////////////////////////////////////////////////////////////-->
-           <!-- 
-           <div class="row-container">     
-            <div class="row">
-                <div class="span12">
-                    
-                    <div class="headline">
-                        
-                        <h1>The Team</h1>
-                        <h4>Lorem ipsum consectetur adipiscing elit. Suspendisse eget <span class="text-highlight">enim ac tellus </span>lobortis</h4>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-        </div>  
+            </div>  <!-- end .row-content -->
+        </div> <!-- end .section -->
         
-        <div class="row-container">
-            <div class="row">
-                <div class="span12">
-                    
-                    <div class="team-member-wrapper fixed">
-                    
-                        <div class="team-member">
-                            
-                            <img src="_content/team/425x425-1.jpg" alt="">
-                            
-                            <div class="team-member-description">
-                            
-                                <div class="team-member-description-inner">
-                                
-                                    <h3>John Smith</h3>
-                                            
-                                    <p>Manager</p>
-                                    
-                                    <p>Fusce hendrerit congue turpis ac aliquet. Quisque sollicitudin nisl vulputate lectus finibus, 
-                                    et dolor sit amet nisi euismod. Curabitur eget malesuada urna, faucibus mollis nisl. </p>
-                                
-                                </div>
-                                
-                                <div class="social-media">
-                                        
-                                    <a class="social-icon facebook-icon" href="#">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                    
-                                    <a class="social-icon twitter-icon" href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    
-                                    <a class="social-icon pinterest-icon" href="#">
-                                        <i class="fa fa-pinterest"></i>
-                                    </a>
-                            
-                                </div> 
-                                
-                            </div>
-                            
-                        </div>
-                        
-                        <div class="team-member">                                               
-                            
-                            <div class="team-member-description">
-                               
-                               <div class="team-member-description-inner">
-                               
-                                   <h3>Jane Smith</h3>
-                                            
-                                    <p>Manager</p>
-                                    
-                                    <p>Proin suscipit porta consectetur. Praesent tempus auctor sem id convallis. Fusce nibh purus, 
-                                    efficitur sed nulla id, hendrerit mattis elit. Donec commodo efficitur sodales.</p>
-                                
-                                </div>
-                                
-                                <div class="social-media">
-                                        
-                                    <a class="social-icon facebook-icon" href="#">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                    
-                                    <a class="social-icon twitter-icon" href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    
-                                    <a class="social-icon pinterest-icon" href="#">
-                                        <i class="fa fa-pinterest"></i>
-                                    </a>
-                            
-                                </div>
-                                
-                            </div>
-                            
-                            <img src="_content/team/425x425-2.jpg" alt="">
-                            
-                        </div>
-                        
-                        <div class="team-member">
-                            
-                            <img src="_content/team/425x425-3.jpg" alt="">
-                            
-                            <div class="team-member-description">
-                            
-                                <div class="team-member-description-inner">
-                               
-                                   <h3>Linda Carter</h3>
-                                            
-                                    <p>Manager</p>
-                                    
-                                    <p>Nam maximus porttitor leo non dignissim. Etiam a varius nibh, non vehicula neque. 
-                                    Quisque arcu massa, efficitur ut vitae, sodales non ex. </p>
-                                
-                                </div>
-                                
-                                <div class="social-media">
-                                        
-                                    <a class="social-icon facebook-icon" href="#">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                    
-                                    <a class="social-icon twitter-icon" href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    
-                                    <a class="social-icon pinterest-icon" href="#">
-                                        <i class="fa fa-pinterest"></i>
-                                    </a>
-                            
-                                </div>
-                                
-                            </div>
-                            
-                        </div>
-                        
-                        <div class="team-member">                                               
-                            
-                            <div class="team-member-description">
-                            
-                                <div class="team-member-description-inner">
-                               
-                                   <h3>Julia Doe</h3>
-                                            
-                                    <p>Manager</p>
-                                    
-                                    <p>Aliquam elementum nunc vel mi lacinia, ut elementum dolor porttitor. Pellentesque at dui convallis, 
-                                    mollis tellus a, interdum libero.</p>
-                                
-                                </div>
-                                
-                                <div class="social-media">
-                                        
-                                    <a class="social-icon facebook-icon" href="#">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                    
-                                    <a class="social-icon twitter-icon" href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    
-                                    <a class="social-icon pinterest-icon" href="#">
-                                        <i class="fa fa-pinterest"></i>
-                                    </a>
-                            
-                                </div>
-                                
-                            </div>
-                            
-                            <img src="_content/team/425x425-4.jpg" alt="">
-                            
-                        </div>
-                        
-                    </div>                                   
-                    
-                </div>
-            </div>
-        </div>
-    -->
-         <!-- END TEAM ////////////////////////////////////////////////////////////////////////-->
+
+         <!-- END OVERVIEW //////-->
  
-        <!--- INFOGRAPHIC////////////////////////////////////////////////////////////////////-->
-        <div class="row-container">
+        <div class='section'>
+            <div class="row-container">
                 <div class="row">
                     <div class="span12">
                         
@@ -706,9 +286,9 @@
                     </div><!-- end .span2 -->
                 </div><!-- end .row -->                                                          
             </div><!-- end .row-container -->
-        <!--///////////END INFOGRAPHIC ////////////////////////////////////////////////////-->
-        <br>
-        <br>
+        </div><!--end .section-->
+
+        <div class="section">
         <!-- OUR HISTORY ///////////////////////////////////////////////////////////////-->
             <div class="row-container">
                 <div class="row">
@@ -818,6 +398,7 @@
 
                 </div><!-- end .row -->
             </div><!-- end .row-container -->
+        </div> <!-- end .section -->
 
     <!--  END OF OUR HISTORY SECTION///////////////////////////////////////////////////////////////-->
         <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -953,14 +534,19 @@
     <script src="_layout/js/scripts.js"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.3/wow.min.js"></script>
-    <script>
-     new WOW().init();
-    </script>
     <!-- /// Chart JS //////// -->
     <script src="_layout/js/charts/Chart.min.js"></script>
 
-    <script>
+    <script src="_layout/ElasticStack/js/modernizr.custom.js"></script>
+    <script src="_layout/ElasticStack/js/draggabilly.pkgd.min.js"></script>
+    <script src="_layout/ElasticStack/js/elastiStack.js"></script>
 
+    <script>
+    new WOW().init();
+
+    $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
+
+    //Chart
     var revenueData = {
         labels: ["January", "February", "March", "April", "May", "June", "July"],
         datasets: [
@@ -989,10 +575,25 @@
 
     var revenue = document.getElementById('revenueChart').getContext('2d');
     new Chart(revenue).Line(revenueData);
-    </script>
 
-    <script type="text/javascript">
-    $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
+    //section
+    window.onresize=function(){
+        $('.section').height(window.innerHeight - $('.header').height());
+    };
+
+    window.onresize();
+
+    // elasticstack
+    new ElastiStack( document.getElementById( 'elasticstack' ),{
+                // distDragBack: if the user stops dragging the image in a area that does not exceed [distDragBack]px 
+                // for either x or y then the image goes back to the stack 
+                distDragBack : 200,
+                // distDragMax: if the user drags the image in a area that exceeds [distDragMax]px 
+                // for either x or y then the image moves away from the stack 
+                distDragMax : 450,
+                // callback
+                onUpdateStack : function( current ) { return false; }
+            }  );
     </script>
 
 </body>
