@@ -533,7 +533,11 @@
     new Chart(revenue).Line(revenueData);
     </script>
     <script type="text/javascript">
-    $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray">');
+    } else {
+      $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
+    }
     </script>
     <script type="text/javascript" src="_layout/js/jquery.color-2.1.2.min.js"></script>
 </body>
