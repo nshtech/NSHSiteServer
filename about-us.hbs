@@ -62,6 +62,9 @@
             line-height: 28px;
             margin-top:10px;
         }
+        .section {
+            height: 800px;
+        }
     </style>
     
 </head>
@@ -118,7 +121,8 @@ people."
             
              <div class="row-container">    
                 <div class="row">
-                        <div class="span7">
+                        <div class="span1"></div>
+                        <div class="span6">
                             
                             <h3 class="text-uppercase wow fadeIn" data-wow-delay="0.25s"><strong>Building Businesses</strong></h3>
                             <p class="wow fadeIn" data-wow-delay="0.25s">NSH aims to create and maintain a strong portfolio of businesses that add value to the Northwestern, Evanston, and Chicago communities. Our unique access to and knowledge of students gives us an opportunity to touch this community in special ways.</p>
@@ -134,11 +138,11 @@ people."
                             <p class="wow fadeIn" data-wow-delay="0.75s">We support philanthropic causes that better local as well as global communities. Our organization and its members have gained tremendously from opportunities afforded to us, and we do whatever we can to give back to those communities.</p>
                             
                         </div><!-- end .span7 -->
-                        <div class="span5">
+                        <div class="span4">
                             <ul class='elasticstack wow fadeIn' id='elasticstack' data-wow-delay="0.5s">                            
                             <li>
                             
-                                <img src="http://webneel.com/daily/sites/default/files/images/daily/07-2013/3-birds-black-and-white-photography-by-cohen.jpg"  alt="01"/>                            
+                                <img src="_content/NSH/elastic-image-1.jpg"  alt="01"/>                            
 
                                  <p>
                                     NSH means empowerment; it's this ridiculously amazing feeling of being 20 years old and having the power to transform this community through business and social impact. -Priya Kumar
@@ -151,7 +155,7 @@ people."
                                 
                             <li>
 
-                                <img src="https://jefflynchdev.files.wordpress.com/2008/12/hill_country_landscape_large.jpg"  alt="02"/>
+                                <img src="_content/NSH/elastic-image-2.jpg"  alt="02"/>
 
                                <p>
                                         NSH teaches you the importance of taking initiative, and how to get people excited about the ideas that you have. -Oskar Melking            
@@ -160,7 +164,7 @@ people."
 
                             <li>
 
-                                <img src="http://fc01.deviantart.net/fs70/i/2012/227/f/e/the_sweet_sound_of_rain___variation____grayscale_by_elementinfinity-d57j7vh.jpg"  alt="03"/>
+                                <img src="_content/NSH/elastic-image-3.jpg"  alt="03"/>
 
                                <p>
                                         The nature of what we do attracts the best and the brightest from all corners of this campus. -Danielle Lay                     
@@ -170,7 +174,7 @@ people."
 
                             <li>
 
-                                <img src="http://fc01.deviantart.net/fs70/i/2012/227/f/e/the_sweet_sound_of_rain___variation____grayscale_by_elementinfinity-d57j7vh.jpg"  alt="04"/>
+                                <img src="_content/NSH/elastic-image-4.jpg"  alt="04"/>
 
                                <p>
                                         I truly believe NSH is more than just a student group. It’s a launch pad for opportunity, a training ground for ideas, and a chance to make your vision a reality. -Liz Huizenga </em>
@@ -180,6 +184,7 @@ people."
                             </li>
                         </ul>
                         </div>
+                        <div class="span1"></div>
                     </div>
                 </div><!-- end .row -->
 
@@ -575,13 +580,6 @@ people."
 
     var revenue = document.getElementById('revenueChart').getContext('2d');
     new Chart(revenue).Line(revenueData);
-
-    //section
-    window.onresize=function(){
-        $('.section').height(window.innerHeight - $('.header').height());
-    };
-
-    window.onresize();
 
     // elasticstack
     new ElastiStack( document.getElementById( 'elasticstack' ),{
