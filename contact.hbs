@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,requiresActiveX=true">
     
     
-    <title> Apply </title>
+    <title> Apply :: NSH </title>
     <meta name="description" content=" add description  ... ">
     
     <!-- /// Favicons ////////  -->
@@ -205,7 +205,11 @@
     <script src="_layout/js/scripts.js"></script>
     
     <script type="text/javascript">
-    $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray">');
+    } else {
+      $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
+    }
     </script>
 
 </body>

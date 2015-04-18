@@ -3,6 +3,9 @@
         border-bottom: 0px solid #ddd;
     }
     .splash-container { 
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
         height: 100vh;
       -webkit-background-size: cover;
       -moz-background-size: cover;

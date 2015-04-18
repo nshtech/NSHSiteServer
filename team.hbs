@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,requiresActiveX=true">
     
     
-    <title> Team </title>
+    <title> Team :: NSH</title>
     <meta name="description" content=" add description  ... ">
     
     <!-- /// Favicons ////////  -->
@@ -49,7 +49,6 @@
     <link rel="stylesheet" href="custom/navbar.css">
     <link rel="stylesheet" href="custom/splash.css">
     <style>
-    /* end index-2.hbs*/
     #footer{
         padding: 40px 0 10px 0;
     }
@@ -91,7 +90,7 @@
         {{> header_homepage}}
         <div id="content">
 
-            <div class="splash-container" style="background: url(_content/NSH/team-splash-smaller.png) no-repeat center center fixed; ">
+            <div class="splash-container" style="background-image: url(_content/NSH/Optimized-team-splash-smaller.png)">
                 <div class="splash">
                     <h1><strong>The Team</strong></h1>
                     <h3 style="font-style: none; max-width:600px; margin: 0 auto;">"The immense privilege of NSH is the opportunity to be 
@@ -112,7 +111,7 @@ people."
                     <a href="#finance" class="btn alt">Finance & Analytics</a>
                     <a href="#growth" class="btn alt">Growth</a>
                     <a href="#marketing" class="btn alt">Marketing</a>
-                    <a href="#nututors" class="btn alt">NU Tutors</a>
+                    <a href="#nututors" class="btn alt">NU|Tutors</a>
                     <a href="#pops" class="btn alt">People Operations</a>
                     <a href="#rezessentials" class="btn alt">RezEssentials</a>
                     <a href="#tech" class="btn alt">Technology</a>
@@ -690,7 +689,11 @@ people."
     <script type="text/javascript" src="_layout/js/jquery.color-2.1.2.min.js"></script>
     <script type="text/javascript" src="_layout/js/team.js"></script>
     <script type="text/javascript">
-    $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray">');
+    } else {
+      $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
+    }
     </script>
 
 </body>
