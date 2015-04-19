@@ -53,7 +53,7 @@ app.post('/contact', function (req, res){
 	    subject: 'Message from Contact Form',
 	    text: 'The following message is from the "Contact Us" form on northwesternstudentholdings.com.\nFrom: ' + req.body.email + '\nSubject: ' + req.body.subject + '\nMessage: ' +  req.body.message
 	});
-	res.send('ayyy');
+	res.render('contact');
 });
 
 
