@@ -143,8 +143,8 @@
                         <div class="span4">
                             <ul class='elasticstack wow fadeIn' id='elasticstack' data-wow-delay="0.5s">                            
                             <li>
-                            
-                                <img src="_content/NSH/elastic-image-1.jpg"  alt="01"/>                            
+                                <img src="_content/NSH/swipe-right2.png" style="position:absolute; top:-32px;height:25px;">
+                                <img class='elasti' src="_content/NSH/elastic-image-1.jpg"  alt="01"/>                            
 
                                  <p>
                                     "NSH means empowerment; it's this ridiculously amazing feeling of being 20 years old and having the power to transform this community through business and social impact."
@@ -157,7 +157,7 @@
                                 
                             <li>
 
-                                <img src="_content/NSH/elastic-image-3.jpg"  alt="02"/>
+                                <img class='elasti' src="_content/NSH/elastic-image-3.jpg"  alt="02"/>
 
                                <p>
                                         "NSH teaches you the importance of taking initiative, and how to get people excited about the ideas that you have."           
@@ -166,7 +166,7 @@
 
                             <li>
 
-                                <img src="_content/NSH/elastic-image-2.jpg"  alt="03"/>
+                                <img class='elasti' src="_content/NSH/elastic-image-2.jpg"  alt="03"/>
 
                                <p>
                                         "The nature of what we do attracts the best and the brightest from all corners of this campus."          
@@ -460,10 +460,10 @@
     new ElastiStack( document.getElementById( 'elasticstack' ),{
                 // distDragBack: if the user stops dragging the image in a area that does not exceed [distDragBack]px 
                 // for either x or y then the image goes back to the stack 
-                distDragBack : 200,
+                distDragBack : 100,
                 // distDragMax: if the user drags the image in a area that exceeds [distDragMax]px 
                 // for either x or y then the image moves away from the stack 
-                distDragMax : 450,
+                distDragMax : 200,
                 // callback
                 onUpdateStack : function( current ) { return false; }
             }  );
