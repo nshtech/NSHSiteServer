@@ -51,8 +51,35 @@
     <link rel="stylesheet" href="custom/navbar.css">
     <link rel="stylesheet" href="custom/splash.css">
     <style type="text/css">
+    .titles {
+        margin-bottom: 40px;
+    }
+    #name {
+        margin-top: 96px;
+        margin-bottom: 14px;
+        font-size: 54px; 
+        line-height: 68px; 
+    }
+    #slogan {
+        margin-bottom: 10px;    
+        font-size: 32px; 
+        line-height: 45px;
+    }
     #content{
         padding-top: 0!important;
+    }
+    .milestone-container {
+        height: 100px;
+        width:100%;
+        background-color: rgba(255,255,255,0.2);
+    }
+    .milestone-container .span4{
+        margin-bottom:40px;
+    }
+    .btn-white {
+        -webkit-animation-delay: 2.5s;
+        -o-animation-delay: 2.5s;
+        animation-delay: 2.5s;
     }
     .icon-box-1 i{
         color: #CE4115;
@@ -97,60 +124,56 @@
         <!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
             <div class="splash-container" style="background-image: url(_content/NSH/arch.jpg)">
                 <div class="splash">
-                    <br> <br><br> <br> 
-                    <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div class="titles wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
                     
-                    <h1><strong>Northwestern Student Holdings</strong></h1>
-                    <h2>Defy Expectations.</h2>
+                    <p id="name">Northwestern Student Holdings</p>
+                    <p id="slogan">Defy Expectations.</p>
                     </div> <!-- end fade in for title-->
 
-                    <div class="wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                    <div class="milestone-container wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">
                     <!--animated milestones-->
-                     <div class="span4">
-                        <div class="milestone">
-    
-                            <div class="milestone-content">
-                                <span class="milestone-value" data-stop="3000" data-speed="2500"></span>
-                                <div class="milestone-description">Students Served</div>
-                            </div><!-- end .milestone-content -->
-                           
-                        </div><!-- end .milestone -->
-                        
-                    </div><!-- end .span4 -->
 
-                    <div class="span4">
-                        
-                        <div class="milestone">
-    
-                            <div class="milestone-content">
-                                $<span class="milestone-value" data-stop="400000" data-speed="2500"></span>+
-                                <div class="milestone-description">Revenue Earned</div>
-                            </div><!-- end .milestone-content -->
-                           
-                        </div><!-- end .milestone -->
-                        
-                    </div><!-- end .span4 -->
+                        <div class="span4">
+                            <div class="milestone">
+        
+                                <div class="milestone-content">
+                                    <span class="milestone-value" data-stop="3000" data-speed="2500"></span>
+                                    <div class="milestone-description">Students Served</div>
+                                </div><!-- end .milestone-content -->
+                               
+                            </div><!-- end .milestone -->
+                            
+                        </div><!-- end .span4 -->
 
-                    <div class="span4">
-                        
-                        <div class="milestone">
-    
-                            <div class="milestone-content">
-                                <span class="milestone-value" data-stop="12" data-speed="2500"></span>
-                                <div class="milestone-description">Companies Created</div>
-                            </div><!-- end .milestone-content -->
-                           
-                        </div><!-- end .milestone -->
-                        
-                    </div><!-- end .span4 -->
+                        <div class="span4">
+                            
+                            <div class="milestone">
+        
+                                <div class="milestone-content">
+                                    $<span class="milestone-value" data-stop="400000" data-speed="2500"></span>+
+                                    <div class="milestone-description">Revenue Earned</div>
+                                </div><!-- end .milestone-content -->
+                               
+                            </div><!-- end .milestone -->
+                            
+                        </div><!-- end .span4 -->
 
-                </div> <!--end fade in for milestones-->
+                        <div class="span4">
+                            
+                            <div class="milestone">
+        
+                                <div class="milestone-content">
+                                    <span class="milestone-value" data-stop="12" data-speed="2500"></span>
+                                    <div class="milestone-description">Companies Created</div>
+                                </div><!-- end .milestone-content -->
+                               
+                            </div><!-- end .milestone -->
+                            
+                        </div><!-- end .span4 -->
 
-                    <!--learn more button-->
-                    <div class="wow fadeIn" data-wow-delay="2.5s">
-                        <a class="btn btn-white" style:"background-color: white" href="about">Learn more</a>  
-                    </div> <!-- end fade in for button-->
-                  
+                        <!--learn more button-->
+                    </div> <!--end fade in for milestones-->
+                  <a class="btn btn-white animated fadeIn" href="about">Learn more</a>
                 </div><!-- end .splash -->
             </div><!-- end .splash-container --> 
 
