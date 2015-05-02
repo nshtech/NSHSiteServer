@@ -10,11 +10,11 @@
 	position: relative;
 	padding: 0;
 	width: 400px;
-	height: 500px;
+	height: 480px;
 	list-style: none;
-	-webkit-perspective: 1000px;
+	-webkit-perspective: 960px;
 	-webkit-perspective-origin: 50% 150%;
-	perspective: 1000px;
+	perspective: 960px;
 	perspective-origin: 50% 150%;
 }
 
@@ -29,7 +29,7 @@
 	position: absolute;
 	z-index: 1;
 	width: 100%;
-	height: 500px;
+	height: 480px;
 	border-width: 40px 20px 130px 20px;
 	border-style: solid;
 	border-color: #fff;
