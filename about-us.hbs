@@ -75,7 +75,13 @@
             line-height: 20px;
             margin-top:10px;
         }
+        @media (min-width: 768px) and (max-width: 1250px) {
         
+            #mission { width:50%; }
+
+            #filler-left { width: 8.3333333%;}
+        
+        }
         .vco-timeline .vco-navigation .timenav-background .timenav-line {
             background-color: #CE4115;
         }
@@ -133,8 +139,8 @@
             
              <div class="row-container">    
                 <div class="row">
-                        <div class="span2"></div>
-                        <div class="span4">
+                        <div class="span2" id="filler-left"></div>
+                        <div class="span4" id="mission">
                         
                             <div class="value">
                                 <div class="bullet wow fadeIn" data-wow-delay="0.25s">
