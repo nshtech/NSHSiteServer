@@ -36,3 +36,16 @@
     .headline h1{
         margin-top: 2.5em;
     }
+    .arrows {
+        width: 30px;
+        height: 72px;
+        position: absolute;
+        left: 50%;
+        margin-left: -15px;
+        bottom: 42px;
+    }
+    .arrows path {
+        stroke: #fff;
+        fill: transparent;
+        stroke-width: 2px;
+    }
