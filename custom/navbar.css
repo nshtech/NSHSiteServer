@@ -30,7 +30,7 @@
 #mobile-menu-trigger{
     top: 28px;
 }
-@media (min-width: 1400px){
+@media (min-width: 1024px){
     #header.stuck .sf-menu > li > a, #header.stuck .sf-menu > li.dropdown > a{
         padding-top: 2em;
         padding-bottom: 2em;
@@ -45,6 +45,20 @@
     }
 
 }
+
+@media (max-width: 979px) and (min-width: 768px){
+    #white-logo{
+        display: none!important;
+    }
+    #logo{
+        padding-top: 2em;
+        padding-bottom: 0;
+    }
+    #mobile-menu-trigger{
+        margin-top: 28px;
+    }
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
     #white-logo{
