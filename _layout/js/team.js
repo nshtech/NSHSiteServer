@@ -1,6 +1,6 @@
 $(window).load(function(){
     //Scroll to group effect
-    $('#groups-btn-group').localScroll({duration:400, offset: -100});
+    $('#groups-btn-group').localScroll({duration:800, offset: -100});
 
     var grayscale = function(src) {
         var supportsCanvas = !!document.createElement('canvas').getContext;

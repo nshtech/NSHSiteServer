@@ -98,6 +98,15 @@
         background-repeat: no-repeat;
         background-position: center center;
     }
+    #bg-1 {
+        margin: 0 0;
+    }
+    .info-slider {
+        margin-top: 0px;
+    }
+    .sub-headline a {
+        margin-top: 30px;
+    }
     </style>
     
 </head>
@@ -124,7 +133,7 @@
                 {{> header_homepage}}
         <div id="content">
 
-            <div class="splash-container" style="background-image: url(_content/NSH/Optimized-portfolio-splash.png)">
+            <div class="splash-container" style="background-image: url(_content/NSH/portfolio.jpg)">
                 <div class="splash">
                     <h1><strong>Our Portfolio</strong></h1>
                     <h3 style="font-style: none; max-width:600px; margin: 0 auto;">"The nature of what we do attracts the best and the brightest from all corners of this campus."
@@ -135,8 +144,18 @@
             </div><!-- end .row-container --> 
         
         <!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
-            <div class="row-container">
+            <div class="fullwidth-section" id='bg-1' style="background-image: url(_content/NSH/portfolio-buttons.jpg);">
+                <div class="fullwidth-section-content" id="local-scroll">
+                    <ul class="client-logos fixed">
+                        <li><a href="#boxco"><img src="_content/NSH/boxco-logo.png"></a></li>
+                        <li><a href="#designworks"><img src="_content/NSH/designworks-logo.png"></a></li>
+                        <li><a href="#nututors"><img src="_content/NSH/nututors-logo.png"></a></li>
+                        <li><a href="#rezessentials"><img src="_content/NSH/RezEssentials-logo.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row-container" id="boxco">
                 <div class="info-box info-box-bg-left">
                     <div class="info-box-img" style="background-image:url(_content/NSH/boxco.jpg);"></div>
                     <div class="row">
@@ -155,7 +174,7 @@
                 </div>
             </div>
 
-            <div class="row-container">
+            <div class="row-container" id="designworks">
                 <div class="info-box info-box-bg-right">
                     <div class="info-box-img" style="background-image:url(_content/NSH/designworks.jpg);"></div>
                     <div class="row">
@@ -170,15 +189,15 @@
                 </div>
             </div>
 
-            <div class="row-container">
+            <div class="row-container" id="nututors">
                 <div class="info-box info-box-bg-left">
                     <div class="row">
                         <div class="offset-6 span6" style="background-image:url(_content/NSH/nututors-transparent-logo.png);">
                             <div class="info-slider">
                                 <div class="sub-headline wow fadeIn" data-wow-delay="0.25s">
-                                 <h1>NU|Tutors</h1>
+                                 <h1>NU Tutors</h1>
                                 
-                                <p>NU|Tutors provides individual and group tutoring for local area high school students. Since its inception, the company has helped over 300 students with their academic needs and continues to make a positive impact on the North Shore community. With a...</p>
+                                <p>NU Tutors provides individual and group tutoring for local area high school students. Since its inception, the company has helped over 300 students with their academic needs and continues to make a positive impact on the North Shore community. With a...</p>
                                 
                                     <a class="btn" href="http://www.nututors.com/">Visit NU|Tutors</a>
                                 </div>
@@ -189,7 +208,7 @@
                 </div>
             </div>
 
-            <div class="row-container">
+            <div class="row-container" id="rezessentials">
                 <div class="info-box info-box-bg-right">
                     <div class="row">
                         <div class="span6" style="background-image:url(_content/NSH/rezessentials-transparent-logo.png);">
@@ -286,15 +305,22 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.3/wow.min.js"></script>
 
+        <script type="text/javascript" src="_layout/js/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="_layout/js/jquery.localScroll.min.js"></script>
+
 
     <script type="text/javascript">
-    new WOW().init();
+    $(function(){
+        new WOW().init();
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray">');
-    } else {
-      $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
-    }
+        $('#local-scroll').localScroll({duration:800, offset: -100});
+
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+          $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray">');
+        } else {
+          $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
+        }
+    });
     </script>
 
 </body>

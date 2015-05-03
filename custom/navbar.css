@@ -88,3 +88,9 @@
 #footer-links div{
     display: inline-block;
 }
+#footer-copyright{
+    text-align: right;
+}
+#footer-copyright p{
+    padding-right: 55px;
+}

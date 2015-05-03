@@ -47,24 +47,7 @@
     <!-- <link rel="stylesheet" href="_layout/css/skins/orange.css"> -->
 
     <link rel="stylesheet" href="custom/navbar.css">
-    <style>
-    .sf-menu > li > a, .sf-menu > li.dropdown > a{
-        color: #393939!important;
-    }
-    #footer{
-        padding: 40px 0 10px 0;
-    }
-    #footer-links h4{
-        display: inline-block;
-        margin-right: 5px;
-    }
-    #footer-links div{
-        display: inline-block;
-    }
-    #footer-links > *{
-        float: right;
-    }
-    </style>
+    <link rel="stylesheet" href="custom/splash.css">
     
     
 </head>
@@ -88,9 +71,16 @@
 
     <div id="wrap">
         
-        {{> header}}
+        {{> header_homepage}}
         <div id="content">
         
+        <div class="splash-container" style="background-image: url(_content/NSH/apply.jpg)">
+                <div class="splash">
+                    <h1><strong>Apply</strong></h1>
+                    <h3 style="font-style: none; max-width:600px; margin: 0 auto;">0 positions available
+</h3>
+                </div><!-- end .row -->
+            </div><!-- end .row-container --> 
         <!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
             
             <div class="row-container">    

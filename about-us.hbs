@@ -54,8 +54,20 @@
     <link rel="stylesheet" type="text/css" href="_layout/ElasticStack/css/component.css" />
 
     <style type="text/css">
-        #overview h3 {
+        .headline-2 {
+            margin-top:5em;
+        }
+        .value h2 {
             color: #CE4115;
+        }
+        .bullet {
+            position: relative;
+        }
+        .bullet img{
+            position:absolute;
+        }
+        .value {
+            margin-bottom: 0px;
         }
         .elasticstack p {
             font-style: italic;
@@ -63,10 +75,13 @@
             line-height: 20px;
             margin-top:10px;
         }
-        h2 {
-            margin-top: 2.5em;
-        }
+        @media (min-width: 768px) and (max-width: 1200px) {
         
+            #mission { width:50%; }
+
+            #filler-left { width: 8.3333333%;}
+        
+        }
         .vco-timeline .vco-navigation .timenav-background .timenav-line {
             background-color: #CE4115;
         }
@@ -96,25 +111,25 @@
 {{> header_homepage}}
         <div id="content">
 
-            <div class="splash-container" style="background-image: url(_content/NSH/Optimized-about-splash.jpg)">
+            <div class="splash-container" style="background-image: url(_content/NSH/about.jpg)">
                 <div class="splash">
                     <h1><strong>About</strong></h1>
-                    <h3 style="font-style: none; max-width:600px; margin: 0 auto;">"NSH is more than just a student group."
-</h3>
-<br>
-<h3>-Liz Huizenga, Director</h3>
+                    <h3 style="font-style: none; max-width:600px; margin: 0 auto;">"NSH is a launch pad for opportunity, a training ground for ideas, and a chance to make your vision a reality."
+                    </h3>
+                    <br>
+                    <h3>-Liz Huizenga, Director</h3>
                 </div><!-- end .row -->
             </div><!-- end .row-container --> 
         
         <!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-        <div class="section" id="overview">
+        <div class="section" id="values">
             <div class="row-container wow fadeIn" data-wow-delay="0.25s">    
                 <div class="row">
                     <div class="span12">
                         
                         <div class="headline-2">
                             
-                            <h2>Overview</h2>
+                            <h1>Mission</h1>
                             
                         </div><!-- end .headline -->
                         
@@ -124,31 +139,48 @@
             
              <div class="row-container">    
                 <div class="row">
-                        <div class="span1"></div>
-                        <div class="span6">
+                        <div class="span2" id="filler-left"></div>
+                        <div class="span4" id="mission">
+                        
+                            <div class="value">
+                                <div class="bullet wow fadeIn" data-wow-delay="0.25s">
+                                    <img src="_content/NSH/1.png">
+                                    <h2 class="text-uppercase"><strong>Build Businesses</strong></h2>
+                                </div>
+                                <p class="wow fadeIn" data-wow-delay="0.25s">
+                                    Our unique access to and knowledge of students give us a special opportunity to build businesses that add value to Northwestern, Evanston, and Chicago communities. 
+                                </p>
+                            </div>
                             
-                            <h3 class="text-uppercase wow fadeIn" data-wow-delay="0.25s"><strong>Building Businesses</strong></h3>
-                            <p class="wow fadeIn" data-wow-delay="0.25s">NSH aims to create and maintain a strong portfolio of businesses that add value to the Northwestern, Evanston, and Chicago communities. Our unique access to and knowledge of students gives us an opportunity to touch this community in special ways.</p>
+                            <div class="value">
+                                <div class="bullet wow fadeIn" data-wow-delay="0.25s">
+                                    <img src="_content/NSH/2.png">
+                                    <h2 class="text-uppercase"><strong>Develop People</strong></h2>
+                                </div>
+                                <p class="wow fadeIn" data-wow-delay="0.25s">
+                                     NSH offers members high-impact roles as soon as they enter the organization, imparts to them business acumen through workshops, and introduces them to a strong community of peers and mentors.
+                                </p>
+                            </div>
                             
-                            
-                            <h3 class="text-uppercase wow fadeIn" data-wow-delay="0.25s"><strong>Developing People</strong></h3>
-                            <p class="wow fadeIn" data-wow-delay="0.25s">
-                                 Our approach to developing people is centered around offering members high-impact roles on teams as soon as they enter the organization, imparting them with a core set of business skills through workshops, and introducing them to a strong community of peers and mentors to grow with.
-                            </p>
-                            
-                            <h3 class="text-uppercase wow fadeIn" data-wow-delay="0.25s"><strong>Giving Back</strong></h3>
-                            <p class="wow fadeIn" data-wow-delay="0.25s">We support philanthropic causes that better local as well as global communities. Our organization and its members have gained tremendously from opportunities afforded to us, and we do whatever we can to give back to those communities.</p>
-                            
+                            <div class="value">    
+                                <div class="bullet wow fadeIn" data-wow-delay="0.25s">
+                                    <img src="_content/NSH/3.png">
+                                    <h2 class="text-uppercase"><strong>Give Back</strong></h2>
+                                </div>
+                                <p class="wow fadeIn" data-wow-delay="0.25s">
+                                    We do whatever we can to support philanthropic causes that better local and global communities, because we gain tremendously from the opportunities they afford us.
+                                </p>
+                            </div>
+
                         </div><!-- end .span7 -->
                         <div class="span4">
                             <ul class='elasticstack wow fadeIn' id='elasticstack' data-wow-delay="0.5s">                            
                             <li>
-                            
-                                <img src="_content/NSH/elastic-image-1.jpg"  alt="01"/>                            
-
-                                 <p>
-                                    "NSH means empowerment; it's this ridiculously amazing feeling of being 20 years old and having the power to transform this community through business and social impact."
-                                </p>
+                                <img src="_content/NSH/swipe-right2.png" style="position:absolute; top:-32px;height:25px;">
+                                <img class='elasti' src="_content/NSH/discussion.jpg"  alt="01"/>                            
+                                <p>
+                                        "NSH teaches you the importance of taking initiative, and how to get people excited about the ideas that you have."           
+                                </p> 
 
 
                             </li>
@@ -157,16 +189,16 @@
                                 
                             <li>
 
-                                <img src="_content/NSH/elastic-image-3.jpg"  alt="02"/>
+                                <img class='elasti' src="_content/NSH/elastic-image-1.jpg"  alt="02"/>
 
                                <p>
-                                        "NSH teaches you the importance of taking initiative, and how to get people excited about the ideas that you have."           
+                                     "NSH means empowerment; it's this ridiculously amazing feeling of being 20 years old and having the power to transform this community."      
                                 </p>            
                             </li>
 
                             <li>
 
-                                <img src="_content/NSH/elastic-image-2.jpg"  alt="03"/>
+                                <img class='elasti' src="_content/NSH/elastic-image-2.jpg"  alt="03"/>
 
                                <p>
                                         "The nature of what we do attracts the best and the brightest from all corners of this campus."          
@@ -176,7 +208,7 @@
 
                             <li>
 
-                                <img src="_content/NSH/elastic-image-4.jpg"  alt="04"/>
+                                <img class='elasti'src="_content/NSH/piggyback.JPG"  alt="04"/>
 
                                <p>
                                         "I truly believe NSH is more than just a student group. It’s a launch pad for opportunity, a training ground for ideas, and a chance to make your vision a reality."
@@ -186,7 +218,7 @@
                             </li>
                         </ul>
                         </div>
-                        <div class="span1"></div>
+                        <div class="span2"></div>
                     </div>
                 </div><!-- end .row -->
 
@@ -195,105 +227,6 @@
         
 
          <!-- END OVERVIEW //////-->
- 
-        <div class='section'>
-            <div class="row-container wow fadeIn" data-wow-delay="0.25s">
-                <div class="row">
-                    <div class="span12">
-                        
-                        <div class="headline-2" style="margin-bottom:0;">
-                            
-                            <h2>Our Impact</h2>
-                            
-                        </div><!-- end .headline -->
-                        
-                    </div><!-- end .span12 -->
-                </div><!-- end .row -->
-            </div><!-- end .row-container --> 
-            
-            <div class="row-container">
-                <div class="row">
-                    <div class="span2">
-                        
-                        <div class="milestone" style ="border-bottom: 1px solid #CE4115;border-top: 1px solid #CE4115;">
-    
-                            <div class="milestone-content" >
-                                <span class="milestone-value" data-stop="12" data-speed="2000"></span>
-                                <div class="milestone-description" style = "color: #393939;">Total partner philanthropies</div>
-                            </div><!-- end .milestone-content -->
-                           
-                        </div><!-- end .milestone -->
-                        
-                    </div><!-- end .span2 -->
-                    <div class="span2">
-                        
-                        <div class="milestone" style ="border-bottom: 1px solid #CE4115;border-top: 1px solid #CE4115;">
-    
-                            <div class="milestone-content">
-                                <span>$</span>
-                                <span class="milestone-value" data-stop="7500" data-speed="2000"></span>
-                                <span>+</span>
-                                <div class="milestone-description" style = "color: #393939;">Donated to philanthropies</div>
-                            </div><!-- end .milestone-content -->
-                           
-                        </div><!-- end .milestone -->
-                        
-                    </div><!-- end .span2 -->
-                    <div class="span2">
-                        
-                        <div class="milestone" style ="border-bottom: 1px solid #CE4115;border-top: 1px solid #CE4115;">
-    
-                            <div class="milestone-content">
-                                <span class="milestone-value" data-stop="15000" data-speed="2000"></span>
-                                <span>+</span>
-                                <div class="milestone-description" style = "color: #393939;">Social media impressions</div>
-                            </div><!-- end .milestone-content -->
-                           
-                        </div><!-- end .milestone -->
-                        
-                    </div><!-- end .span2 -->
-                    <div class="span2">
-                                    
-                        <div class="milestone" style ="border-bottom: 1px solid #CE4115;border-top: 1px solid #CE4115;">
-
-                            <div class="milestone-content">
-                                <span class="milestone-value" data-stop="1000" data-speed="2000"></span>
-                                <span>+</span>
-                                <div class="milestone-description" style = "color: #393939;">Students engaged</div>
-                            </div><!-- end .milestone-content -->
-                           
-                        </div><!-- end .milestone -->
-                        
-                    </div><!-- end .span2 -->
-                    <div class="span2">
-                        
-                        <div class="milestone" style ="border-bottom: 1px solid #CE4115;border-top: 1px solid #CE4115;">
-
-                            <div class="milestone-content">
-                                <span class="milestone-value" data-stop="80" data-speed="2000"></span>
-                                <span>+</span>
-                                <div class="milestone-description" style = "color: #393939;">Projects</div>
-                            </div><!-- end .milestone-content -->
-                           
-                        </div><!-- end .milestone -->
-                        
-                    </div><!-- end .span2 -->
-                    <div class="span2">
-                        
-                        <div class="milestone" style ="border-bottom: 1px solid #CE4115;border-top: 1px solid #CE4115;">
-
-                            <div class="milestone-content">
-                                <span class="milestone-value" data-stop="24" data-speed="2000"></span>
-                                <span>h</span>
-                                <div class="milestone-description" style = "color: #393939;">Support</div>
-                            </div><!-- end .milestone-content -->
-                           
-                        </div><!-- end .milestone -->
-                        
-                    </div><!-- end .span2 -->
-                </div><!-- end .row -->                                                          
-            </div><!-- end .row-container -->
-        </div><!--end .section-->
 
         <div class="section">
         <!-- OUR HISTORY ///////////////////////////////////////////////////////////////-->
@@ -303,7 +236,7 @@
                         
                         <div class="headline-2">
                             
-                            <h2>Our History</h2>
+                            <h1>History</h1>
                             
                         </div><!-- end .headline -->
                         
@@ -335,6 +268,91 @@
 
     <!--  END OF OUR HISTORY SECTION///////////////////////////////////////////////////////////////-->
         <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="section">
+        <!-- OUR HISTORY ///////////////////////////////////////////////////////////////-->
+            <div class="row-container wow fadeIn" data-wow-delay="0.25s">
+                <div class="row">
+                    <div class="span12">
+                        
+                        <div class="headline-2">
+                            
+                            <h1>Connections</h1>
+                            
+                        </div><!-- end .headline -->
+                        
+                    </div><!-- end. span12 -->
+                </div><!-- end .row -->
+            </div><!-- end .row-container -->      
+
+        <div class="portfolio-grid fixed">
+            <div class="item width-2 wow fadeIn" data-wow-delay="0.25s">
+                <div class="portfolio-item">
+                    <div class="portfolio-item-preview" style="background-image: url(_content/NSH/impact-week.jpg)">
+                        <div class="portfolio-item-overlay">
+                            <div class="portfolio-item-description">
+                                <h2>NSH Impact Week</h2>
+                                <p></p>
+                                <a href="http://www.nshimpact.com/" class="btn">Visit Impact Week</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item width-2 wow fadeIn" data-wow-delay="0.25s">
+                <div class="portfolio-item">
+                    <div class="portfolio-item-preview" style="background-image: url(_content/NSH/portfolio-original.jpg)">
+                        <div class="portfolio-item-overlay">
+                            <div class="portfolio-item-description">
+                                <h2>Portfolio Companies</h2>
+                                <p></p>
+                                <a href="pf" class="btn">See our portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item width-1 wow fadeIn" data-wow-delay="0.25s">
+                <div class="portfolio-item">
+                    <div class="portfolio-item-preview" style="background-image: url(_content/NSH/farley.jpg)">
+                        <div class="portfolio-item-overlay">
+                            <div class="portfolio-item-description">
+                                <h2>Farley Center</h2>
+                                <p></p>
+                                <a href="http://fcei.northwestern.edu/" class="btn">Visit the Farley Center</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item width-1 wow fadeIn" data-wow-delay="0.25s">
+                <div class="portfolio-item">
+                    <div class="portfolio-item-preview" style="background-image: url(_content/NSH/nu-arch.jpg)">
+                        <div class="portfolio-item-overlay">
+                            <div class="portfolio-item-description">
+                                <h2>Northwestern University</h2>
+                                <p></p>
+                                <a href="http://www.northwestern.edu/" class="btn">Go U! NU!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item width-2 wow fadeIn" data-wow-delay="0.25s">
+                <div class="portfolio-item">
+                    <div class="portfolio-item-preview" style="background-image: url(_content/NSH/team-splash.jpg)">
+                        <div class="portfolio-item-overlay">
+                            <div class="portfolio-item-description">
+                                <h2>Team</h2>
+                                <p></p>
+                                <a href="team" class="btn">Meet the team</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
 
         </div><!-- end #content -->     
         {{> footer}}
@@ -460,10 +478,10 @@
     new ElastiStack( document.getElementById( 'elasticstack' ),{
                 // distDragBack: if the user stops dragging the image in a area that does not exceed [distDragBack]px 
                 // for either x or y then the image goes back to the stack 
-                distDragBack : 200,
+                distDragBack : 100,
                 // distDragMax: if the user drags the image in a area that exceeds [distDragMax]px 
                 // for either x or y then the image moves away from the stack 
-                distDragMax : 450,
+                distDragMax : 200,
                 // callback
                 onUpdateStack : function( current ) { return false; }
             }  );
