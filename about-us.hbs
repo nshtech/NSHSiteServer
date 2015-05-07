@@ -83,7 +83,7 @@
         .value {
             margin-bottom: 0px;
         }
-        #whoweare {
+        #whoweare .span8 {
             margin-top: 80px;
             padding: 40px;
             background-image: url('_content/NSH/whoweare.jpg');
@@ -154,7 +154,7 @@
                     <br>
                     <h3>-Oskar Melking, Portfolio Advisor</h3>
                 </div><!-- end .row -->
-                <a href="#whoweare-wrapper">
+                <a href="#whoweare">
                 <svg class="arrows">
                     <path class="a1" d="M0 0 L15 16 L30 0"></path>
                 </svg>
@@ -162,12 +162,12 @@
             </div><!-- end .row-container --> 
         
         <!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-        <div class="section" id="whoweare-wrapper">
+        <div class="section" id="whoweare">
 
         <!-- WHO WE ARE ///////////////////////////////////////////////////////////////-->    
         <div class="span2"></div>                             
             
-            <div class="span8 wow fadeIn" id="whoweare" data-wow-delay="0.25s">
+            <div class="span8 wow fadeIn" data-wow-delay="0.25s">
                 <div class="headline-2">
                             
                 <h1>Who We Are</h1>
@@ -323,7 +323,7 @@
                         
                         <div class="headline-2">
                             
-                            <h1>Connections</h1>
+                            <h1>Links</h1>
                             
                         </div><!-- end .headline -->
                         
@@ -486,7 +486,9 @@
 
     <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/timeline-min.js"></script>
 
+    <script type="text/javascript" src="_layout/js/splash.js"></script>
     <script>
+    $(function(){
     new WOW().init();
 
     $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
@@ -538,17 +540,7 @@
     } else {
       $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
     }
-
-    $('a[href^="#"]').on('click',function (e) {
-        e.preventDefault();
-
-        var target = this.hash;
-        var $target = $(target);
-
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top - 80
-        }, 800, 'swing');
-    });
+});
     </script>
 
 </body>
