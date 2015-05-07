@@ -154,13 +154,15 @@
                     <br>
                     <h3>-Oskar Melking, Portfolio Advisor</h3>
                 </div><!-- end .row -->
+                <a href="#whoweare-wrapper">
                 <svg class="arrows">
                     <path class="a1" d="M0 0 L15 16 L30 0"></path>
                 </svg>
+                </a>
             </div><!-- end .row-container --> 
         
         <!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-        <div class="section">
+        <div class="section" id="whoweare-wrapper">
 
         <!-- WHO WE ARE ///////////////////////////////////////////////////////////////-->    
         <div class="span2"></div>                             
@@ -171,9 +173,9 @@
                 <h1>Who We Are</h1>
                             
                 </div><!-- end .headline -->
-                <h3>Northwestern Student Holdings (NSH) is a student-run holdings company that funds and manages a portfolio of businesses serving the Northwestern, Evanston, and Chicago communities. NSH offers a myriad of services ranging from summer storage, to design and advertising, to tutoring.</h3>
+                <h3>Northwestern Student Holdings (<span style="font-weight:bolder;">NSH</span>) is a student-run holdings company that funds and manages a portfolio of businesses serving the Northwestern, Evanston, and Chicago communities. NSH offers a myriad of services ranging from summer storage, to design and advertising, to tutoring.</h3>
                 <br>
-                    <h3>We value practice over preaching. We know that to grow, it’s essential to leave one’s comfort zone. With the support of one another, we grow our businesses, our people, and our impact on the community.</h3> 
+                    <h3>We value practice over preaching. We know that to grow, it’s essential to leave one’s comfort zone. With the support of one another, we grow our <span style="font-weight:bolder;">businesses</span>, our <span style="font-weight:bolder;">people</span>, and our <span style="font-weight:bolder;">impact</span> on the community.</h3> 
             </div><!-- end .row-container -->
             
             <div class="span2"></div>
@@ -536,6 +538,17 @@
     } else {
       $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
     }
+
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash;
+        var $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top - 80
+        }, 800, 'swing');
+    });
     </script>
 
 </body>
