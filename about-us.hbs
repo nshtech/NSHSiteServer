@@ -73,12 +73,15 @@
         }
         .value h2 {
             color: #CE4115;
+            margin-left: 24px;
         }
         .bullet {
             position: relative;
         }
         .bullet img{
             position:absolute;
+            top: 14px;
+            height: 16px;
         }
         .value {
             margin-bottom: 0px;
@@ -95,14 +98,14 @@
             vertical-align: middle;
         }
         #whoweare .headline-2 {
-            margin: 0 0;
+            margin: 0 0 60px;
         }
         #whoweare .headline-2:after {
-            border-bottom: none;
+            border-bottom: 1px solid #fff
         }
         .elasticstack p {
             font-style: italic;
-            font-size: 14px;
+            font-size: 15px;
             line-height: 20px;
             margin-top:10px;
         }
@@ -149,15 +152,15 @@
 {{> header_homepage}}
         <div id="content">
 
-            <div class="splash-container" style="background-image: url(_content/NSH/impactweek.jpg)">
+            <div class="splash-container" style="background-image: url(_content/NSH/about.jpg)">
                 <div class="splash">
                     <h1><strong>About</strong></h1>
-                    <h3 style="font-style: none; max-width:600px; margin: 0 auto;">"NSH teaches you the importance of taking initiative, and how to get people excited about the ideas you have."
+                    <h3 style="font-style: none; max-width:450px; margin: 0 auto;">"NSH teaches you the importance of taking initiative, and how to get people excited about the ideas you have."
                     </h3>
                     <br>
                     <h3>-Oskar Melking, Portfolio Advisor</h3>
                 </div><!-- end .row -->
-                <a href="#whoweare">
+                <a href="#whoweare" class="smoothScroll">
                 <svg class="arrows">
                     <path class="a1" d="M0 0 L15 16 L30 0"></path>
                 </svg>
@@ -206,7 +209,7 @@
                         
                             <div class="value">
                                 <div class="bullet wow fadeIn" data-wow-delay="0.25s">
-                                    <img src="_content/NSH/1.png">
+                                    <img src="_content/NSH/NSH-logo-orange.jpg">
                                     <h2 class="text-uppercase"><strong>Build Businesses</strong></h2>
                                 </div>
                                 <p class="wow fadeIn" data-wow-delay="0.25s">
@@ -216,7 +219,7 @@
                             
                             <div class="value">
                                 <div class="bullet wow fadeIn" data-wow-delay="0.25s">
-                                    <img src="_content/NSH/2.png">
+                                    <img src="_content/NSH/NSH-logo-orange.jpg">
                                     <h2 class="text-uppercase"><strong>Develop People</strong></h2>
                                 </div>
                                 <p class="wow fadeIn" data-wow-delay="0.25s">
@@ -226,7 +229,7 @@
                             
                             <div class="value">    
                                 <div class="bullet wow fadeIn" data-wow-delay="0.25s">
-                                    <img src="_content/NSH/3.png">
+                                    <img src="_content/NSH/NSH-logo-orange.jpg">
                                     <h2 class="text-uppercase"><strong>Give Back</strong></h2>
                                 </div>
                                 <p class="wow fadeIn" data-wow-delay="0.25s">
@@ -236,39 +239,38 @@
 
                         </div><!-- end .span7 -->
                         <div class="span4">
-                            
-                                <ul class='elasticstack wow fadeIn' id='elasticstack' data-wow-delay="0.5s">                          
-                                    
-                                    
-                                <li>
-                                    <img src="_content/NSH/swipe-right2.png" style="position:absolute; top:-32px;height:25px;">
-                                    <img class='elasti' src="_content/NSH/elastic-image-1.jpg"  alt="02"/>
+                            <ul class='elasticstack wow fadeIn' id='elasticstack' data-wow-delay="0.5s">                          
+                            <li>
+                                <img id="drag" src="_content/NSH/click-swipe.png" style="position:absolute; top:-30px;height:21px;">
+                                <img class='elasti' src="_content/NSH/elastic-image-2.jpg"  alt="03"/>
 
-                                   <p>
-                                         "NSH means empowerment; it's this ridiculously amazing feeling of being 20 years old and having the power to transform this community."      
-                                    </p>            
+                               <p>
+                                     "NSH means empowerment; it's this ridiculously amazing feeling of being 20 years old and having the power to transform this community." 
+                                </p>     
+                                
+                            </li>
+                                
+                            <li>
+                                
+                                <img class='elasti' src="_content/NSH/elastic-image-1.jpg"  alt="02"/>
+
+                               <p>
+                                         
+                                     "Every day, I’m blown away by the experiences I’ve had and the people I’ve shared them with."    
+                                </p>            
+                            </li>
+
+                            <li>
+                                <img class='elasti' src="_content/NSH/discussion.jpg"  alt="01"/>                            
+                                <p>
+                                    "NSH is a launch pad for opportunity, a training ground for ideas, and a chance to make your vision a reality."        
+                                </p> 
+
+
                                 </li>
 
-                                <li>
-                                    <img class='elasti' src="_content/NSH/discussion.jpg"  alt="01"/>                            
-                                    <p>
-                                            "NSH is a launch pad for opportunity, a training ground for ideas, and a chance to make your vision a reality."          
-                                    </p> 
+                        </ul>
 
-
-                                </li>
-
-                                <li>
-
-                                    <img class='elasti' src="_content/NSH/elastic-image-2.jpg"  alt="03"/>
-
-                                   <p>
-                                            "Every day, I’m blown away by the experiences I’ve had and the people I’ve shared them with."          
-                                    </p>     
-                                    
-                                </li>
-                            </ul>
-                        
                         </div>
                         <div class="span2"></div>
                     </div>
@@ -308,7 +310,7 @@
                         start_at_slide:     '0',                            //OPTIONAL START AT SPECIFIC SLIDE
                         start_zoom_adjust:  '3',                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
                         hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
-                        font:               'Open Sans',             //OPTIONAL FONT
+                        font:               'PTSerif-PTSans',             //OPTIONAL FONT
                         debug:              true,                           //OPTIONAL DEBUG TO CONSOLE
                         lang:               'en',                           //OPTIONAL LANGUAGE
                         maptype:            'watercolor',                   //OPTIONAL MAP STYLE
@@ -539,6 +541,10 @@
                 // callback
                 onUpdateStack : function( current ) { return false; }
             }  );
+
+    $('.elasticstack').mousedown(function(){
+        $('#drag').animate({'opacity': 0}, 800);
+    })
 
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
       $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray">');
