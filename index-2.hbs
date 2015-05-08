@@ -54,6 +54,7 @@
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
     
+    <link rel="stylesheet" type="text/css" href="_layout/css/simpletextrotator.css">
     
     <!-- /// Template Skin CSS ////////  -->
     <!-- <link rel="stylesheet" href="_layout/css/skins/default.css"> -->
@@ -88,9 +89,9 @@
         margin-bottom:40px;
     }
     .btn-white {
-        -webkit-animation-delay: 2.5s;
-        -o-animation-delay: 2.5s;
-        animation-delay: 2.5s;
+        -webkit-animation-delay: 1.5s;
+        -o-animation-delay: 1.5s;
+        animation-delay: 1.5s;
     }
     .icon-box-1 i{
         color: #CE4115;
@@ -104,6 +105,23 @@
     }
     .hp-grey h1{
         margin-top: 70px;
+    }
+    #rotator-wrapper {
+        display: inline-block;
+        background-color: rgba(255,255,255,0.2);
+        padding: 0px 9px;
+        width:234px;
+        text-align: left;
+    }
+    #rotator {
+        display: inline-block;
+        width:100%;
+        white-space: pre;
+        /*color: #CE4115;*/
+    }
+    #learnmore {
+        color: #fff;
+        border-color: #fff;
     }
     </style>
     
@@ -139,7 +157,7 @@
                     <div class="titles wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
                     
                     <h1 id="name"><strong>Northwestern Student Holdings</strong></h1>
-                    <p id="slogan">Defy Expectations.</p>
+                    <div id="slogan">Defy expectations <div id='rotator-wrapper'><span id='rotator'>every day.      ,through practice.,with passion.    </span></div></div>
                     </div> <!-- end fade in for title-->
 
                     <!--div class="milestone-container wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">
@@ -185,7 +203,7 @@
 
                         
                     </div--> <!--end fade in for milestones-->
-                  <a class="btn btn-white animated fadeIn" href="about">Learn more</a>
+                  <a class="btn btn-white animated fadeIn" id="learnmore" href="about">Learn more</a>
                 </div><!-- end .splash -->
             </div><!-- end .splash-container --> 
 
@@ -533,37 +551,16 @@
     </script>
        <!-- /// Chart JS //////// -->
     <script src="_layout/js/charts/Chart.min.js"></script>
+    <script type="text/javascript" src="_layout/js/jquery.simple-text-rotator.js"></script>
 
     <script>
-
-    var revenueData = {
-        labels: ["January", "February", "March", "April", "May", "June", "July"],
-        datasets: [
-            {
-                label: "My First dataset",
-                fillColor: "rgba(220,220,220,0.2)",
-                strokeColor: "rgba(220,220,220,1)",
-                pointColor: "rgba(220,220,220,1)",
-                pointStrokeColor: "#fff",
-                pointHighlightFill: "#fff",
-                pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [65, 59, 80, 81, 56, 55, 40]
-            },
-            {
-                label: "My Second dataset",
-                fillColor: "rgba(206,65,21,0.2)",
-                strokeColor: "#CE4115",
-                pointColor: "#CE4115",
-                pointStrokeColor: "#fff",
-                pointHighlightFill: "#fff",
-                pointHighlightStroke: "rgba(151,187,205,1)",
-                data: [28, 48, 40, 19, 86, 27, 90]
-            }
-        ]
-    };
-
-    var revenue = document.getElementById('revenueChart').getContext('2d');
-    new Chart(revenue).Line(revenueData);
+    $(function(){
+        $("#rotator").textrotator({
+              animation: "flipCubeUp", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+              separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+              speed: 3000 // How many milliseconds until the next word show.
+        });
+    });
     </script>
     <script type="text/javascript">
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
