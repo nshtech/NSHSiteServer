@@ -1768,7 +1768,7 @@
 				transform: translateY(-50%);
 	}
 	
-	@media (min-width: 1200px) {
+	@media (min-width: 1000px) {
 		
 		.portfolio-grid .item.width-1 { width: 25%; }
 		.portfolio-grid .item.width-2 { width: 50%; }
@@ -1777,13 +1777,13 @@
 		
 	}
 	
-	@media (min-width: 768px) and (max-width: 979px) {
+	@media (min-width: 0px) and (max-width: 1000px) {
 		
 		.portfolio-grid .item { width: 100%; }
 		
 	}
 	
-	@media (max-width: 767px) {
+/*	@media (max-width: 767px) {
 		
 		.portfolio-grid .item { width: 100%; }
 		
@@ -1800,7 +1800,7 @@
 					transform: translateY(0);
 		}
 		
-	}
+	}*/
    
 /* ==========================================================================
    =Contact form
