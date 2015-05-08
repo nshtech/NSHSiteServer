@@ -4,7 +4,7 @@
     }
     .splash-container { 
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: bottom center;
         background-attachment: fixed;
         height: 100vh;
       -webkit-background-size: cover;
