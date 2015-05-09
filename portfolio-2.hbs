@@ -104,6 +104,12 @@
             padding: 0;
             transform: translateY(0);
         }
+        .info-box{
+            margin: 20px 0;
+        }
+        .info-box .sub-headline a{
+            margin-top: 5px;
+        }
     }
     .info-box .span6 {
         background-repeat: no-repeat;
@@ -150,7 +156,7 @@
             <div class="splash-container" style="background-image: url(_content/NSH/whiteboard.jpg)">
                 <div class="splash">
                     <h1><strong>Our Portfolio</strong></h1>
-                    <h3 style="font-style: none; max-width:450px; margin: 0 auto;">"Our companies are the life and blood of what we do. NSH allow us to take our ideas off the white boards and out of the meeting rooms into the real world, and see our companies meaningful impact the community around us.”
+                    <h3 style="font-style: none; max-width:480px; margin: 0 auto;">"NSH allows us to take our ideas off the white boards and out of the meeting rooms, and put them out in the real world.”
                     </h3>
                     <br>
                     <h3>-Priya Kumar, Chief Executive Officer</h3> 
@@ -337,12 +343,6 @@
         new WOW().init();
 
         $('#local-scroll').localScroll({duration:800, offset: -100});
-
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-          $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray">');
-        } else {
-          $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
-        }
     });
     </script>
 
