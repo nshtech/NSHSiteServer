@@ -30,6 +30,9 @@
         font-size: 1.7em!important;
         font-weight: 600!important;
     }
+    .splash h3{
+        padding: 0 60px;
+    }
     #content{
         padding-top: 0!important;
     }
