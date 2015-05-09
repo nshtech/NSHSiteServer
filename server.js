@@ -49,7 +49,7 @@ app.post('/contact', function (req, res){
 	});
 	transporter.sendMail({
 	    from: req.body.email,
-	    to: 'gregwcmkim@gmail.com',
+	    to: 'exec@northwesternstudentholdings.com',
 	    subject: 'Message from Contact Form',
 	    text: 'The following message is from the "Contact Us" form on northwesternstudentholdings.com.\nFrom: ' + req.body.email + '\nSubject: ' + req.body.subject + '\nMessage: ' +  req.body.message
 	});
