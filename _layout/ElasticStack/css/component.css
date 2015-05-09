@@ -67,3 +67,39 @@
 	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
 	transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
 }
+
+@media (max-width: 456px) {
+    .elasticstack {
+    	margin-left: auto;
+    	margin-right: auto;
+		position: relative;
+		padding: 0;
+		width: 300px;
+		height: 360px;
+		list-style: none;
+		-webkit-perspective: 960px;
+		-webkit-perspective-origin: 50% 150%;
+		perspective: 960px;
+		perspective-origin: 50% 150%;
+	}
+
+	.elasticstack li {
+		margin-left: auto;
+    	margin-right: auto;
+		position: absolute;
+		z-index: 1;
+		width: 90%;
+		height: 390px;
+		border-width: 40px 20px 130px 20px;
+		border-style: solid;
+		border-color: #fff;
+		box-shadow: 0 10px 7px -7px #CE4115, 0 0 4px #CE4115;
+		opacity: 0;
+		cursor: pointer;
+		-webkit-transform: translate3d(0,0,-180px);
+		transform: translate3d(0,0,-180px);
+		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+	}
+
+}

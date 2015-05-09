@@ -118,6 +118,9 @@
     .sub-headline a {
         margin-top: 30px;
     }
+    .btn {
+        padding: 15px 25px;
+    }
     </style>
     
 </head>
@@ -144,17 +147,19 @@
                 {{> header_homepage}}
         <div id="content">
 
-            <div class="splash-container" style="background-image: url(_content/NSH/portfolio.jpg)">
+            <div class="splash-container" style="background-image: url(_content/NSH/whiteboard.jpg)">
                 <div class="splash">
                     <h1><strong>Our Portfolio</strong></h1>
-                    <h3 style="font-style: none; max-width:600px; margin: 0 auto;">"NSH is unique because as students we actually get the opportunity to start and operate real businesses that serve and employ our peers."
+                    <h3 style="font-style: none; max-width:450px; margin: 0 auto;">"Our companies are the life and blood of what we do. NSH allow us to take our ideas off the white boards and out of the meeting rooms into the real world, and see our companies meaningful impact the community around us.”
                     </h3>
                     <br>
-                    <h3>-Katie Ostazeski, VP of People Operations</h3>    
+                    <h3>-Priya Kumar, Chief Executive Officer</h3> 
                 </div><!-- end .row -->
-                <svg class="arrows">
-                    <path class="a1" d="M0 0 L15 16 L30 0"></path>
-                </svg>
+                <a href="#bg-1" class="smoothScroll">
+                    <svg class="arrows">
+                        <path class="a1" d="M0 0 L15 16 L30 0"></path>
+                    </svg>
+                </a>
             </div><!-- end .row-container --> 
         
         <!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -178,9 +183,10 @@
                                 <div class="sub-headline wow fadeIn" data-wow-delay="0.25s">
                                     <h1>BoxCo.</h1>
                                 
-                                <p>BoxCo. provides the best in storage and shipping services at Northwestern University. BoxCo. aims to offer a more affordable and convenient service to the student body by making storage simple. BoxCo. was launched in May 2012. In addition to offering...</p>
+                                <p>BoxCo. aims to make students’ lives easier. Founded in 2012, BoxCo. is the only student-run, Northwestern-owned company that supplies students with simple and transparent storage and shipping options.</p>
                                 
                                     <a class="btn" href="http://www.nuboxco.com/">Visit BoxCo.</a>
+                                    <a class="btn" href="team#boxco">Meet the team</a>
                                 </div>
                             </div>
                         </div>
@@ -195,8 +201,9 @@
                         <div class="span6" style="background-image:url(_content/NSH/designworks-transparent-logo.png);">
                                 <div class="sub-headline wow fadeIn" data-wow-delay="0.25s">
                                     <h1>DesignWorks</h1>
-                                    <p>DesignWorks is a company devoted to offering high-quality design services to members and groups of the Northwestern community. The mission of DesignWorks is both to address the design needs of Northwestern as well as to generate design opportunities for talented students.</p>
+                                    <p>DesignWorks is a company devoted to offering high-quality design services to members and groups of the Northwestern community. The mission of DesignWorks is to address the design needs of Northwestern and to generate opportunities for talented students.</p>
                                     <a class="btn" href="http://www.designworks.nu/">Visit DesignWorks</a>
+                                    <a class="btn" href="team#designworks">Meet the team</a>
                                 </div>
                         </div>
                     </div>
@@ -209,11 +216,12 @@
                         <div class="offset-6 span6" style="background-image:url(_content/NSH/nututors-transparent-logo.png);">
                             <div class="info-slider">
                                 <div class="sub-headline wow fadeIn" data-wow-delay="0.25s">
-                                 <h1>NU Tutors</h1>
+                                 <h1>NU|Tutors</h1>
                                 
-                                <p>NU Tutors provides individual and group tutoring for local area high school students. Since its inception, the company has helped over 300 students with their academic needs and continues to make a positive impact on the North Shore community. With a...</p>
+                                <p>NU|Tutors provides tutoring services and mentorships to high school and middle school students in the North Shore by utilizing its most valuable academic resource – NU's accomplished and driven students. Since its inception, NU|Tutors has helped over 300 students excel academically.</p>
                                 
                                     <a class="btn" href="http://www.nututors.com/">Visit NU|Tutors</a>
+                                    <a class="btn" href="team#nututors">Meet the team</a>
                                 </div>
                             </div>
                         </div>
@@ -229,9 +237,10 @@
                                 <div class="sub-headline wow fadeIn" data-wow-delay="0.25s">
                                     <h1>RezEssentials</h1>
                                 
-                                <p>RezEssentials simplifies the move-in process for incoming Northwestern students and their parents by providing a convenient solution for the sale, delivery, and move-in of essential residential elements. These products include futons, compact fridges, desk lamps, fans, and safes.</p>
+                                <p>RezEssentials simplifies the move-in process for incoming Northwestern students and their parents by providing a convenient solution for the sale, delivery, and move-in of essential residential elements. These include futons, compact fridges, desk lamps, fans, and safes.</p>
                                 
                                     <a class="btn" href="http://rezessentials.com/">Visit RezEssentials</a>
+                                    <a class="btn" href="team#rezessentials">Meet the team</a>
                                 </div>
                         </div>
                     </div>
@@ -321,7 +330,7 @@
 
         <script type="text/javascript" src="_layout/js/jquery.scrollTo.min.js"></script>
     <script type="text/javascript" src="_layout/js/jquery.localScroll.min.js"></script>
-
+    <script type="text/javascript" src="_layout/js/splash.js"></script>
 
     <script type="text/javascript">
     $(function(){

@@ -73,19 +73,39 @@
         }
         .value h2 {
             color: #CE4115;
+            margin-left: 24px;
         }
         .bullet {
             position: relative;
         }
         .bullet img{
             position:absolute;
+            top: 14px;
+            height: 16px;
         }
         .value {
             margin-bottom: 0px;
         }
+        #whatweare .span8 {
+            margin-top: 80px;
+            padding: 40px;
+            background-image: url('_content/NSH/whoweare.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-color: #CE4115;
+            color: white;
+            text-align: center;
+            vertical-align: middle;
+        }
+        #whatweare .headline-2 {
+            margin: 0 0 60px;
+        }
+        #whatweare .headline-2:after {
+            border-bottom: 1px solid #fff
+        }
         .elasticstack p {
             font-style: italic;
-            font-size: 14px;
+            font-size: 15px;
             line-height: 20px;
             margin-top:10px;
         }
@@ -132,17 +152,38 @@
             <div class="splash-container" style="background-image: url(_content/NSH/about.jpg)">
                 <div class="splash">
                     <h1><strong>About</strong></h1>
-                    <h3 style="font-style: none; max-width:600px; margin: 0 auto;">"NSH is a launch pad for opportunity, a training ground for ideas, and a chance to make your vision a reality."
+                    <h3 style="font-style: none; max-width:450px; margin: 0 auto;">"NSH is a launch pad for opportunity, a training ground for ideas, and a chance to make your vision a reality."
                     </h3>
                     <br>
                     <h3>-Liz Huizenga, Director</h3>
                 </div><!-- end .row -->
+                <a href="#whatweare" class="smoothScroll">
                 <svg class="arrows">
                     <path class="a1" d="M0 0 L15 16 L30 0"></path>
                 </svg>
+                </a>
             </div><!-- end .row-container --> 
         
         <!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="section" id="whatweare">
+
+        <!-- WHO WE ARE ///////////////////////////////////////////////////////////////-->    
+        <div class="span2"></div>                             
+            
+            <div class="span8 wow fadeIn" data-wow-delay="0.25s">
+                <div class="headline-2">
+                            
+                <h1>What We Are</h1>
+                            
+                </div><!-- end .headline -->
+                <h3>Northwestern Student Holdings (<span style="font-weight:900;">NSH</span>) is a student-run holdings company that funds and manages a portfolio of businesses serving the Northwestern, Evanston, and Chicago communities. NSH offers a myriad of services ranging from summer storage, to design and advertising, to tutoring.</h3>
+                <br>
+                    <h3>We value practice over preaching. We know that to grow, it’s essential to leave one’s comfort zone. With the support of one another, we grow our <span style="font-weight:900;">businesses</span>, our <span style="font-weight:900;">people</span>, and our <span style="font-weight:900;">impact</span> on the community.</h3> 
+            </div><!-- end .row-container -->
+            
+            <div class="span2"></div>
+        </div> <!-- end .section -->
+
         <div class="section" id="values">
             <div class="row-container wow fadeIn" data-wow-delay="0.25s">    
                 <div class="row">
@@ -165,7 +206,7 @@
                         
                             <div class="value">
                                 <div class="bullet wow fadeIn" data-wow-delay="0.25s">
-                                    <img src="_content/NSH/1.png">
+                                    <img src="_content/NSH/NSH-logo-orange.jpg">
                                     <h2 class="text-uppercase"><strong>Build Businesses</strong></h2>
                                 </div>
                                 <p class="wow fadeIn" data-wow-delay="0.25s">
@@ -175,7 +216,7 @@
                             
                             <div class="value">
                                 <div class="bullet wow fadeIn" data-wow-delay="0.25s">
-                                    <img src="_content/NSH/2.png">
+                                    <img src="_content/NSH/NSH-logo-orange.jpg">
                                     <h2 class="text-uppercase"><strong>Develop People</strong></h2>
                                 </div>
                                 <p class="wow fadeIn" data-wow-delay="0.25s">
@@ -185,7 +226,7 @@
                             
                             <div class="value">    
                                 <div class="bullet wow fadeIn" data-wow-delay="0.25s">
-                                    <img src="_content/NSH/3.png">
+                                    <img src="_content/NSH/NSH-logo-orange.jpg">
                                     <h2 class="text-uppercase"><strong>Give Back</strong></h2>
                                 </div>
                                 <p class="wow fadeIn" data-wow-delay="0.25s">
@@ -195,48 +236,36 @@
 
                         </div><!-- end .span7 -->
                         <div class="span4">
-                            <ul class='elasticstack wow fadeIn' id='elasticstack' data-wow-delay="0.5s">                            
+                            <ul class='elasticstack wow fadeIn' id='elasticstack' data-wow-delay="0.5s">                          
                             <li>
-                                <img src="_content/NSH/swipe-right2.png" style="position:absolute; top:-32px;height:25px;">
-                                <img class='elasti' src="_content/NSH/elastic-image-5.jpg"  alt="01"/>                            
-                                <p>
-                                        "NSH teaches you the importance of taking initiative, and how to get people excited about the ideas that you have."           
-                                </p> 
+                                <img id="drag" src="_content/NSH/click-swipe.png" style="position:absolute; top:-30px;height:21px;">
+                                <img class='elasti' src="_content/NSH/elastic-image-2.jpg"  alt="03"/>
 
-
+                               <p>
+                                     "NSH means empowerment; it's this ridiculously amazing feeling of being 20 years old and having the power to transform this community." 
+                                </p>     
+                                
                             </li>
-                                 
-                                
                                 
                             <li>
-
+                                
                                 <img class='elasti' src="_content/NSH/elastic-image-1.jpg"  alt="02"/>
 
                                <p>
-                                     "NSH means empowerment; it's this ridiculously amazing feeling of being 20 years old and having the power to transform this community."      
+                                         
+                                     "Every day, I’m blown away by the experiences I’ve had and the people I’ve shared them with."    
                                 </p>            
                             </li>
 
                             <li>
+                                <img class='elasti' src="_content/NSH/discussion.jpg"  alt="01"/>                            
+                                <p>
+                                    "NSH is a launch pad for opportunity, a training ground for ideas, and a chance to make your vision a reality."        
+                                </p> 
 
-                                <img class='elasti' src="_content/NSH/elastic-image-2.jpg"  alt="03"/>
 
-                               <p>
-                                        "The nature of what we do attracts the best and the brightest from all corners of this campus."          
-                                </p>     
-                                
                             </li>
 
-                            <li>
-
-                                <img class='elasti'src="_content/NSH/discussion.jpg"  alt="04"/>
-
-                               <p>
-                                        "I truly believe NSH is more than just a student group. It’s a launch pad for opportunity, a training ground for ideas, and a chance to make your vision a reality."
-                                                                     
-                                </p>     
-                                
-                            </li>
                         </ul>
                         </div>
                         <div class="span2"></div>
@@ -257,7 +286,7 @@
                         
                         <div class="headline-2">
                             
-                            <h1>History</h1>
+                            <h1>Our History</h1>
                             
                         </div><!-- end .headline -->
                         
@@ -277,7 +306,7 @@
                         start_at_slide:     '0',                            //OPTIONAL START AT SPECIFIC SLIDE
                         start_zoom_adjust:  '3',                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
                         hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
-                        font:               'Open Sans',             //OPTIONAL FONT
+                        font:               'PTSerif-PTSans',             //OPTIONAL FONT
                         debug:              true,                           //OPTIONAL DEBUG TO CONSOLE
                         lang:               'en',                           //OPTIONAL LANGUAGE
                         maptype:            'watercolor',                   //OPTIONAL MAP STYLE
@@ -297,7 +326,7 @@
                         
                         <div class="headline-2">
                             
-                            <h1>Connections</h1>
+                            <h1>Our Connections</h1>
                             
                         </div><!-- end .headline -->
                         
@@ -313,7 +342,7 @@
                             <div class="portfolio-item-description">
                                 <h2>NSH Impact Week</h2>
                                 <p></p>
-                                <a href="http://www.nshimpact.com/" class="btn">Visit Impact Week</a>
+                                <a href="http://www.nshimpact.com/" target="Impact Week" class="btn">Visit Impact Week</a>
                             </div>
                         </div>
                     </div>
@@ -326,7 +355,7 @@
                             <div class="portfolio-item-description">
                                 <h2>Portfolio Companies</h2>
                                 <p></p>
-                                <a href="pf" class="btn">See our portfolio</a>
+                                <a href="pf" target="Portfolio" class="btn">See our portfolio</a>
                             </div>
                         </div>
                     </div>
@@ -337,9 +366,9 @@
                     <div class="portfolio-item-preview" style="background-image: url(_content/NSH/farley.jpg)">
                         <div class="portfolio-item-overlay">
                             <div class="portfolio-item-description">
-                                <h2>Farley Center</h2>
+                                <h2>The Farley Center</h2>
                                 <p></p>
-                                <a href="http://fcei.northwestern.edu/" class="btn">Visit the Farley Center</a>
+                                <a href="http://fcei.northwestern.edu/" target="Farley" class="btn">Visit the Farley Center</a>
                             </div>
                         </div>
                     </div>
@@ -352,7 +381,7 @@
                             <div class="portfolio-item-description">
                                 <h2>Northwestern University</h2>
                                 <p></p>
-                                <a href="http://www.northwestern.edu/" class="btn">Visit NU</a>
+                                <a href="http://www.northwestern.edu/" target="NU" class="btn">Visit NU</a>
                             </div>
                         </div>
                     </div>
@@ -365,7 +394,7 @@
                             <div class="portfolio-item-description">
                                 <h2>Our Team</h2>
                                 <p></p>
-                                <a href="team" class="btn">Meet the team</a>
+                                <a href="team" target="Team" class="btn">Meet the team</a>
                             </div>
                         </div>
                     </div>
@@ -374,7 +403,6 @@
         </div>
 
         </div>
-
         </div><!-- end #content -->     
         {{> footer}}
 
@@ -460,7 +488,9 @@
 
     <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/timeline-min.js"></script>
 
+    <script type="text/javascript" src="_layout/js/splash.js"></script>
     <script>
+    $(function(){
     new WOW().init();
 
     $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
@@ -507,11 +537,16 @@
                 onUpdateStack : function( current ) { return false; }
             }  );
 
+    $('.elasticstack').mousedown(function(){
+        $('#drag').animate({'opacity': 0}, 800);
+    })
+
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
       $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray">');
     } else {
       $('#logo a').append('<img src="_content/NSH/nsh_condensed_logo.png" id="gray-logo" alt="website logo gray" style="display:none;">');
     }
+});
     </script>
 
 </body>

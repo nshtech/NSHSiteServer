@@ -54,6 +54,7 @@
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
     
+    <link rel="stylesheet" type="text/css" href="_layout/css/simpletextrotator.css">
     
     <!-- /// Template Skin CSS ////////  -->
     <!-- <link rel="stylesheet" href="_layout/css/skins/default.css"> -->
@@ -62,13 +63,16 @@
     <link rel="stylesheet" href="custom/navbar.css">
     <link rel="stylesheet" href="custom/splash.css">
     <style type="text/css">
+    .splash-container {
+        background-position: bottom center;
+    }
     .titles {
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
     #name {
         margin-top: 96px;
         margin-bottom: 14px;
-        font-size: 54px; 
+        /*font-size: 65px;*/
         line-height: 68px; 
     }
     #slogan {
@@ -87,11 +91,6 @@
     .milestone-container .span4{
         margin-bottom:40px;
     }
-    .btn-white {
-        -webkit-animation-delay: 2.5s;
-        -o-animation-delay: 2.5s;
-        animation-delay: 2.5s;
-    }
     .icon-box-1 i{
         color: #CE4115;
         border-bottom: 2px solid #CE4115;
@@ -104,6 +103,30 @@
     }
     .hp-grey h1{
         margin-top: 70px;
+    }
+    #rotator-wrapper {
+        display: inline-block;
+        background-color: #CE4115;
+        padding: 0px 9px;
+        width:234px;
+        text-align: left;
+    }
+    #rotator {
+        display: inline-block;
+        width:100%;
+        white-space: pre;
+        /*color: #CE4115;*/
+    }
+    #learnmore {
+        color: #fff;
+        border-color: #fff;
+        -webkit-animation-delay: 1.5s;
+        -o-animation-delay: 1.5s;
+        animation-delay: 1.5s;
+    }
+    #learnmore:hover {
+        color: #CE4115;
+        border-color: #CE4115;
     }
     </style>
     
@@ -133,12 +156,13 @@
         <div id="content">
         
         <!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+            <!--div class="splash-container" style="background-image: url(_content/NSH/nsh-home-vid.gif)"-->
             <div class="splash-container" style="background-image: url(_content/NSH/home-splash.jpg)">
                 <div class="splash">
                     <div class="titles wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
                     
-                    <p id="name">Northwestern Student Holdings</p>
-                    <p id="slogan">Defy Expectations.</p>
+                    <h1 id="name"><strong>Northwestern Student Holdings</strong></h1>
+                    <div id="slogan">Defy expectations <div id='rotator-wrapper'><span id='rotator'>every day.      ,through practice.,with passion.    </span></div></div>
                     </div> <!-- end fade in for title-->
 
                     <!--div class="milestone-container wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">
@@ -184,7 +208,7 @@
 
                         
                     </div--> <!--end fade in for milestones-->
-                  <a class="btn btn-white animated fadeIn" href="about">Learn more</a>
+                  <a class="btn animated fadeIn" id="learnmore" href="about">Learn more</a>
                 </div><!-- end .splash -->
             </div><!-- end .splash-container --> 
 
@@ -336,120 +360,7 @@
         <br>
         <br>-->
         <!--///////////END INFOGRAPHIC ////////////////////////////////////////////////////-->
-        <!-- OUR HISTORY ///////////////////////////////////////////////////////////////-->
-           <!-- <div class="row-container">
-                <div class="row">
-                    <div class="span12">
-                        
-                        <div class="headline">
-                            
-                            <h1>Our History</h1>
-                            <h4>Lorem ipsum consectetur adipiscing elit. <span class="text-highlight">Suspendisse eget</span> enim ac tellus lobortis.</h4>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>                                       
-            
-            <div class="row-container">
-                <div class="row">
-                    <div class="span1">
-                        
-                        <img src= "_content/about/history.png"  alt="">
-                    </div>
-                    <div class="span7">
-                        
-                        <h3 class="text-uppercase"><strong>The Story</strong></h3>
-                        
-                        <br>
-                        
-                        <div class="row">
-                            <div class="span6">
-                            
-                                <p>
-                                    <strong>Northwestern Student Holdings was founded in 2007 by a group of students who were searching for an organization that could offer them real-world entrepreneurial experience at Northwestern. </strong> 
-                                    Unsatisfied with their options, they proposed a new organization – a holdings company that could oversee the inception and management of student-run businesses; the companies’ profits, in addition to being used for capital expansion and manager compensation, would be used to launch new ventures. Under the guidance of several trusted business leaders, professors and advisors who later became members of the original board of directors, the students launched Northwestern Student Holdings (NSH).
-                                </p>
-                            
-                            </div>
-                            <div class="span6">
-                            
-                                <p>
-                                    <strong>Initially, NSH started with two companies: Chicago Unzipped and NU|Tutors. </strong> 
-                                    Since then, the NSH portfolio has grown to include six businesses, and the group has instituted infrastructure to ensure continued expansion. Further, NSH continues to dedicate resources to the personal and professional development of its members.
-
-                                    With revenues and profits growing at double-digit rates annually, and the establishment of NSH as Northwestern’s premiere student entrepreneurship organization, Northwestern Student Holdings is on a path to ever-higher levels of success.
-                                </p>
-                            
-                            </div>
-                        </div>                                                
-                        
-                    </div>-->
-
-
-                    <!--////////////////////////// SIDE INFOGRAPHIC: Replace with chart ////////////////////-->
-                    <!--
-                    <div class="span4">
-                        
-                        <br><br>
-
-                    <canvas id="revenueChart" height = "300px" width = "400px"></canvas></div>
-
-                </div>
-            </div>-->
-
-                        
-
-                        <!-- ORIGINAL GRAPHIC -->
-                        <!--
-                        <div class="fixed">
-                        
-                            <div class="progress-bar-description">
-                                Marketing
-                                <span style="left:68%">68%</span>
-                            </div>
-                        </div>
-                        
-                        <div class="fixed">
-                    
-                            <div class="progress-bar-description">
-                                Social Media
-                                <span style="left:80%">80%</span>
-                            </div>
-                           
-                            <div class="progress-bar">  
-                                <span class="progress-bar-outer" data-width="80"> 
-                                    <span class="progress-bar-inner"></span> 
-                                </span>
-                            </div>
-                            
-                        </div>
-                        
-                        <div class="fixed">
-                    
-                            <div class="progress-bar-description">
-                                Adverising
-                                <span style="left:75%">75%</span>
-                            </div>
-                           
-                            <div class="progress-bar">  
-                                <span class="progress-bar-outer" data-width="75"> 
-                                    <span class="progress-bar-inner"></span> 
-                                </span>
-                            </div>
-                            
-                        </div>
-                        -->
-                        <!-- END ORIGINAL GRAPHIC -->
-
-                    <!-- span3 -->
-                     <!--//////////////////////////  END OF SIDE INFOGRAPHIC: Replace with chart ////////////////////-->
-
-
-    <!--  END OF OUR HISTORY SECTION///////////////////////////////////////////////////////////////-->
-        <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-            
+    
         <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
         </div><!-- end #content -->     
@@ -532,37 +443,16 @@
     </script>
        <!-- /// Chart JS //////// -->
     <script src="_layout/js/charts/Chart.min.js"></script>
+    <script type="text/javascript" src="_layout/js/jquery.simple-text-rotator.js"></script>
 
     <script>
-
-    var revenueData = {
-        labels: ["January", "February", "March", "April", "May", "June", "July"],
-        datasets: [
-            {
-                label: "My First dataset",
-                fillColor: "rgba(220,220,220,0.2)",
-                strokeColor: "rgba(220,220,220,1)",
-                pointColor: "rgba(220,220,220,1)",
-                pointStrokeColor: "#fff",
-                pointHighlightFill: "#fff",
-                pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [65, 59, 80, 81, 56, 55, 40]
-            },
-            {
-                label: "My Second dataset",
-                fillColor: "rgba(206,65,21,0.2)",
-                strokeColor: "#CE4115",
-                pointColor: "#CE4115",
-                pointStrokeColor: "#fff",
-                pointHighlightFill: "#fff",
-                pointHighlightStroke: "rgba(151,187,205,1)",
-                data: [28, 48, 40, 19, 86, 27, 90]
-            }
-        ]
-    };
-
-    var revenue = document.getElementById('revenueChart').getContext('2d');
-    new Chart(revenue).Line(revenueData);
+    $(function(){
+        $("#rotator").textrotator({
+              animation: "flipCubeUp", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+              separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+              speed: 3000 // How many milliseconds until the next word show.
+        });
+    });
     </script>
     <script type="text/javascript">
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {

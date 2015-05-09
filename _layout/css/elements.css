@@ -272,7 +272,7 @@
 		border-radius: 10px;
 		margin: 0 5px 20px 0;
 		color: #393939;
-		line-height: 14px;
+		line-height: 15px;
 		font-weight: 600;
 		text-decoration: none !important;
 		text-transform: uppercase;
@@ -293,7 +293,7 @@
 	
 	.btn-small {
 		padding: 10px 15px; 
-		font-size: 14px;
+		font-size: 15px;
 		border-width: 1px;
 	}
 	
@@ -301,8 +301,8 @@
 	.btn-large i { 
 		float: left; 
 		margin: 1px 8px 0 -4px;
-		font-size: 14px; 
-		line-height: 14px; 
+		font-size: 15px; 
+		line-height: 15px; 
 	}
 	
 	.btn:hover {
@@ -705,7 +705,7 @@
 	
 	.milestone .milestone-description { 
 		color: #ffffff; /*393939*/
-		font-size: 14px; 
+		font-size: 15px; 
 		line-height: 30px;
 	}
 
@@ -935,7 +935,7 @@
 		display: block;
 		margin: 15px 0;
 		font-weight: 500;
-		line-height: 14px;
+		line-height: 15px;
 	}
 	
 	.progress-bar-description span {
@@ -1290,13 +1290,13 @@
 		line-height:16px;
 		font-weight: 500;
 		text-transform: uppercase; 
-		font-size: 14px;
+		font-size: 15px;
 	}
 	
 	.team-member-description p {
 		margin: auto;
-		font-size: 12px;
-		line-height:14px;
+		font-size: 15px;
+		line-height:15px;
 	}
 
 	.team-member-name, .team-member-title{
@@ -1351,11 +1351,11 @@
 
 	.team-member-description p { 
 		/*font-size: 11px; */
-		line-height: 14px;
+		line-height: 15px;
 	}
 /*
 		.team-member-description-inner {
-			padding:12px;
+			padding:15px;
 		}*/
 
 		/*.team-member-description h3 {
@@ -1386,12 +1386,12 @@
 	@media (max-width: 360px){
 		.team-member-description h3 { 
 			font-size: 11px;
-			line-height: 14px;
+			line-height: 15px;
 		}
 
 		.team-member-description p { 
 			font-size: 11px; 
-			line-height: 12px;
+			line-height: 15px;
 		}
 	}*/
 	/*
@@ -1467,8 +1467,8 @@
 		border-color: #fff;
 		color: #fff;
 		opacity: 0;
-		-webkit-transition: opacity 0.3s 0.5s;;
-				transition: opacity 0.3s 0.5s;;
+		-webkit-transition: opacity 0.3s 0.3s;;
+				transition: opacity 0.3s 0.3s;;
 	}
 	
 	.portfolio-item .portfolio-item-description .btn:hover {
@@ -1768,7 +1768,7 @@
 				transform: translateY(-50%);
 	}
 	
-	@media (min-width: 1200px) {
+	@media (min-width: 1000px) {
 		
 		.portfolio-grid .item.width-1 { width: 25%; }
 		.portfolio-grid .item.width-2 { width: 50%; }
@@ -1777,13 +1777,13 @@
 		
 	}
 	
-	@media (min-width: 768px) and (max-width: 979px) {
+	@media (min-width: 0px) and (max-width: 1000px) {
 		
 		.portfolio-grid .item { width: 100%; }
 		
 	}
 	
-	@media (max-width: 767px) {
+/*	@media (max-width: 767px) {
 		
 		.portfolio-grid .item { width: 100%; }
 		
@@ -1800,7 +1800,7 @@
 					transform: translateY(0);
 		}
 		
-	}
+	}*/
    
 /* ==========================================================================
    =Contact form
@@ -2310,7 +2310,7 @@
 		border-radius: 5px;
 		margin: 0 5px 20px 0;
 		color: #393939;
-		line-height: 14px;
+		line-height: 15px;
 		font-weight: 600;
 		text-decoration: none;
 		text-transform: uppercase;

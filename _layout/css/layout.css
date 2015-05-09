@@ -20,8 +20,8 @@
  *
  */
 
-/*Import Open Sans from Google Fonts*/
- @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/*Import PT Sans from Google Fonts*/
+ @import url(https://fonts.googleapis.com/css?family=PT+Sans);
  
 /* ==========================================================================
    =Wrap
@@ -165,7 +165,7 @@
 		display: block;
 		padding: 10px 0;
 		border-bottom: 1px solid #fff;
-		font: 14px 'Open Sans', Arial, sans-serif;
+		font: 15px 'PT Sans', Arial, sans-serif;
 		color: #393939; 
 		text-decoration: none;
 		-webkit-transition: background-color 0.3s, color 0.3s, border-bottom-color 0.3s;
