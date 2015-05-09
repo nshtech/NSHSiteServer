@@ -38,7 +38,7 @@
         padding-top: 2em;
         padding-bottom: 0em;
     }
-    #footer .last{
+    #footer-copyright{
         text-align: left;
     }
 
@@ -70,7 +70,7 @@
         margin-top: -2em;
         margin-bottom: 0px;
     }
-    #footer .last{
+    #footer-copyright{
         text-align: left;
     }
 }
