@@ -1,13 +1,17 @@
 #logo{
     padding-top: 2em;
-    padding-bottom: 0em;
+    padding-bottom: 1em;
 }
 #logo a img{
     max-height: 50px;
 }
-#gray-logo{
-    display: none;
+#white-logo{
+    display: none!important;
 }
+#gray-logo{
+    display: none!important;
+}
+
 .stuck{
     background-color: #fff!important;
     border-bottom: 0px solid #ddd;
@@ -28,20 +32,20 @@
     font-weight: 500;
 }
 
-#mobile-menu-trigger{
-        margin-top: 1em;
-        margin-bottom: 0px;
-    }
-
 @media (min-width: 1024px){
-
     #header.stuck .sf-menu > li > a, #header.stuck .sf-menu > li.dropdown > a{
         padding-top: 2em;
         padding-bottom: 2em;
     }
+    #gray-logo{
+        display: block!important;
+    }
+    #white-logo{
+        display: none!important;
+    }
     #logo{
         padding-top: 2em;
-        padding-bottom: 0em;
+        padding-bottom: 0;
     }
     .splash h1 strong{
         margin-top: 3em;
@@ -51,19 +55,24 @@
 }
 
 @media (min-width: 978px) and (max-width: 1023px){
-    #gray-logo{
-        display: none!important;
+    #white-logo{
+        display: block!important;
     }
     #logo{
         padding-top: 2em;
-        padding-bottom: 0px;
+        padding-bottom: 0;
+    }
+    #mobile-menu-trigger{
+        margin-top: 1em;
+        margin-bottom: 0px;
     }
 }
 
 
 @media (min-width: 768px) and (max-width: 977px) {
-    #gray-logo{
-        display: none!important;
+
+    #white-logo{
+        display: block!important;
     }
     #logo{
         padding-top: 2em;
@@ -80,8 +89,8 @@
 }
 
 @media (max-width: 767px) {
-    #gray-logo{
-        display: none!important;
+    #white-logo{
+        display: block!important;
     }
     #logo{
         padding-top: 2em;
@@ -92,8 +101,8 @@
         font-size: 1.7em!important;
     }
     #mobile-menu-trigger{
-        margin-top: 0px;
-        margin-bottom: 0px;
+        padding-top: 0px;
+        margin-bottom: 28px;
     }
 }
 
