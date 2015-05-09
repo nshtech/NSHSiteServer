@@ -377,6 +377,11 @@
         	e = false,
        		a = 100; // the sticky menu trigger point, in pixels
 
+       	if (window.location.pathname === '/contact') {
+       		a = 0;
+       	}
+
+
 		function c() {
 			
 			return window.pageYOffset || b.scrollTop;
