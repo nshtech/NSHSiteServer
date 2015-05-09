@@ -448,7 +448,7 @@
    =Sticky Header
    ========================================================================== */
 
-	@media (min-width: 1025px) {
+	@media (min-width: 980px) {
 		
 		
 		/**
@@ -544,7 +544,7 @@
 		z-index: 25;
 	}
 	
-	@media (min-width: 1025px) {
+	@media (min-width: 980px) {
 		
 		#page-header { padding-top: 245px; }	
 		
