@@ -431,7 +431,7 @@
 			stickyHeader = true;
 		}
 		
-		if(stickyHeader && ($(window).width() > 1024)){ 
+		if(stickyHeader && ($(window).width() > 767)){ 
 		
 			f();
 
