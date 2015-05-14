@@ -325,7 +325,7 @@
 		color: #CE4115;
 	}
 	
-	@media (min-width: 768px) and (max-width: 979px) {
+	@media (max-width: 767px) {
 		
 		.btn { padding: 10px 15px; }
 		
@@ -495,7 +495,7 @@
 		content: "";
 	}
 	
-	@media (min-width: 768px) and (max-width: 979px) {
+	@media (min-width: 768px) and (max-width: 767px) {
 		
 		.sub-headline h1 {
 			font-size: 28px;
@@ -589,6 +589,7 @@
 		border: 1px solid #d7d7d7;
 		margin: 96px 120px;
 		background-color: #f6f6f6;
+		max-height: 500px;
 	}
 	
 	.info-box .span1, 
@@ -855,7 +856,7 @@
 		text-transform: uppercase;
 	}
 	
-	@media (min-width: 768px) and (max-width: 979px) {
+	@media (min-width: 768px) and (max-width: 767px) {
 		
 		.pie-chart .pie-chart-custom-text,
 		.pie-chart .pie-chart-percent {
@@ -1337,7 +1338,7 @@
 		filter: none;
 	}*/
 
-	/*@media (min-width: 768px) and (max-width: 979px) {*/
+	/*@media (min-width: 768px) and (max-width: 767px) {*/
 	@media (max-width: 650px) {
 		
 		.team-member { width: 50%; }
@@ -1563,7 +1564,7 @@
 	
 	/*.portfolio-item-2:hover .portfolio-item-overlay { opacity: 1; }*/
 	
-	@media (min-width: 768px) and (max-width: 979px) {
+	@media (min-width: 768px) and (max-width: 767px) {
 		
 		.portfolio-item-2 .portfolio-item-preview,
 		.portfolio-item-2 .portfolio-item-description {
@@ -1721,7 +1722,7 @@
 		
 	}
 	
-	@media (min-width: 768px) and (max-width: 979px) {
+	@media (min-width: 768px) and (max-width: 767px) {
 		
 		.portfolio-isotope .item { width: 50%; }
 		
@@ -2141,7 +2142,7 @@
 		
 	}
 	
-	@media (min-width: 768px) and (max-width: 979px) {
+	@media (min-width: 768px) and (max-width: 767px) {
 		
 		.textwidget .bordered { padding-left: 0; }
 		
@@ -2505,7 +2506,7 @@
 		clear: both;
 	}
 	
-	@media (min-width: 768px) and (max-width: 979px) {
+	@media (min-width: 768px) and (max-width: 767px) {
 	
 		.ewf_widget_latest_posts ul li img { 
 			float: none;

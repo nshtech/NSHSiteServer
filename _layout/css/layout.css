@@ -67,11 +67,11 @@
 		margin: 0 auto;
 		background-color: #fff; 
 	}
-	@media (min-width: 980px) {
+	@media (min-width: 768px) {
 		.page-header #header { background-color: transparent; }
 	}
 
-	@media (max-width: 979px) {
+	@media (max-width: 767px) {
 		.page-header #header { background-color: none; }
 	}
 	
@@ -322,12 +322,6 @@
 		
 	}
 	
-	@media (min-width: 768px) and (max-width: 979px) {
-
-		#menu { display: none; }
-
-	}
-	
 	@media (max-width: 767px) {
 
 		#menu { display: none; }
@@ -415,7 +409,7 @@
 		font-size: 32px;
 	}
 
-	@media (max-width: 979px) {
+	@media (max-width: 767px) {
 
 		#mobile-menu-trigger { 
 			display: block;
@@ -448,7 +442,7 @@
    =Sticky Header
    ========================================================================== */
 
-	@media (min-width: 980px) {
+	@media (min-width: 768px) {
 		
 		
 		/**
@@ -521,12 +515,6 @@
 	#content { padding-bottom: 0px; }
 	.page-header #content { padding-top: 80px; }
 	
-	@media (min-width: 768px) and (max-width: 979px) {
-	
-		.page-header #content { padding: 50px 0; }
-	
-	}
-	
 	@media (max-width: 767px) {
 
 		.page-header #content { padding: 50px 0; }
@@ -544,16 +532,10 @@
 		z-index: 25;
 	}
 	
-	@media (min-width: 980px) {
+	@media (min-width: 768px) {
 		
 		#page-header { padding-top: 245px; }	
 		
-	}
-	
-	@media (min-width: 768px) and (max-width: 979px) {
-	
-		#page-header { padding: 25px 0 20px 0; }
-	
 	}
 	
 	@media (max-width: 767px) {
@@ -583,12 +565,6 @@
 	#footer-widget-area-2 {}
 	#footer-widget-area-3 {}
 	#footer-widget-area-4 {}
-	
-	@media (min-width: 768px) and (max-width: 979px) {
-	
-		#footer { padding: 60px 0 40px 0; }
-	
-	}
 	
 	@media (max-width: 767px) {
 

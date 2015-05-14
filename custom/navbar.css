@@ -28,7 +28,7 @@
     font-weight: 500;
 }
 
-@media (min-width: 980px){
+@media (min-width: 768px){
 
     #header.stuck .sf-menu > li > a, #header.stuck .sf-menu > li.dropdown > a{
         padding-top: 2em;
@@ -44,7 +44,7 @@
 
 }
 
-@media (max-width: 979px) {
+@media (max-width: 767px) {
     #white-logo{
         display: none!important;
     }

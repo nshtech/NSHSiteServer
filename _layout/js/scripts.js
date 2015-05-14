@@ -296,7 +296,7 @@
    handleMobileMenu 
    ========================================================================== */		
 
-	var MOBILEBREAKPOINT = 979;
+	var MOBILEBREAKPOINT = 767;
 
 	function handleMobileMenu() {
 
@@ -541,13 +541,13 @@
    	
 	function handleHeightToDiv() {
 		
-		if ($(window).width() > 979) {		
+		if ($(window).width() > 767) {		
 			$(".portfolio-item-2").css("height", $(".portfolio-item-2 .portfolio-item-preview").height() + "px");			
 		} else {
 			$(".portfolio-item-2").css("height", "auto");			
 		}
 		
-		// if (($(window).width() > 1400) || (($(window).width() > 767) && ($(window).width() < 979))) {					
+		// if (($(window).width() > 1400) || (($(window).width() > 767) && ($(window).width() < 767))) {					
 		// 	$(".team-member-description").css("height", $(".team-member > img").height() + "px");		
 		// } else {			
 		// 	$(".team-member-description").css("height", "auto");
