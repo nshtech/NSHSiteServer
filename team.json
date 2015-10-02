@@ -1,0 +1,68 @@
+{
+	"Executive Team": {
+		"Priya Kumar": "Chief Executive Officer",
+		"Michael Perugini": "VP of Finance",
+		"David Olodort": "VP of Business Operations",
+		"Jasmin Williams": "VP of Marketing",
+		"Katie Ostazeski": "VP of People Operations",
+		"Bomani McClendon": "VP of Technology"
+	},
+	"BoxCo.": {
+		"Adam Ashkenazi": "Managing Director",
+		"Ashwin Basana": "Operations Manager",
+		"Jillian Geary": "Operations Manager",
+		"Amaan Badruddin": "Operations Manager",
+		"Jack Kedroski": "Operations Manager",
+		"Jonah Kriger": "Operations Manager"
+	},
+	"DesignWorks": {
+		"Ari Juster": "Managing Director",
+		"Michael Paretzky": "Managing Director",
+		"Sonia Nigam": "Strategy Manager",
+		"Josh Shi": "Creative Manager"
+	},
+	"NU|Tutors": {
+		"Liz Huizenga": "Managing Director",
+		"VINUTHA LAKSHMINARAYANAN": "Operations Manager",
+		"SHAE WANG": "College Advising Manager",
+		"NICK SERRATELLI": "Client Relations Manager",
+		"Collin Pham": "Marketing Manager"
+	},
+	"RezEssentials": {
+		"Jenny Hendrix": "Managing Director",
+		"JACK MCCARTER": "Operations Manager"
+	},
+	"Finance & Analytics": {
+		"MICHAEL PERUGINI": "VP of Finance",
+		"AMAR SHAH": "Finance Manager",
+		"Benji Leibowitz": "Finance Manager"
+	},
+	"Marketing & Outreach": {
+		"Jasmin Williams": "VP of Marketing",
+		"JONAH KRIGER": "Marketing Manager",
+		"Collin Pham": "Marketing Manager"
+	},
+	"People Operations": {
+		"KATIE OSTAZESKI": "VP of People Operations",
+		"CAROLINE HATCH": "People Operations Manager",
+		"LINUS PINGEL": "People Operations Manager"
+	},
+	"Technology": {
+		"BOMANI MCCLENDON": "VP of Technology",
+		"AARON LOH": "Technology Manager",
+		"MATT HONG": "Technology Manager",
+		"Nikhil Pai": "Technology Manager"
+	},
+	"Strategy": {
+		"RITIJ GOEL": "Strategy Manager",
+		"Robert Bourret": "Strategy Manager"
+	},
+	"Advisory Board": {
+		"Parth Dalal": "Portfolio Advisor",
+		"Kevin Harris": "Portfolio Advisor",
+		"RACHEL BORODITSKY": "Portfolio Advisor",
+		"SHIKHAR MOHAN": "Portfolio Advisor",
+		"DANIELLE LAY": "Portfolio Advisor",
+		"SASKIA WIESEBRON": "Portfolio Advisor"
+	}
+}
