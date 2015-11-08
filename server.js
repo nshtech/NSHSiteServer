@@ -7,6 +7,7 @@ var server = require('http').createServer(app);
 var path = require('path');
 var nodemailer = require('nodemailer');
 var bodyParser = require('body-parser');
+var ipn = require('paypal-ipn');
 
 hbs.registerPartials(__dirname + '/partials');
 
@@ -56,7 +57,21 @@ app.post('/contact', function (req, res){
 	res.render('contact');
 });
 
+app.post('/ipn', function(req, res) {
+  res.send(200);
+  console.log(req);
 
+  params = req.body;
 
+  ipn.verify(params, {'allow_sandbox': true}, function callback(err, msg) {
+    if (err) {
+      console.error(err);
+    } else {
+      console.log(params)
 
-
+      if (params.payment_status == 'Completed') {
+        // Payment has been confirmed as completed
+      }
+    }
+  });
+});
