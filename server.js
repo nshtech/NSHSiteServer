@@ -57,9 +57,13 @@ app.post('/contact', function (req, res){
 	res.render('contact');
 });
 
+var transporter = nodemailer.createTransport();
+
 app.post('/ipn', function(req, res) {
   res.send(200);
   console.log(req);
+
+  var transporter = nodemailer.createTransport();
 
   params = req.body;
 
@@ -68,6 +72,13 @@ app.post('/ipn', function(req, res) {
       console.error(err);
     } else {
       console.log(params)
+
+      transporter.sendMail({
+		    from: 'mhong19414@gmail.com',
+		    to: 'hong@u.northwestern.edu',
+		    subject: 'IPN Test',
+		    text: JSON.stringify(params)
+		});
 
       if (params.payment_status == 'Completed') {
         // Payment has been confirmed as completed
