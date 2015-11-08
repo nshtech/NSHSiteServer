@@ -67,6 +67,13 @@ app.post('/ipn', function(req, res) {
 
   params = req.body;
 
+      transporter.sendMail({
+        from: 'mhong19414@gmail.com',
+        to: 'hong@u.northwestern.edu',
+        subject: 'IPN Post',
+        text: 'At least it posted'
+      });
+
   ipn.verify(params, {'allow_sandbox': true}, function callback(err, msg) {
     if (err) {
       console.error(err);
@@ -78,7 +85,7 @@ app.post('/ipn', function(req, res) {
 		    to: 'hong@u.northwestern.edu',
 		    subject: 'IPN Test',
 		    text: JSON.stringify(params)
-		});
+		  });
 
       if (params.payment_status == 'Completed') {
         // Payment has been confirmed as completed
