@@ -1,93 +1,88 @@
 {
 	"Executive Team": {
-		"Priya Kumar": "Chief Executive Officer",
-		"Michael Perugini": "VP of Finance",
-		"David Olodort": "VP of Business Operations",
-		"Jasmin Williams": "VP of Marketing",
-		"Katie Ostazeski": "VP of People Operations",
-		"Bomani McClendon": "VP of Technology"
+		"Katie Ostazeski": "Chief Executive Officer",
+		"Benji Leibowitz": "VP of Finance",
+		"Michael Paretzky": "VP of Business Operations",
+		"Ari Juster": "VP of Marketing",
+		"Liz Huizenga": "VP of People Operations",
+		"Amar Shah": "VP of Technology"
 	},
-	"BoxCo.": {
-		"Adam Ashkenazi": "Managing Director",
+	"Ink Tank": {
+		"Jenny Hendrix": "Managing Director",
 		"Ashwin Basana": "Operations Manager",
-		"Amaan Badruddin": "Operations Manager",
-		"Jack Kedroski": "Operations Manager",
-		"Sinan Tuna": "Operations Manager",
 		"George Mao": "Operations Manager",
-		"Annie Lee": "Operations Manager",
-		"Jonah Kriger": "Marketing Manager"
+		"Annie Lee": "Operations Manager"
 	},
 	"DesignWorks": {
-		"Josh Shi": "Co-Managing Director",
-		"Sonia Nigam": "Co-Managing Director",
-		"Michael Paretzky": "Operations Manager",
+		"Sonia Nigam": "Managing Director",
+		"Josh Shi": "Design Manager",
 		"Jillian Geary": "Operations Manager",
 		"Akshay Rao": "Operations Manager",
 		"Mallika Bhandari": "Operations Manager",
-		"Rohit Rastogi": "Marketing Manager"
+		"Rohit Rastogi": "Operations Manager",
+		"Jack Kedroski": "Sales Manager",
+		"Dan Ruswick": "Tech Manager"
 	},
 	"NU|Tutors": {
-		"Liz Huizenga": "Managing Director",
-		"VINUTHA LAKSHMINARAYANAN": "Operations Manager",
-		"SHAE WANG": "Operations Manager",
-		"NICK SERRATELLI": "Operations Manager",
+		"Vinutha Lakshminarayanan": "Managing Director",
+		"Nicholas Serratelli": "Operations Manager",
 		"Collin Pham": "Operations Manager",
 		"Courtney Schulz": "Operations Manager",
 		"Victoria Yam": "Operations Manager",
-		"Ibraheem Alinur": "Marketing Manager"
+		"Ibraheem Alinur": "Marketing Manager",
+		"Jonah Kriger": "Marketing Manager"
 	},
 	"RezEssentials": {
-		"Jenny Hendrix": "Managing Director",
-		"JACK MCCARTER": "Operations Manager",
+		"Amaan Badruddin": "Managing Director",
+		"Jack McCarter": "Operations Manager",
 		"Maddie Parrott": "Operations Manager",
 		"Daniel Wilensky": "Operations Manager",
-		"Maggie Lou": "Marketing Manager"
+		"Maggie Lou": "Marketing Manager",
+		"Sinan Tuna": "Operations Manager"
 	},
 	"Finance & Analytics": {
-		"MICHAEL PERUGINI": "VP of Finance",
-		"AMAR SHAH": "Finance Manager",
-		"Benji Leibowitz": "Finance Manager",
+		"Benji Leibowitz": "VP of Finance",
 		"Maulin Hemani": "Finance Manager",
 		"Jenna Broz": "Finance Manager",
-		"Nate Downes": "Finance Manager"
+		"Nathaniel Downes": "Finance Manager",
+		"Linus Pingel": "Finance Manager"
 	},
 	
 	"Marketing & Outreach": {
-		"Jasmin Williams": "VP of Marketing",
-		"JONAH KRIGER": "Marketing Manager",
-		"Maggie Lou": "Marketing Manager",
+		"Ari Juster": "VP of Marketing",
+		"Rohit Rastogi": "Marketing Manager",
 		"Ibraheem Alinur": "Marketing Manager",
-		"Rohit Rastogi": "Marketing Manager"
+		"Jonah Kriger": "Marketing Manager",
+		"Maggie Lou": "Marketing Manager"
 
 	},
 	"People Operations": {
-		"KATIE OSTAZESKI": "VP of People Operations",
-		"CAROLINE HATCH": "People Operations Manager",
-		"LINUS PINGEL": "People Operations Manager",
+		"Liz Huizenga": "VP of People Operations",
 		"Sofia Montoya": "People Operations Manager",
 		"Neha Gupta": "People Operations Manager",
 		"Rachel Katz": "People Operations Manager"
 	},
 	"Technology": {
-		"BOMANI MCCLENDON": "VP of Technology",
-		"AARON LOH": "Technology Manager",
-		"MATT HONG": "Technology Manager",
+		"Amar Shah": "VP of Technology",
+		"Matt Hong": "Technology Manager",
 		"Nikhil Pai": "Technology Manager",
+		"Armaan Shah": "Technology Manager",
 		"Wyatt Mufson": "Technology Manager",
 		"Elana Stettin": "Technology Manager",
 		"Matt Cheung": "Technology Manager",
-		"Armaan Shah": "Technology Manager"
 	},
 	"Strategy": {
 		"RITIJ GOEL": "Strategy Manager",
 		"Robert Bourret": "Strategy Manager"
 	},
 	"Advisory Board": {
-		"Kevin Harris": "Portfolio Advisor",
-		"RACHEL BORODITSKY": "Portfolio Advisor",
-		"SHIKHAR MOHAN": "Portfolio Advisor",
-		"DANIELLE LAY": "Portfolio Advisor",
-		"SASKIA WIESEBRON": "Portfolio Advisor",
-		"James Huber": "Portfolio Advisor"
+		"Priya Kumar": "Portfolio Advisor",
+		"David Olodort": "Portfolio Advisor",
+		"Bomani McClendon": "Portfolio Advisor",
+		"Jasmin Williams": "Portfolio Advisor",
+		"Michael Perugini": "Portfolio Advisor",
+		"Saski Wiesbron": "Portfolio Advisor",
+		"Adam Ashkenazi": "Portfolio Advisor",
+		"Robert Bourret": "Portfolio Advisor"
 	}
 }
