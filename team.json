@@ -7,12 +7,6 @@
 		"Liz Huizenga": "VP of People Operations",
 		"Amar Shah": "VP of Technology"
 	},
-	"Ink Tank": {
-		"Jenny Hendrix": "Managing Director",
-		"Ashwin Basana": "Operations Manager",
-		"George Mao": "Operations Manager",
-		"Annie Lee": "Operations Manager"
-	},
 	"DesignWorks": {
 		"Sonia Nigam": "Managing Director",
 		"Josh Shi": "Design Manager",
@@ -22,6 +16,12 @@
 		"Rohit Rastogi": "Operations Manager",
 		"Jack Kedroski": "Sales Manager",
 		"Dan Ruswick": "Tech Manager"
+	},
+	"Ink Tank": {
+		"Jenny Hendrix": "Managing Director",
+		"Ashwin Basana": "Operations Manager",
+		"George Mao": "Operations Manager",
+		"Annie Lee": "Operations Manager"
 	},
 	"NU|Tutors": {
 		"VINUTHA LAKSHMINARAYANAN": "Managing Director",
@@ -62,7 +62,6 @@
 	},
 	"Technology": {
 		"Amar Shah": "VP of Technology",
-		"Matt Hong": "Technology Manager",
 		"Nikhil Pai": "Technology Manager",
 		"Armaan Shah": "Technology Manager",
 		"Wyatt Mufson": "Technology Manager",
@@ -77,6 +76,7 @@
 		"Michael Perugini": "Portfolio Advisor",
 		"Saskia Wiesebron": "Portfolio Advisor",
 		"Adam Ashkenazi": "Portfolio Advisor",
-		"Robert Bourret": "Portfolio Advisor"
+		"Robert Bourret": "Portfolio Advisor",
+		"Matt Hong": "Portfolio Advisor"
 	}
 }
