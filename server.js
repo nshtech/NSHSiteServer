@@ -11,8 +11,8 @@ var ipn = require('paypal-ipn');
 
 hbs.registerPartials(__dirname + '/partials');
 
-server.listen(process.env.PORT || 3000, function(){
-  console.log('listening on port 3000');
+server.listen(process.env.PORT || 18290, function(){
+  console.log('listening on port 18290');
 });
 
 app.set('view engine', 'hbs');
