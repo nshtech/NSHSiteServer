@@ -14,14 +14,17 @@
 		"Akshay Rao": "Operations Manager",
 		"Mallika Bhandari": "Operations Manager",
 		"Rohit Rastogi": "Operations Manager",
-		"Jack Kedroski": "Sales Manager",
-		"Dan Ruswick": "Tech Manager"
+		"Dan Ruswick": "Tech Manager",
+		"Emily Ash": "Marketing Manager",
+		"Peter Farha": "Operations Manager"
 	},
 	"Ink Tank": {
 		"Jenny Hendrix": "Managing Director",
 		"Ashwin Basana": "Operations Manager",
 		"George Mao": "Operations Manager",
-		"Annie Lee": "Operations Manager"
+		"Annie Lee": "Operations Manager",
+		"Blake Maier": "Operations Manager",
+		"Gus Delgado": "Operations Manager"
 	},
 	"NU|Tutors": {
 		"VINUTHA LAKSHMINARAYANAN": "Managing Director",
@@ -44,14 +47,15 @@
 		"Benji Leibowitz": "VP of Finance",
 		"Maulin Hemani": "Finance Manager",
 		"Jenna Broz": "Finance Manager",
-		"LINUS PINGEL": "Finance Manager"
+		"LINUS PINGEL": "Finance Manager",
+		"Mo Ran": "Finance Manager"
 	},
 	"Marketing & Outreach": {
 		"Ari Juster": "VP of Marketing",
-		"Rohit Rastogi": "Marketing Manager",
 		"Ibraheem Alinur": "Marketing Manager",
 		"JONAH KRIGER": "Marketing Manager",
-		"Maggie Lou": "Marketing Manager"
+		"Maggie Lou": "Marketing Manager",
+		"Emily Ash": "Marketing Manager"
 	},
 	"People Operations": {
 		"Liz Huizenga": "VP of People Operations",
@@ -61,7 +65,6 @@
 	},
 	"Technology": {
 		"Amar Shah": "VP of Technology",
-		"Nikhil Pai": "Technology Manager",
 		"Armaan Shah": "Technology Manager",
 		"Wyatt Mufson": "Technology Manager",
 		"Elana Stettin": "Technology Manager",
@@ -76,6 +79,7 @@
 		"Saskia Wiesebron": "Portfolio Advisor",
 		"Adam Ashkenazi": "Portfolio Advisor",
 		"Robert Bourret": "Portfolio Advisor",
-		"Matt Hong": "Portfolio Advisor"
+		"Matt Hong": "Portfolio Advisor",
+		"Nikhil Pai": "Portfolio Advisor"
 	}
 }
