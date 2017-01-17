@@ -21,23 +21,24 @@ In order to edit membership for each team, simply opn the `team.json` file and a
 
 If you're adding or changing someone's profile image, navigate to the `_content/team` folder and add their image. The image must utilize this naming convention exactly: `<firstname>-<lastname>.jpg, where the first and last name match the name listed in `team.json` (casing doesn't matter).
 
-After addiing an image, run the `resize.sh` script which can be found in the `_content/team` directory. This script ensures that each image has the correct resolution. You will need to `brew install imagemagick` and then use something like `bash resize.sh` to start the script. Git will show all of the photos as edited, but don't worry about that.
+After addiing an image, run the `resize.sh` script which can be found in the '_content/team' directory. This script ensures that each image has the correct resolution. You will need to `brew install imagemagick` and then use something like `bash resize.sh` to start the script. Git will show all of the photos as edited, but don't worry about that.
 
 #####Adding or Removing A Team
 In order to add a team, add a block of JSON to `team.json` containing the team name and its membership. Afterwards, make sure to go to `team.hbs` and edit the links in the `groups-btn-group-row-container` section. The `id`s for these links should be the lowercase first word in the team name (as listed in the JSON file). You can fill the link text with whatever you like, such as the team name or an abbreviation.
 
-###How to make change to header and footer for NSH website
+###########################################################################################
+###Restart the server
+We use Forever.js to run the server.js file on our Webfaction server. To restart the server, you can just ‘cd’ into the ‘webapps/nsh_node_website’ directory, run ‘forever stopall’ to stop the current instance of the running server (the website will go down at this point by the way), and then start it again with `forever start server.js`.
+
+
+###Make change to header and footer for NSH website
 
 Follow these steps closely -
 
-These two files - header.hbs and footer.hbs - are stored under /partials folder. Any change made to these two files are automatically updated across all pages for NSH website.
-
-They are called by each page via the {{> header }} or {{> footer }} command.
+These two files - header.hbs and footer.hbs - are stored under /partials folder. Any change made to these two files are automatically updated across all pages for NSH website. They are called by each page via the {{> header }} or {{> footer }} command.
 
 Once any change is made to these two files, use standard procedure ot first update the github repo https://github.com/nshtech/NSHSiteServer.git. Then ssh on to the server and pull from the repo. Make sure the versions are consistent across your local computer, github repo and server.
 
 Partials are loaded when the server begin and changes will not be reflected until the server.js file run again. This can be seen from this line from server.js file - hbs.registerPartials(__dirname + '/partials')
 
-We use Forever.js to run the server.js file on our Webfaction server. To restart the server, you can just ‘cd’ into the ‘webapps/nsh_node_website’ directory, run ‘forever stopall’ to stop the current instance of the running server (the website will go down at this point by the way), and then start it again with `forever start server.js`.
-
-Changes made to header and footer will be visible once the server restarts.
+We use Forever.js to run the server.js file on our Webfaction server. To restart the server, you can just ‘cd’ into the ‘webapps/nsh_node_website’ directory, run ‘forever stopall’ to stop the current instance of the running server (the website will go down at this point by the way), and then start it again with `forever start server.js`. Changes made to header and footer will be visible once the server restarts.
