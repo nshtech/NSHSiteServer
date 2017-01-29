@@ -1,48 +1,43 @@
 {
 	"Executive Team": {
-		"Katie Ostazeski": "Chief Executive Officer",
-		"Benji Leibowitz": "VP of Finance",
-		"Michael Paretzky": "VP of Business Operations",
-		"Ari Juster": "VP of Marketing",
-		"Liz Huizenga": "VP of People Operations",
-		"Amar Shah": "VP of Technology"
+		"Amaan Badruddin": "Chief Executive Officer",
+		"Mo Ran": "VP of Finance",
+		"NICK SERRATELLI": "VP of Business Operations",
+		"Emily Ash": "VP of Marketing",
+		"Sofia Montoya": "VP of People Operations",
+		"Matt Cheung": "VP of Technology",
+		"Elana Stettin": "VP of Technology"
 	},
 	"DesignWorks": {
-		"Sonia Nigam": "Managing Director",
+		"Mallika Bhandari": "Managing Director",
 		"Akshay Rao": "Operations Manager",
-		"Mallika Bhandari": "Operations Manager",
 		"Peter Farha": "Operations Manager",
 		"Milan Shah": "Operations Manager",
-		"Emily Ash": "Marketing Manager",
 		"Tina Zhang": "Marketing Manager",
 		"Josh Golding": "Sales Manager",
 		"Harriet Zhao": "Sales Manager"
 	},
 	"Ink Tank": {
-		"Jenny Hendrix": "Managing Director",
-		"Ashwin Basana": "Operations Manager",
+		"Ashwin Basana": "Managing Director",
+		"Gus Delgado": "Managing Director",
 		"George Mao": "Operations Manager",
 		"Blake Maier": "Operations Manager",
-		"Gus Delgado": "Operations Manager",
 		"John Novakovich": "Operations Manager",
 		"Annie Lee": "Marketing Manager"
 	},
 	"NU|Tutors": {
-		"NICK SERRATELLI": "Operations Manager",
-		"Collin Pham": "Operations Manager",
+		"Collin Pham": "Managing Director",
 		"Courtney Schulz": "Operations Manager",
 		"Victoria Yam": "Operations Manager",
 		"Jack Nagel": "Operations Manager",
 		"Kevin Huang": "Operations Manager",
-		"Ruiqi Xi": "Operations Manager",
+		"Eric Xi": "Operations Manager",
 		"Arya Moaref": "Operations Manager",
-		"Ibraheem Alinur": "Marketing Manager",
 		"Ronit Basu": "Marketing Manager",
 		"Zachary Levy": "Marketing Manager"
 	},
 	"RezEssentials": {
-		"Amaan Badruddin": "Managing Director",
-		"Jack McCarter": "Operations Manager",
+		"Jack McCarter": "Managing Director",
 		"Maddie Parrott": "Operations Manager",
 		"Daniel Wilensky": "Operations Manager",
 		"Sinan Tuna": "Operations Manager",
@@ -51,42 +46,40 @@
 		"Omkar Venkatesh": "Operations Manager"
 	},
 	"Finance & Analytics": {
-		"Benji Leibowitz": "VP of Finance",
+		"Mo Ran": "VP of Finance",
 		"Maulin Hemani": "Finance Manager",
 		"LINUS PINGEL": "Finance Manager",
-		"Mo Ran": "Finance Manager",
 		"Divyanshu Dasani": "Financial Manager",
 		"Peter Farha": "Financial Manager"
 	},
 	"Marketing & Outreach": {
-		"Ari Juster": "VP of Marketing",
-		"Ibraheem Alinur": "Marketing Manager",
+		"Emily Ash": "VP of Marketing",
 		"Maggie Lou": "Marketing Manager",
-		"Emily Ash": "Marketing Manager",
 		"Tina Zhang": "Marketing Manager",
 		"Ronit Basu": "Marketing Manager",
 		"Zachary Levy": "Marketing Manager",
 		"Jessie Li": "Marketing Manager"
 	},
 	"People Operations": {
-		"Liz Huizenga": "VP of People Operations",
-		"Sofia Montoya": "People Operations Manager",
+		"Sofia Montoya": "VP of People Operations",
 		"Neha Gupta": "People Operations Manager",
 		"Rachel Katz": "People Operations Manager",
 		"Zach Hennenfent": "People Operations Manager",
 		"Min Kim": "Communications Manager"
 	},
 	"Technology": {
-		"Amar Shah": "VP of Technology",
+		"Matt Cheung": "VP of Technology",
+		"Elana Stettin": "VP of Technology",
 		"Wyatt Mufson": "Technology Manager",
-		"Elana Stettin": "Technology Manager",
-		"Matt Cheung": "Technology Manager",
 		"Michael Benimovich": "Technology Manager",
 		"Gino Wang": "Technology Manager",
 		"David Nelson": "Technology Manager",
 		"Bharat Rao": "Technology Manager"
 	},
 	"Advisory Board": {
+		"Ari Juster": "Sponsorship Advisor",
+		"Jenny Hendrix": "Growth Advisor",
+		"Katie Ostazeski": "Business Sustainbility Advisor",
 		"Priya Kumar": "Portfolio Advisor",
 		"David Olodort": "Portfolio Advisor",
 		"Bomani Mcclendon": "Portfolio Advisor",
