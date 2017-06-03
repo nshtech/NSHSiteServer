@@ -1344,7 +1344,7 @@
 		.team-member { width: 33.3%; }
 
 	}*/
-	@media (max-width: 850px) {
+	@media (max-width: 650px) {
 
 		.team-member { width: 50%; }
 
@@ -1358,6 +1358,17 @@
 	.team-member-description p {
 		/*font-size: 11px; */
 		line-height: 15px;
+	}
+
+	@media (max-width: 850px) {
+		.team-member-description p {
+			font-size: 13px;
+		}
+	}
+	@media (max-width: 750px) {
+		.team-member-description p {
+			font-size: 10.5px;
+		}
 	}
 /*
 		.team-member-description-inner {
