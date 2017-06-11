@@ -1344,9 +1344,30 @@
 		.team-member { width: 33.3%; }
 
 	}*/
-	@media (max-width: 650px) {
+	@media (max-width: 850px) {
 
-		.team-member { width: 50%; }
+		.team-member { 
+			max-width:350px !important;
+			width: 50%; 
+		}
+
+		.team-member-description {
+			max-width: 350px !important;
+			width: 100% !important;
+		}
+
+		.team-member-description-inner {
+			max-width: 350px !important;
+			width: 100%;
+		}
+
+		.team-member-title {
+			width: 100% !important;
+		}
+
+		.team-member-name {
+			width: 100% !important;
+		}
 
 	}
 
@@ -1360,16 +1381,6 @@
 		line-height: 15px;
 	}
 
-	@media (max-width: 850px) {
-		.team-member-description p {
-			font-size: 13px;
-		}
-	}
-	@media (max-width: 750px) {
-		.team-member-description p {
-			font-size: 10.5px;
-		}
-	}
 /*
 		.team-member-description-inner {
 			padding:15px;
