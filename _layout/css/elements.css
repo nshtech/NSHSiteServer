@@ -1596,6 +1596,20 @@ a.yahoo-icon:hover {
 
 .testimonial a {}
 
+.team-member-description h3 {
+    margin: auto;
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.team-member-description p {
+    margin: auto;
+    font-size: 15px;
+    line-height: 15px;
+}
+
 
 /* ==========================================================================
    =Team Member
@@ -1702,17 +1716,14 @@ a.yahoo-icon:hover {
     .team-member {
         width: 50%;
     }
-
     .team-member.blank:first-child {
-		display: inline-block !important;
+        display: inline-block !important;
     }
-
     .team-member.blank {
-		display: none;
+        display: none;
     }
-
     .team-member-wrapper {
-    	width: 100%;
+        width: 100%;
     }
 }
 
@@ -1720,7 +1731,6 @@ a.yahoo-icon:hover {
     /*font-size: 13px;*/
     line-height: 16px;
 }
-
 
 @media (min-width: 585px) and (max-width: 650px) {
     .team-row {
