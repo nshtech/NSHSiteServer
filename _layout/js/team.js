@@ -18,7 +18,7 @@ $.getJSON('./team.json', function (data) {
     var member_desc_after = '</div></div>';
     var member_after = '</div>';
     var row_after = '</div></div></div></div>';
-    var blank_space = '<div class="team-member"><img src="_content/team/blank-space.jpg" alt=""><div class="team-member-description" style="background: white;"><div class="team-member-description-inner"><div class="team-member-name"><div class="team-member-name-inner"><h3></h3></div></div><div class="team-member-title"><div class="team-member-title-inner"><p></p></div></div></div></div></div>';
+    var blank_space = '<div class="team-member blank"><img src="_content/team/blank-space.jpg" alt=""><div class="team-member-description" style="background: white;"><div class="team-member-description-inner"><div class="team-member-name"><div class="team-member-name-inner"><h3></h3></div></div><div class="team-member-title"><div class="team-member-title-inner"><p></p></div></div></div></div></div>';
     var row;
     var member;
 
