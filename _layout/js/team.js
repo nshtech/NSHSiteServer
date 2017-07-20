@@ -18,7 +18,7 @@ $.getJSON('./team.json', function (data) {
     var member_desc_after = '</div></div>';
     var member_after = '</div>';
     var row_after = '</div></div></div></div>';
-    var blank_space = '<div class="team-member"><img src="_content/team/blank-space.jpg" alt=""><div class="team-member-description" style="background: white;"><div class="team-member-description-inner"><div class="team-member-name"><div class="team-member-name-inner"><h3></h3></div></div><div class="team-member-title"><div class="team-member-title-inner"><p></p></div></div></div></div></div>';
+    var blank_space = '<div class="team-member blank"><img src="_content/team/blank-space.jpg" alt=""><div class="team-member-description" style="background: white;"><div class="team-member-description-inner"><div class="team-member-name"><div class="team-member-name-inner"><h3></h3></div></div><div class="team-member-title"><div class="team-member-title-inner"><p></p></div></div></div></div></div>';
     var row;
     var member;
 
@@ -29,6 +29,25 @@ $.getJSON('./team.json', function (data) {
     var name_split;
     var first_name;
     var last_name;
+
+    // preload images
+    var preload_name_split;
+    var preload_name;
+    var preload_group_data;
+    var count = 0;
+    var images = [];
+    for (var group_name in data) {
+      if (data.hasOwnProperty(group_name)) {
+        preload_group_data = data[group_name];
+        for (var name in group_data) {
+            if(group_data.hasOwnProperty(name)) {
+              preload_name_split = name.split(" ");
+              images[count] = new Image();
+              images[count].src = '_content/team/' + name_split[0].toLowerCase() + "-" + name_split[1].toLowerCase() + '.jpg';
+            }
+          }
+        }
+    }
 
     var i = 0;
     var rem;
@@ -45,7 +64,7 @@ $.getJSON('./team.json', function (data) {
             for (var name in group_data) {
 
                 if(group_data.hasOwnProperty(name)) {
-                    
+
                     title = group_data[name];
                     name_split = name.split(" ");
                     first_name = name[0].toLowerCase();
@@ -103,25 +122,25 @@ $.getJSON('./team.json', function (data) {
     var grayscale = function(src) {
         var supportsCanvas = !!document.createElement('canvas').getContext;
         if (supportsCanvas) {
-            var canvas = document.createElement('canvas'), 
-            context = canvas.getContext('2d'), 
-            imageData, px, length, i = 0, gray, 
+            var canvas = document.createElement('canvas'),
+            context = canvas.getContext('2d'),
+            imageData, px, length, i = 0, gray,
             img = new Image();
-            
+
             img.src = src;
             canvas.width = img.width;
             canvas.height = img.height;
             context.drawImage(img, 0, 0);
-                
+
             imageData = context.getImageData(0, 0, canvas.width, canvas.height);
             px = imageData.data;
             length = px.length;
-            
+
             for (; i < length; i += 4) {
                 gray = px[i] * .3 + px[i + 1] * .59 + px[i + 2] * .11;
                 px[i] = px[i + 1] = px[i + 2] = gray;
             }
-                    
+
             context.putImageData(imageData, 0, 0);
             return canvas.toDataURL();
         } else {
@@ -164,7 +183,7 @@ $.getJSON('./team.json', function (data) {
                     function() {
                         $(this).find('.gotcolors').css({'width': $(this).width(), 'height':$(this).width()}).stop().animate({opacity: 1}, 400);
                         $(this).next().stop().animate({'color': '#CE4115'}, 400);
-                    }, 
+                    },
                     function() {
                         $(this).find('.gotcolors').stop().animate({opacity: 0}, 400);
                         $(this).next().stop().animate({'color': '#393939'}, 400);
@@ -176,7 +195,7 @@ $.getJSON('./team.json', function (data) {
                     function() {
                         $(this).prev().find('.gotcolors').css({'width': $(this).width(), 'height':$(this).width()}).stop().animate({opacity: 1}, 400);
                         $(this).stop().animate({'color': '#CE4115'}, 400);
-                    }, 
+                    },
                     function() {
                         $(this).prev().find('.gotcolors').stop().animate({opacity: 0}, 400);
                         $(this).stop().animate({'color': '#393939'}, 400);

@@ -10,21 +10,28 @@
 	},
 	"DesignWorks": {
 		"Mallika Bhandari": "Managing Director",
-		"Akshay Rao": "Operations Manager",
 		"Milan Shah": "Operations Manager",
 		"Tina Zhang": "Marketing Manager",
 		"Peter Farha": "Finance Manager",
 		"Josh Golding": "Sales Manager",
-		"Harriet Zhao": "Sales Manager"
+		"Harriet Zhao": "Sales Manager",
+		"Irena Yang": "Product Manager of Design",
+		"Gino Wang": "Technology Manager",
+		"Min Kim": "Communications Manager"
 	},
 	"Ink Tank": {
 		"Ashwin Basana": "Managing Director",
 		"Gus Delgado": "Managing Director",
 		"George Mao": "Operations Manager",
 		"Blake Maier": "Operations Manager",
+		"Bernetta Li": "Operations Manager",
 		"John Novakovich": "Sales Manager",
+		"Aleksandar Ojdrovic": "Sales Manager",
+		"Bijan Moazezi": "Sales Manager",
 		"Annie Lee": "Marketing Manager",
-		"Maulin Hemani": "Finance Manager"
+		"Maulin Hemani": "Finance Manager",
+		"Ethan Trokie": "Technology Manager",
+		"Neha Gupta": "People Operations Manager"
 	},
 	"NU|Tutors": {
 		"Collin Pham": "Managing Director",
@@ -34,19 +41,25 @@
 		"Arya Moaref": "Operations Manager",
 		"Ronit Basu": "Marketing Manager",
 		"Zachary Levy": "Marketing Manager",
-		"Victoria Yam": "Finance Manager"
+		"Victoria Yam": "Finance Manager",
+		"Michael Benimovich": "Technology Manager",
+		"Rachel Katz": "People Operations Manager"
 	},
 	"RezEssentials": {
-		"Jack McCarter": "Managing Director",
-		"Daniel Wilensky": "Operations Manager",
+		"Maddie Parrott": "Managing Director",
 		"Omkar Venkatesh": "Operations Manager",
-		"Jessie Li": "Marketing Manager"
+		"Kiley Jarymiszyn": "Operations Manager",
+		"Jessie Li": "Marketing Manager",
+		"Aaron Ledsky": "Finance Manager",
+		"Alexander Groendaal-Jones": "Technology Manager",
+		"Zach Hennenfent": "People Operations Manager"
 	},
 	"Finance & Analytics": {
 		"Mo Ran": "VP of Finance",
 		"Maulin Hemani": "Finance Manager",
 		"Victoria Yam": "Finance Manager",
-		"Peter Farha": "Finance Manager"
+		"Peter Farha": "Finance Manager",
+		"Aaron Ledsky": "Finance Manager"
 	},
 	"Marketing & Outreach": {
 		"Emily Ash": "VP of Marketing",
@@ -70,7 +83,9 @@
 		"Michael Benimovich": "Technology Manager",
 		"Gino Wang": "Technology Manager",
 		"David Nelson": "Technology Manager",
-		"Bharat Rao": "FinTech Manager"
+		"Bharat Rao": "FinTech Manager",
+		"Ethan Trokie": "Technology Manager",
+		"Alexander Groendaal-Jones": "Technology Manager"
 	},
 	"Advisory Board": {
 		"Ari Juster": "Sponsorship Advisor",
