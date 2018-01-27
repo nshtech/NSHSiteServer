@@ -1,104 +1,87 @@
 {
-	"Executive Team": {
-		"Amaan Badruddin": "Chief Executive Officer",
-		"Mo Ran": "VP of Finance",
-		"NICK SERRATELLI": "VP of Business Operations",
-		"Emily Ash": "VP of Marketing",
-		"Sofia Montoya": "VP of People Operations",
-		"Matt Cheung": "VP of Technology",
-		"Elana Stettin": "VP of Technology"
-	},
-	"DesignWorks": {
-		"Mallika Bhandari": "Managing Director",
-		"Milan Shah": "Operations Manager",
-		"Tina Zhang": "Marketing Manager",
-		"Peter Farha": "Finance Manager",
-		"Josh Golding": "Sales Manager",
-		"Harriet Zhao": "Sales Manager",
-		"Irena Yang": "Product Manager of Design",
-		"Gino Wang": "Technology Manager",
-		"Min Kim": "Communications Manager"
-	},
-	"Ink Tank": {
-		"Ashwin Basana": "Managing Director",
-		"Gus Delgado": "Managing Director",
-		"George Mao": "Operations Manager",
-		"Blake Maier": "Operations Manager",
-		"Bernetta Li": "Operations Manager",
-		"John Novakovich": "Sales Manager",
-		"Aleksandar Ojdrovic": "Sales Manager",
-		"Bijan Moazezi": "Sales Manager",
-		"Annie Lee": "Marketing Manager",
-		"Maulin Hemani": "Finance Manager",
-		"Ethan Trokie": "Technology Manager",
-		"Neha Gupta": "People Operations Manager"
-	},
-	"NU|Tutors": {
-		"Collin Pham": "Managing Director",
-		"Jack Nagel": "Operations Manager",
-		"Kevin Huang": "Operations Manager",
-		"Eric Xi": "Operations Manager",
-		"Arya Moaref": "Operations Manager",
-		"Ronit Basu": "Marketing Manager",
-		"Zachary Levy": "Marketing Manager",
-		"Victoria Yam": "Finance Manager",
-		"Michael Benimovich": "Technology Manager",
-		"Rachel Katz": "People Operations Manager"
-	},
-	"RezEssentials": {
-		"Maddie Parrott": "Managing Director",
-		"Omkar Venkatesh": "Operations Manager",
-		"Kiley Jarymiszyn": "Operations Manager",
-		"Jessie Li": "Marketing Manager",
-		"Aaron Ledsky": "Finance Manager",
-		"Alexander Groendaal-Jones": "Technology Manager",
-		"Zach Hennenfent": "People Operations Manager"
-	},
-	"Finance & Analytics": {
-		"Mo Ran": "VP of Finance",
-		"Maulin Hemani": "Finance Manager",
-		"Victoria Yam": "Finance Manager",
-		"Peter Farha": "Finance Manager",
-		"Aaron Ledsky": "Finance Manager"
-	},
-	"Marketing & Outreach": {
-		"Emily Ash": "VP of Marketing",
-		"Tina Zhang": "Marketing Manager",
-		"Ronit Basu": "Marketing Manager",
-		"Zachary Levy": "Marketing Manager",
-		"Jessie Li": "Marketing Manager",
-		"Annie Lee": "Marketing Manager"
-	},
-	"People Operations": {
-		"Sofia Montoya": "VP of People Operations",
-		"Neha Gupta": "People Operations Manager",
-		"Rachel Katz": "People Operations Manager",
-		"Zach Hennenfent": "People Operations Manager",
-		"Min Kim": "Communications Manager"
-	},
-	"Technology": {
-		"Matt Cheung": "VP of Technology",
-		"Elana Stettin": "VP of Technology",
-		"Wyatt Mufson": "Technology Manager",
-		"Michael Benimovich": "Technology Manager",
-		"Gino Wang": "Technology Manager",
-		"David Nelson": "Technology Manager",
-		"Bharat Rao": "FinTech Manager",
-		"Ethan Trokie": "Technology Manager",
-		"Alexander Groendaal-Jones": "Technology Manager"
-	},
-	"Advisory Board": {
-		"Ari Juster": "Sponsorship Advisor",
-		"Jenny Hendrix": "Growth Advisor",
-		"Katie Ostazeski": "Business Sustainbility Advisor",
-		"Priya Kumar": "Portfolio Advisor",
-		"David Olodort": "Portfolio Advisor",
-		"Bomani Mcclendon": "Portfolio Advisor",
-		"Jasmin Williams": "Portfolio Advisor",
-		"Michael Perugini": "Portfolio Advisor",
-		"Adam Ashkenazi": "Portfolio Advisor",
-		"Robert Bourret": "Portfolio Advisor",
-		"Matt Hong": "Portfolio Advisor",
-		"Nikhil Pai": "Portfolio Advisor"
-	}
+        "Student Leadership": {
+                "Elana Stettin": "Chief Executive Officer",
+                "Victoria Yam": "Chief Financial Officer",
+                "Wyatt Mufson": "Chief Technology Officer",
+                "Rachel Katz": "VP of People Operations",
+                "John Novakovich": "GM of Ink Tank",
+                "Mo Ran": "GM of NU|Tutors",
+                "Kiley Jarymiszyn": "GM of RezEssentials",
+                "Omkar Vankatesh": "GM of Special Projects",
+                "Bernetta Li": "Dir. of Operations, Ink Tank",
+                "Josh Golding": "Dir. of Sales, Ink Tank",
+                "Jack Nagel": "Dir. of Operations, NU|Tutors",
+                "Kevin Huang": "Dir. of Sales, NU|Tutors"
+        },
+        "Ink Tank": {
+                "John Novakovich": "General Manager",
+                "Bernetta Li": "Director of Operations",
+                "Josh Golding": "Director of Sales",
+                "Blake Maier": "Operations Manager",
+                "Irena Yang": "Operations Manager",
+                "Radin Marinov": "Operations Manager",
+                "Nicholas Tan": "Operations Manager",
+                "Aleksandar Ojdrovic": "Sales Manager",
+                "Surya Veeravalli": "Sales Manager",
+                "Annie Lee": "Marketing Manager",
+                "Tina Zhang": "Marketing Manager",
+                "Aaron Ledsky": "Finance Manager",
+                "Bharat Rao": "Finance Manager",
+                "David Hofferber": "Technology Manager",
+                "Adrian Lafont-Mueller": "People Operations Manager"
+        },
+        "NU|Tutors": {
+                "Mo Ran": "Managing Director",
+                "Jack Nagel": "Director of Operations",
+                "Kevin Huang": "Director of Sales",
+                "Eric Xi": "Operations Manager",
+                "Milan Shah": "Operations Manager",
+                "Harrison Catlin": "Operations Manager",
+                "Jay Patel": "Operations Manager",
+                "Saksham Goel": "Sales Manager",
+                "Zachary Verghese": "Marketing Manager",
+                "Peter Farha": "Finance Manager",
+                "Ronit Basu": "Technology Manager",
+                "Michael Benimovich": "Technology Manager",
+                "Elizabeth Hawley": "People Operations Manager"
+        },
+        "RezEssentials": {
+                "Kiley Jarymiszyn": "Managing Director",
+                "Omkar Venkatesh": "Director of Operations",
+                "Alexandar Groendaal-Jones": "Technology Manager"
+        },
+        "Finance & Analytics": {
+                "Victoria Yam": "Chief Financial Officer",
+                "Bharat Rao": "Finance Manager",
+                "David Nelson": "Finance Manager",
+                "Peter Farha": "Finance Manager",
+                "Charlie Hummel": "Finance Manager",
+                "Aaron Ledsky": "Finance Manager"
+        },
+        "People Operations": {
+                "Rachel Katz": "VP of People Operations",
+                "Adrian Lafont-Mueller": "People Operations Manager",
+                "Elizabeth Hawley": "People Operations Manager",
+                "Min Kim": "Communications Manager"
+        },
+        "Technology": {
+                "Wyatt Mufson": "Chief Technology Officer",
+                "Michael Benimovich": "Technology Manager",
+                "Alexander Groendaal-Jones": "Technology Manager",
+                "David Hofferber": "Technology Manager"
+        },
+        "Special Projects": {
+                "Omkar Venkatesh": "General Manager",
+                "Daanish Khazi": "Assistant to the General Manager",
+                "Harriet Zhao": "Project Manager"
+        },
+        "Board of Directors": {
+                "Elana Stettin": "Chief Executive Officer",
+                "Alex Onsager": "Charmain of the Board, Treasurer",
+                "Mo Ran": "Secretary",
+                "David Olodort": "Director",
+                "Nihar Shah": "Director",
+                "Priya Kumar": "Director",
+                "Luke Figora": "Director"
+        }
 }
