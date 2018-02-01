@@ -17,10 +17,10 @@
                 "John Novakovich": "General Manager",
                 "Bernetta Li": "Director of Operations",
                 "Josh Golding": "Director of Sales",
-                "Blake Maier": "Operations Manager",
                 "Irena Yang": "Operations Manager",
                 "Radin Marinov": "Operations Manager",
                 "Nicholas Tan": "Operations Manager",
+                "Blake Maier": "Sales Manager",
                 "Aleksandar Ojdrovic": "Sales Manager",
                 "Surya Veeravalli": "Sales Manager",
                 "Annie Lee": "Marketing Manager",
@@ -46,9 +46,7 @@
                 "Elizabeth Hawley": "People Operations Manager"
         },
         "RezEssentials": {
-                "Kiley Jarymiszyn": "Managing Director",
-                "Omkar Venkatesh": "Director of Operations",
-                "Alexander Groendaal-Jones": "Technology Manager"
+                "Kiley Jarymiszyn": "Managing Director"
         },
         "Finance & Analytics": {
                 "Victoria Yam": "Chief Financial Officer",
@@ -59,7 +57,7 @@
                 "Aaron Ledsky": "Finance Manager"
         },
         "People Operations": {
-                "Rachel Katz": "VP of People Operations",
+                "Rachel Katz": "Chief People Officer",
                 "Adrian Lafont-Mueller": "People Operations Manager",
                 "Elizabeth Hawley": "People Operations Manager",
                 "Min Kim": "Communications Manager"
@@ -72,10 +70,10 @@
         },
         "Special Projects": {
                 "Omkar Venkatesh": "General Manager",
-                "Daanish Khazi": "Assistant to the General Manager",
+                "Daanish Khazi": "Project Manager",
                 "Harriet Zhao": "Project Manager"
         },
-        "Board of Directors": {
+        "Board": {
                 "Elana Stettin": "Chief Executive Officer",
                 "Alex Onsager": "Charmain of the Board, Treasurer",
                 "Mo Ran": "Secretary",
