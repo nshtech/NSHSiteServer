@@ -1,0 +1,19 @@
+update link color
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/apply.hbs b/apply.hbs
+index a1f1f4c..1a933ac 100755
+--- a/apply.hbs
++++ b/apply.hbs
+@@ -124,7 +124,7 @@
+ 
+                         <div class="headline">
+                         	<h2 style="margin-top: 2em">Student Holdings Winter Recruitment 2018</h2>
+-                          <h1 style="margin-top: 0"><a href="https://goo.gl/forms/Z7CbBPJmAIGjOLpF2">Apply here now!</a></h1>
++                          <h1 style="margin-top: 0; color:#CE4115"><a href="https://goo.gl/forms/Z7CbBPJmAIGjOLpF2">Apply now!</a></h1>
+                           <h3 style="margin-top:1em">Applications are due Sunday, February 11th at 12PM NOON!<h3>
+                         	<h5>Reach out to <a style="font-weight: bold" href="mailto:recruitment@studentholdings.org">recruitment@studentholdings.org</a> with any questions.</h5>
+                             <hr>
