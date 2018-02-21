@@ -35,7 +35,6 @@
                 "Jack Nagel": "Director of Operations",
                 "Kevin Huang": "Director of Sales",
                 "Eric Xi": "Operations Manager",
-                "Milan Shah": "Operations Manager",
                 "Harrison Catlin": "Operations Manager",
                 "Jay Patel": "Operations Manager",
                 "Saksham Goel": "Sales Manager",
@@ -46,7 +45,8 @@
                 "Elizabeth Hawley": "People Operations Manager"
         },
         "RezEssentials": {
-                "Kiley Jarymiszyn": "Managing Director"
+                "Kiley Jarymiszyn": "Managing Director",
+                "Milan Shah": "Director of Operations"
         },
         "Finance & Analytics": {
                 "Victoria Yam": "Chief Financial Officer",
