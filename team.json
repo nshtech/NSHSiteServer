@@ -1,8 +1,9 @@
 {
         "Student Leadership": {
                 "Elana Stettin": "Chief Executive Officer",
+                "Bharat Rao": "Chief Financial Officer",
                 "Victoria Yam": "Chief Financial Officer",
-                "Wyatt Mufson": "Chief Technology Officer",
+                "Michael Benimovich": "Chief Technology Officer",
                 "Rachel Katz": "Chief People Officer",
                 "John Novakovich": "General Manager of Ink Tank",
                 "Mo Ran": "General Manager of NU|Tutors",
@@ -27,35 +28,38 @@
                 "Annie Lee": "Marketing Manager",
                 "Tina Zhang": "Marketing Manager",
                 "Aaron Ledsky": "Finance Manager",
-                "Bharat Rao": "Finance Manager",
-                "David Hofferber": "Technology Manager",
+                "Daanish Khazi": "Finance Manager",
+                "Peter Farha": "Finance Manager",
+                "Ronit Basu": "Technology Manager",
                 "Adrian Lafont-Mueller": "People Operations Manager"
         },
         "NU|Tutors": {
-                "Mo Ran": "Managing Director",
+                "Mo Ran": "General Manager",
                 "Jack Nagel": "Director of Operations",
                 "Kevin Huang": "Director of Sales",
-                "Eric Xi": "Operations Manager",
                 "Harrison Catlin": "Operations Manager",
                 "Jay Patel": "Operations Manager",
                 "Saksham Goel": "Sales Manager",
-                "Zachary Verghese": "Marketing Manager",
-                "Peter Farha": "Finance Manager",
-                "Ronit Basu": "Technology Manager",
-                "Michael Benimovich": "Technology Manager",
+                "Zachary Verghese": "Sales Manager",
+                "Charlie Hummel": "Finance Manager",
+                "David Nelson": "Finance Manager",
                 "Elizabeth Hawley": "People Operations Manager"
         },
         "RezEssentials": {
-                "Kiley Jarymiszyn": "Managing Director",
-                "Milan Shah": "Director of Sales"
+                "Kiley Jarymiszyn": "General Manager",
+                "Omkar Venkatesh": "Director of Operations",
+                "Milan Shah": "Director of Sales",
+                "Min Kim": "Communications Manager",
+                "Alexander Groendaal-Jones": "Technology Manager",
+                "Aaron Ledsky": "Finance Manager"
         },
         "Finance & Analytics": {
-                "Victoria Yam": "Chief Financial Officer",
-                "Bharat Rao": "Finance Manager",
+                "Bharat Rao": "Chief Financial Officer",
                 "David Nelson": "Finance Manager",
                 "Peter Farha": "Finance Manager",
                 "Charlie Hummel": "Finance Manager",
-                "Aaron Ledsky": "Finance Manager"
+                "Aaron Ledsky": "Finance Manager",
+                "Daanish Khazi": "Finance Manager"
         },
         "People Operations": {
                 "Rachel Katz": "Chief People Officer",
@@ -64,16 +68,11 @@
                 "Min Kim": "Communications Manager"
         },
         "Technology": {
-                "Wyatt Mufson": "Chief Technology Officer",
-                "Michael Benimovich": "Technology Manager",
+                "Michael Benimovich": "Chief Technology Officer",
                 "Alexander Groendaal-Jones": "Technology Manager",
-                "David Hofferber": "Technology Manager"
+                "Ronit Basu": "Technology Manager"
         },
-        "Special Projects": {
-                "Omkar Venkatesh": "General Manager",
-                "Daanish Khazi": "Project Manager",
-                "Harriet Zhao": "Project Manager"
-        },
+        
         "Board": {
                 "Elana Stettin": "Chief Executive Officer",
                 "Alex Onsager": "Charmain of the Board, Treasurer",
