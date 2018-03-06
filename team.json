@@ -2,7 +2,6 @@
         "Student Leadership": {
                 "Elana Stettin": "Chief Executive Officer",
                 "Bharat Rao": "Chief Financial Officer",
-                "Victoria Yam": "Chief Financial Officer",
                 "Michael Benimovich": "Chief Technology Officer",
                 "Rachel Katz": "Chief People Officer",
                 "John Novakovich": "General Manager of Ink Tank",
@@ -31,6 +30,7 @@
                 "Daanish Khazi": "Finance Manager",
                 "Peter Farha": "Finance Manager",
                 "Ronit Basu": "Technology Manager",
+                "Leanna Hue": "Technology Manager",
                 "Adrian Lafont-Mueller": "People Operations Manager"
         },
         "NU|Tutors": {
@@ -39,16 +39,26 @@
                 "Kevin Huang": "Director of Sales",
                 "Harrison Catlin": "Operations Manager",
                 "Jay Patel": "Operations Manager",
+                "Sherie Cheng": "Operations Manager",
                 "Saksham Goel": "Sales Manager",
                 "Zachary Verghese": "Sales Manager",
+                "Henry Forcier": "Sales Manager",
+                "Jasmine Teng": "Marketing Manager",
                 "Charlie Hummel": "Finance Manager",
                 "David Nelson": "Finance Manager",
+                "Bryant Wu": "Technology Manager",
                 "Elizabeth Hawley": "People Operations Manager"
         },
         "RezEssentials": {
                 "Kiley Jarymiszyn": "General Manager",
                 "Omkar Venkatesh": "Director of Operations",
                 "Milan Shah": "Director of Sales",
+                "Katherine Mann": "Operations Manager",
+                "Satvik Garg": "Operations Manager",
+                "Owen Zhang": "Operations Manager",
+                "Lucas Conrad": "Sales Manager",
+                "Melody Hsu": "Sales Manager",
+                "Mychala Schulz": "Sales Manager",
                 "Min Kim": "Communications Manager",
                 "Alexander Groendaal-Jones": "Technology Manager",
                 "Aaron Ledsky": "Finance Manager"
@@ -70,7 +80,9 @@
         "Technology": {
                 "Michael Benimovich": "Chief Technology Officer",
                 "Alexander Groendaal-Jones": "Technology Manager",
-                "Ronit Basu": "Technology Manager"
+                "Ronit Basu": "Technology Manager",
+                "Leanna Hue": "Technology Manager",
+                "Bryant Wu": "Technology Manager"
         },
         
         "Board": {
