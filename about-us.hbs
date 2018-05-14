@@ -104,6 +104,15 @@
         #whatweare .headline-2:after {
             border-bottom: 1px solid #fff
         }
+
+        .small-header-text-sh { font-size: 125%; }
+	    .small-text-sh { font-size: 95%; }
+        
+        @media screen and (min-width: 1000px) {
+            #elastic-offset {margin-left: 2%; }
+        }
+
+        tr { border-top: 0px; }
         .elasticstack p {
             font-style: italic;
             font-size: 15px;
@@ -112,11 +121,34 @@
         }
         @media (min-width: 768px) and (max-width: 1200px) {
 
-            #mission { width:50%; }
-
-            #filler-left { width: 8.3333333%;}
+            #filler-left { width: 25%;}
 
         }
+
+        @media (min-width: 650px) and (max-width: 768px) {
+
+            #elastic-offset { margin-left: 20%;}
+
+        }
+
+        @media (min-width: 550px) and (max-width: 650px) {
+
+            #elastic-offset {  margin-left: 15%;}
+
+        }
+
+        @media (min-width: 475px) and (max-width: 550px) {
+
+            #elastic-offset {  margin-left: 10%;}
+
+        }
+
+        @media (max-width: 475px) {
+
+            #elastic-offset {  margin-left: 5%;}
+
+        }
+
         .vco-timeline .vco-navigation .timenav-background .timenav-line {
             background-color: #CE4115;
         }
@@ -140,7 +172,7 @@
     <script src="_layout/ElasticStack/js/draggabilly.pkgd.min.js"></script>
     <script src="_layout/ElasticStack/js/elastiStack.js"></script>
 
-    <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/timeline-min.js"></script>
+    <script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline/latest/js/timeline-min.js"></script>
 
     <script type="text/javascript" src="_layout/js/splash.js"></script>
 
@@ -157,7 +189,7 @@
 
     <div id="wrap">
 
-{{> header_homepage}}
+    {{> header_homepage}}
         <div id="content">
 
             <div class="splash-container" style="background-image: url(_content/NSH/about.jpg)">
@@ -200,7 +232,7 @@
 
                         <div class="headline-2">
 
-                            <h1>Our Mission</h1>
+                            <h1>Our Values</h1>
 
                         </div><!-- end .headline -->
 
@@ -210,41 +242,91 @@
 
              <div class="row-container">
                 <div class="row">
-                        <div class="span2" id="filler-left"></div>
-                        <div class="span4" id="mission">
-
+                        <div class="span2"></div>
+                        <div class="span8" id="mission">
+                            <table style="width:100%">
+                            <tr>
+                            <td style = "width = 50%">
                             <div class="value">
                                 <div class="bullet wow fadeIn" data-wow-delay="0.25s">
                                     <img src="_content/NSH/NSH-logo-orange.jpg">
-                                    <h2 class="text-uppercase"><strong>Provide Services</strong></h2>
+                                    <h2 class="text-uppercase small-header-text-sh"><strong>VALUE1 WILL GO HERE</strong></h2>
                                 </div>
-                                <p class="wow fadeIn" data-wow-delay="0.25s">
-                                    Our unique access to and knowledge of students gives us a special opportunity to provide services that add value to the Northwestern, Evanston, and Chicago communities.
+                                <p class="wow fadeIn small-text-sh" data-wow-delay="0.25s">
+                                    value1 description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a elit sit amet elit lobortis laoreet at in arcu. In varius convallis lacus, sit amet finibus risus consequat at.
                                 </p>
                             </div>
-
+                            </td>
+                            <td style = "width = 50%">
                             <div class="value">
                                 <div class="bullet wow fadeIn" data-wow-delay="0.25s">
                                     <img src="_content/NSH/NSH-logo-orange.jpg">
-                                    <h2 class="text-uppercase"><strong>Develop People</strong></h2>
+                                    <h2 class="text-uppercase small-header-text-sh"><strong>VALUE2 WILL GO HERE</strong></h2>
                                 </div>
-                                <p class="wow fadeIn" data-wow-delay="0.25s">
-                                     Student Holdings offers members high-impact roles as soon as they enter the organization, imparts to them business acumen through workshops and experiences, and introduces them to a strong community of peers and mentors.
+                                <p class="wow fadeIn small-text-sh" data-wow-delay="0.25s">
+                                     value2 description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a elit sit amet elit lobortis laoreet at in arcu.
                                 </p>
                             </div>
-
+                            </td>
+                            </tr>
+                            <tr>
+                            <td style = "width = 50%">
+                             <div class="value">
+                                <div class="bullet wow fadeIn" data-wow-delay="0.25s">
+                                    <img src="_content/NSH/NSH-logo-orange.jpg">
+                                    <h2 class="text-uppercase small-header-text-sh"><strong>VALUE3 WILL GO HERE</strong></h2>
+                                </div>
+                                <p class="wow fadeIn small-text-sh" data-wow-delay="0.25s">
+                                    value3 description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a elit sit amet elit lobortis laoreet at in arcu. In varius convallis lacus, sit amet finibus risus consequat at.
+                                </p>
+                            </div>
+                            </td>
+                            <td style = "width = 50%">
                             <div class="value">
                                 <div class="bullet wow fadeIn" data-wow-delay="0.25s">
                                     <img src="_content/NSH/NSH-logo-orange.jpg">
-                                    <h2 class="text-uppercase"><strong>Give Back</strong></h2>
+                                    <h2 class="text-uppercase small-header-text-sh"><strong>VALUE4 WILL GO HERE AND IS LONGER THAN THE OTHERS SO ACCOUNT FOR THAT</strong></h2>
                                 </div>
-                                <p class="wow fadeIn" data-wow-delay="0.25s">
-                                    We do whatever we can to support philanthropic causes that better local and global communities. In the past, we've collaborated with philanthropic organizations on campus, organized a beach clean-up, and read to children at a local preschool.
+                                <p class="wow fadeIn small-text-sh" data-wow-delay="0.25s">
+                                    value4 description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a elit sit amet elit lobortis laoreet at in arcu. In varius convallis lacus, sit amet finibus risus consequat at.
                                 </p>
                             </div>
-
-                        </div><!-- end .span7 -->
-                        <div class="span4">
+                            </td>
+                            </tr>
+                            <tr>
+                            <td style = "width = 50%">
+                            <div class="value">
+                                <div class="bullet wow fadeIn" data-wow-delay="0.25s">
+                                    <img src="_content/NSH/NSH-logo-orange.jpg">
+                                    <h2 class="text-uppercase small-header-text-sh"><strong>VALUE5 WILL GO HERE ITS ALSO A BIT LONG</strong></h2>
+                                </div>
+                                <p class="wow fadeIn small-text-sh" data-wow-delay="0.25s">
+                                    value5 description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a elit sit amet elit lobortis laoreet at in arcu. In varius convallis lacus, sit amet finibus risus consequat at.
+                                </p>
+                            </div>
+                            </td>
+                            <td style = "width = 50%">
+                            <div class="value">
+                                <div class="bullet wow fadeIn" data-wow-delay="0.25s">
+                                    <img src="_content/NSH/NSH-logo-orange.jpg">
+                                    <h2 class="text-uppercase small-header-text-sh"><strong>VALUE6 WILL GO HERE</strong></h2>
+                                </div>
+                                <p class="wow fadeIn small-text-sh" data-wow-delay="0.25s">
+                                    value6 description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a elit sit amet elit lobortis laoreet at in arcu. In varius convallis lacus, sit amet finibus risus consequat at.
+                                </p>
+                            </div>
+                            </td>
+                            </tr>
+                        </table>
+                        </div>
+                        <!-- end .span7 -->
+                       
+                        <div class="span2"></div>
+                    </div>
+                </div><!-- end .row -->
+                <div class="row">
+                     <div class="span4" id="filler-left"></div>
+                     <div id = "elastic-offset" class="span4">
                             <ul class='elasticstack wow fadeIn' id='elasticstack' data-wow-delay="0.5s">
                             <li>
                                 <img id="drag" src="_content/NSH/click-swipe.png" style="position:absolute; top:-30px;height:21px;">
@@ -275,12 +357,10 @@
 
                             </li>
 
-                        </ul>
-                        </div>
-                        <div class="span2"></div>
+                            </ul>
                     </div>
-                </div><!-- end .row -->
-
+                    <div class="span4"></div>
+                </div>
             </div>  <!-- end .row-content -->
         </div> <!-- end .section -->
 
