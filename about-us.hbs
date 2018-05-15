@@ -104,7 +104,7 @@
         #whatweare .headline-2:after {
             border-bottom: 1px solid #fff
         }
-
+        /* VALUES AND ELASTIC STACK */
         .small-header-text-sh { font-size: 125%; }
 	    .small-text-sh { font-size: 95%; }
         
@@ -149,6 +149,80 @@
 
         }
 
+        /* ACCORDION CODE*/
+
+        .accordion-width { width: 66.6666667%; }
+
+        .accordion {
+            background-color: #CE4115;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 20px;
+            transition: 0.4s;
+            margin-bottom: 0;
+        }
+
+        .active, .accordion:hover {
+            background-color: #dc7a5b;
+        }
+
+        .accordion:after {
+            content: '\2B9B';
+            color: white;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2B99";
+        }
+
+        .panel {
+            padding: 0;
+            background-color: #eeeeee;
+            font-size: 20px;
+            color: white;
+            max-height: 0;
+            overflow: hidden;
+            margin-left: 0%;
+            transition: max-height 0.2s ease-out;
+        }
+
+        .accordion-table {
+            
+            margin-bottom: 0;
+            width: 100%;
+        }
+
+        .report-cell {
+            padding: 12px 0 1px 0;
+        }
+
+        .report-cell p {
+            margin-bottom: 1%;
+        }
+
+        @media (max-width: 768px) {
+
+            .accordion-width { 
+                width: 98%; 
+            }
+
+            .report-cell { margin-left: 16.666666667%; }
+
+            .report-cell i {
+                margin-left: 8.33333333333333%;
+            }
+
+        }
+
+        /*TIMELINE*/
         .vco-timeline .vco-navigation .timenav-background .timenav-line {
             background-color: #CE4115;
         }
@@ -354,7 +428,6 @@
                                     "SH is a launch pad for opportunity, a training ground for ideas, and a chance to make your vision a reality."
                                 </p>
 
-
                             </li>
 
                             </ul>
@@ -407,6 +480,45 @@
 
         <div class="section">
         <!-- OUR HISTORY ///////////////////////////////////////////////////////////////-->
+            <div id = "annual-letters" class="row-container wow fadeIn" data-wow-delay="0.25s">
+                <div class="row">
+                    <div class="span12">
+
+                        <div class="headline-2">
+
+                            <h1>Annual Letters</h1>
+
+                        </div><!-- end .headline -->
+
+                    </div><!-- end. span12 -->
+                </div><!-- end .row -->
+            </div><!-- end .row-container -->
+            <div class="row-container wow fadeIn" data-wow-delay="0.25s">
+                <div class = "offset-2 accordion-width">
+                <button class="accordion">2018</button>
+                <div class= "panel">
+                    <table class = "accordion-table">
+                        <tr>
+                            <td class = "report-cell" style= "width: 10%;">
+                                <a href="_content/NSH/NSH-logo-orange.jpg" target="_blank">
+                                    <i class ="ifc-pdf offset-3"></i>
+                                </a>
+                            </td>
+                            <td class = "report-cell" style= "width: 84%;">
+                                <a href="_content/NSH/NSH-logo-orange.jpg" target="_blank">
+                                    <p>2018 Annual Letter</p>
+                                </a>
+                            </td>
+                            <td class = "report-cell" style= "width: 6%;">
+                                <a href="_content/NSH/NSH-logo-orange.jpg" target="_blank">
+                                    <i class ="ifc-download2 offset-1"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </div>
+            </div>
             <div class="row-container wow fadeIn" data-wow-delay="0.25s">
                 <div class="row">
                     <div class="span12">
@@ -519,8 +631,26 @@
     $('.elasticstack').mousedown(function(){
         $('#drag').animate({'opacity': 0}, 800);
     })
-});
+    });
     </script>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+        } 
+        else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+    });
+    }
+</script>
 
 </body>
 </html>
