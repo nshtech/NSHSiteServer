@@ -70,12 +70,18 @@
       background:#0b1d2a;
     }
         .headline-2 {
-            margin-top:5em;
+            margin-top:25px;
+            margin-bottom:40px;
         }
         .value h2 {
             color: #CE4115;
             margin-left: 24px;
         }
+
+        .value p {
+            margin-left: 44px;
+        }
+
         .bullet {
             position: relative;
         }
@@ -104,19 +110,319 @@
         #whatweare .headline-2:after {
             border-bottom: 1px solid #fff
         }
+        /* VALUES AND ELASTIC STACK */
+        .small-header-text-sh { font-size: 125%; }
+	    .small-text-sh { font-size: 95%; }
+        
+        li.value {
+            list-style: none;
+        }
+
+        li.value:before {
+            content: '';
+            display:inline-block;
+            height: 1em;
+            width: 1em;
+            background-image: url(_content/NSH/NSH-logo-orange.jpg);
+            background-size: contain;
+            
+        }
+
+        .value-header {
+
+            display: inline-block;
+        }
+
+        .value-header-xtrasmall {
+
+            display: inline-block;
+        }
+
+        .value-header-small {
+
+            display: inline-block;
+        }
+
+        .value-header-mid {
+
+            display: inline-block;
+        }
+
+        .value-header-long {
+
+            display: inline-block;
+        }
+
+        tr { border-top: 0px; }
+        
         .elasticstack p {
             font-style: italic;
             font-size: 15px;
             line-height: 20px;
             margin-top:10px;
         }
+        #outer-elastic{
+
+            padding: 30px;
+            height: 500px;
+        }
+
+        .elastic-offset {
+
+            margin: auto;
+            width: 380px;
+            height: 300px;  
+           
+        }
+
+        @media (max-width: 550px) {
+
+           .elastic-offset{
+
+           visibility: hidden !important;
+        } 
+
+        
+            #outer-elastic{
+                padding: 0;
+                height: 0px;
+            }
+        }
         @media (min-width: 768px) and (max-width: 1200px) {
 
-            #mission { width:50%; }
+            #filler-left { width: 25%;}
+            
+            .value { padding: 0 2.5%; }
 
-            #filler-left { width: 8.3333333%;}
+            .value-header-long { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+             }
+        }
+
+        @media (min-width: 650px) and (max-width: 768px) {
+
+            li {
+
+                margin-left: 5%;
+                margin-right: 5%;
+                width: 90%;
+            }
+
+            
+            .value-header-long { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+             }
+        }
+
+        @media (min-width: 550px) and (max-width: 650px) {
+            
+            li {
+
+                margin-left: 5%;
+                margin-right: 5%;
+                width: 90%;
+            }
+
+            
+            .value-header-long { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+             }
+        }
+
+        @media (min-width: 475px) and (max-width: 550px) {
+
+            #elastic-offset {  margin-left: 10%;}
+
+            li {
+
+                margin-left: 5%;
+                margin-right: 5%;
+                 width: 90%;
+            }
+
+            
+            .value-header-long { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+             }
 
         }
+
+        @media (min-width: 376px) and (max-width: 475px) {
+
+            .value-table {
+                width: 100%;
+            }
+
+            li {
+
+                margin-left: 5%;
+                margin-right: 5%;
+                width: 90%;
+            }
+
+            .value-header { 
+
+                margin-left: 24px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-mid { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-long { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+        }
+
+        @media (min-width: 330px) and (max-width: 376px) {
+
+            .value-header { 
+
+                margin-left: 24px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-small{
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-mid { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-long { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+        }
+
+        @media (max-width: 330px) {
+
+            .value-header { 
+
+                margin-left: 24px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-xtrasmall{
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-small{
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-mid { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-long { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+        }
+        /* ACCORDION CODE*/
+
+        .accordion-width { width: 83.33333333333%; }
+
+        .accordion {
+            background-color: #CE4115;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 20px;
+            transition: 0.4s;
+            margin-bottom: 0;
+        }
+
+        .active, .accordion:hover {
+            background-color: #dc7a5b;
+        }
+
+        .accordion:after {
+            content: "\f078";
+            font-family: FontAwesome;
+            color: white;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\f077";
+            font-family: FontAwesome;
+        }
+
+        .panel {
+            padding: 0;
+            background-color: #eeeeee;
+            font-size: 20px;
+            color: white;
+            max-height: 0;
+            overflow: hidden;
+            margin-left: 0%;
+            transition: max-height 0.2s ease-out;
+        }
+
+        .accordion-table {
+            
+            margin-bottom: 0;
+            width: 100%;
+        }
+
+        .report-cell {
+            padding: 12px 0 1px 0;
+            color: #CE4115;
+        }
+
+        .report-cell p {
+            margin-bottom: 1%;
+        }
+
+        @media (max-width: 768px) {
+
+            .accordion-width { 
+                width: 98%; 
+            }
+
+            .report-cell { margin-left: 16.666666667%; }
+
+            .report-cell i {
+                margin-left: 8.33333333333333%;
+            }
+
+        }
+
+        /*TIMELINE*/
         .vco-timeline .vco-navigation .timenav-background .timenav-line {
             background-color: #CE4115;
         }
@@ -140,7 +446,7 @@
     <script src="_layout/ElasticStack/js/draggabilly.pkgd.min.js"></script>
     <script src="_layout/ElasticStack/js/elastiStack.js"></script>
 
-    <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/timeline-min.js"></script>
+    <script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline/latest/js/timeline-min.js"></script>
 
     <script type="text/javascript" src="_layout/js/splash.js"></script>
 
@@ -157,7 +463,7 @@
 
     <div id="wrap">
 
-{{> header_homepage}}
+    {{> header_homepage}}
         <div id="content">
 
             <div class="splash-container" style="background-image: url(_content/NSH/about.jpg)">
@@ -193,14 +499,14 @@
             <div class="span2"></div>
         </div> <!-- end .section -->
 
-        <div class="section" id="values">
+        <div class="section" id="values" style="margin-bottom:2em">
             <div class="row-container wow fadeIn" data-wow-delay="0.25s">
                 <div class="row">
                     <div class="span12">
 
                         <div class="headline-2">
 
-                            <h1>Our Mission</h1>
+                            <h1>Our Values</h1>
 
                         </div><!-- end .headline -->
 
@@ -210,42 +516,72 @@
 
              <div class="row-container">
                 <div class="row">
-                        <div class="span2" id="filler-left"></div>
-                        <div class="span4" id="mission">
-
-                            <div class="value">
-                                <div class="bullet wow fadeIn" data-wow-delay="0.25s">
-                                    <img src="_content/NSH/NSH-logo-orange.jpg">
-                                    <h2 class="text-uppercase"><strong>Provide Services</strong></h2>
-                                </div>
+                        <div class="span2"></div>
+                        <div class="span8" id="mission">
+                            <ul style="list-style-image: url(_content/NSH/NSH-logo-orange.jpg);">
+                            <li class="value bullet wow fadeIn" data-wow-delay="0.25s">
+                                    <h2 class="text-uppercase value-header"><strong>Take Ownership</strong></h2>
+                
                                 <p class="wow fadeIn" data-wow-delay="0.25s">
-                                    Our unique access to and knowledge of students gives us a special opportunity to provide services that add value to the Northwestern, Evanston, and Chicago communities.
+                                    Leaders bring genuine commitment and passion to everything they do and treat our business as their own. They take initiative and don't see any task as being beneath them.
                                 </p>
-                            </div>
-
-                            <div class="value">
-                                <div class="bullet wow fadeIn" data-wow-delay="0.25s">
-                                    <img src="_content/NSH/NSH-logo-orange.jpg">
-                                    <h2 class="text-uppercase"><strong>Develop People</strong></h2>
-                                </div>
+                            </li>
+                           
+                            <li class="value bullet wow fadeIn" data-wow-delay="0.25s">
+                                   
+                                    <h2 class="text-uppercase value-header-long"><strong>Learn by doing, then empower others to do the same</strong></h2>
                                 <p class="wow fadeIn" data-wow-delay="0.25s">
-                                     Student Holdings offers members high-impact roles as soon as they enter the organization, imparts to them business acumen through workshops and experiences, and introduces them to a strong community of peers and mentors.
+                                     Leaders learn through experience and then pay it forward. They desire to learn and are passionate about teaching and mentoring one another.
                                 </p>
-                            </div>
-
-                            <div class="value">
-                                <div class="bullet wow fadeIn" data-wow-delay="0.25s">
-                                    <img src="_content/NSH/NSH-logo-orange.jpg">
-                                    <h2 class="text-uppercase"><strong>Give Back</strong></h2>
-                                </div>
+                            </li>
+                           
+                             <li class="value bullet wow fadeIn" data-wow-delay="0.25s">
+                                
+                                    
+                                    <h2 class="text-uppercase value-header-small"><strong>Serve our customers</strong></h2>
+                               
                                 <p class="wow fadeIn" data-wow-delay="0.25s">
-                                    We do whatever we can to support philanthropic causes that better local and global communities. In the past, we've collaborated with philanthropic organizations on campus, organized a beach clean-up, and read to children at a local preschool.
+                                    Leaders put our customers first. They listen carefully to our customer's needs and exceed their expectations.
                                 </p>
-                            </div>
-
-                        </div><!-- end .span7 -->
-                        <div class="span4">
-                            <ul class='elasticstack wow fadeIn' id='elasticstack' data-wow-delay="0.5s">
+                            </li>
+                          
+                            <li class="value bullet wow fadeIn" data-wow-delay="0.25s">
+                                
+                                    <h2 class="text-uppercase value-header"><strong>Chase big ideas</strong></h2>
+                                
+                                <p class="wow fadeIn" data-wow-delay="0.25s">
+                                    Leaders are creative problem-solvers who set ambitious goals and pursue them relentlessly. They accomplish what they set out to do and defy expectations.
+                                </p>
+                            </li>
+                          
+                             <li class="value bullet wow fadeIn" data-wow-delay="0.25s">
+                               
+                                    <h2 class="text-uppercase value-header-mid"><strong>Build on our foundation</strong></h2>
+                              
+                                <p class="wow fadeIn" data-wow-delay="0.25s">
+                                    Leaders stand on the shoulders of their predecessors. They check their egos at the door and leverage the work of those before them.
+                                </p>
+                            </li>
+                           
+                            <li class="value bullet wow fadeIn" data-wow-delay="0.25s">
+                               
+                                    <h2 class="text-uppercase value-header-xtrasmall"><strong>Do the right thing</strong></h2>
+                               
+                                <p class="wow fadeIn" data-wow-delay="0.25s">
+                                    Leaders don't compromise their values. They do what is right, even when doing so is difficult or unpopular.
+                                </p>
+                            </li>
+                            </ul>
+                        </div>
+                        <!-- end .span7 -->
+                       
+                        <div class="span2"></div>
+                    </div>
+                </div><!-- end .row -->
+                <div class="row">
+                     <!--<div class="span4" id="filler-left"></div>-->
+                     <div id = "outer-elastic">
+                            <ul class='elasticstack elastic-offset wow fadeIn' id='elasticstack' data-wow-delay="0.5s">
                             <li>
                                 <img id="drag" src="_content/NSH/click-swipe.png" style="position:absolute; top:-30px;height:21px;">
                                 <img class='elasti' src="_content/NSH/elastic-image-2.jpg"  alt="03"/>
@@ -272,15 +608,13 @@
                                     "SH is a launch pad for opportunity, a training ground for ideas, and a chance to make your vision a reality."
                                 </p>
 
-
                             </li>
 
-                        </ul>
-                        </div>
-                        <div class="span2"></div>
+                            </ul>
+                       
+                    <!--<div class="span4"></div>-->
                     </div>
-                </div><!-- end .row -->
-
+                </div>
             </div>  <!-- end .row-content -->
         </div> <!-- end .section -->
 
@@ -327,6 +661,45 @@
 
         <div class="section">
         <!-- OUR HISTORY ///////////////////////////////////////////////////////////////-->
+            <div id = "annual-letters" class="row-container wow fadeIn" data-wow-delay="0.25s">
+                <div class="row">
+                    <div class="span12">
+
+                        <div class="headline-2">
+
+                            <h1>Annual Reports</h1>
+
+                        </div><!-- end .headline -->
+
+                    </div><!-- end. span12 -->
+                </div><!-- end .row -->
+            </div><!-- end .row-container -->
+            <div class="row-container wow fadeIn" data-wow-delay="0.25s">
+                <div class = "offset-1 accordion-width">
+                <button class="accordion">2018</button>
+                <div class= "panel">
+                    <table class = "accordion-table">
+                        <tr>
+                            <td class = "report-cell" style= "width: 10%;">
+                                <a href="_content/reports/StudentHoldingsAnnualReportFinal1718.pdf" download="Student Holdings 2017-2018 Annual Report.pdf" target="_blank">
+                                    <i class ="ifc-pdf offset-3"></i>
+                                </a>
+                            </td>
+                            <td class = "report-cell" style= "width: 84%; padding-right: 15px">
+                                <a href="_content/reports/StudentHoldingsAnnualReportFinal2017-2018.pdf" download="StudentHoldings2017-2018AnnualReport.pdf" target="_blank">
+                                    <p>2017-2018 Annual Report</p>
+                                </a>
+                            </td>
+                            <td class = "report-cell" style= "width: 6%; padding-right: 15px">
+                                <a href="_content/reports/StudentHoldingsAnnualReportFinal1718.pdf" download="Student Holdings 2017-2018 Annual Report.pdf" target="_blank">
+                                    <i class ="ifc-download2 offset-1"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </div>
+            </div>
             <div class="row-container wow fadeIn" data-wow-delay="0.25s">
                 <div class="row">
                     <div class="span12">
@@ -439,8 +812,26 @@
     $('.elasticstack').mousedown(function(){
         $('#drag').animate({'opacity': 0}, 800);
     })
-});
+    });
     </script>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+        } 
+        else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+    });
+    }
+</script>
 
 </body>
 </html>
