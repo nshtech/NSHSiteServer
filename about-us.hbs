@@ -70,7 +70,8 @@
       background:#0b1d2a;
     }
         .headline-2 {
-            margin-top:50px;
+            margin-top:25px;
+            margin-bottom:25px;
         }
         .value h2 {
             color: #CE4115;
@@ -129,16 +130,27 @@
 
         .value-header {
 
-            display: inline;
+            display: inline-block;
+        }
+
+        .value-header-xtrasmall {
+
+            display: inline-block;
+        }
+
+        .value-header-small {
+
+            display: inline-block;
+        }
+
+        .value-header-mid {
+
+            display: inline-block;
         }
 
         .value-header-long {
 
             display: inline-block;
-        }
-
-        @media screen and (min-width: 1000px) {
-            #elastic-offset {margin-left: 2%; }
         }
 
         tr { border-top: 0px; }
@@ -149,12 +161,33 @@
             line-height: 20px;
             margin-top:10px;
         }
+        #outer-elastic{
 
-        #elastic-offset {
-
-            margin-top: 2%;
+            padding: 30px;
+            height: 500px;
         }
 
+        .elastic-offset {
+
+            margin: auto;
+            width: 380px;
+            height: 300px;  
+           
+        }
+
+        @media (max-width: 550px) {
+
+           .elastic-offset{
+
+           visibility: hidden !important;
+        } 
+
+        
+            #outer-elastic{
+                padding: 0;
+                height: 0px;
+            }
+        }
         @media (min-width: 768px) and (max-width: 1200px) {
 
             #filler-left { width: 25%;}
@@ -169,8 +202,6 @@
         }
 
         @media (min-width: 650px) and (max-width: 768px) {
-
-            #elastic-offset { margin-left: 20%;}
 
             li {
 
@@ -188,8 +219,6 @@
         }
 
         @media (min-width: 550px) and (max-width: 650px) {
-
-            #elastic-offset {  margin-left: 15%;}
             
             li {
 
@@ -226,9 +255,8 @@
 
         }
 
-        @media (max-width: 475px) {
+        @media (min-width: 376px) and (max-width: 475px) {
 
-            #elastic-offset {  margin-left: 5%;}
             .value-table {
                 width: 100%;
             }
@@ -240,7 +268,18 @@
                 width: 90%;
             }
 
-            
+            .value-header { 
+
+                margin-left: 24px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-mid { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+
             .value-header-long { 
 
                 margin-left: 44px !important;
@@ -248,6 +287,65 @@
             }
         }
 
+        @media (min-width: 330px) and (max-width: 376px) {
+
+            .value-header { 
+
+                margin-left: 24px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-small{
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-mid { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-long { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+        }
+
+        @media (max-width: 330px) {
+
+            .value-header { 
+
+                margin-left: 24px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-xtrasmall{
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-small{
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-mid { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+
+            .value-header-long { 
+
+                margin-left: 44px !important;
+                margin-top:  -39px;
+            }
+        }
         /* ACCORDION CODE*/
 
         .accordion-width { width: 83.33333333333%; }
@@ -440,7 +538,7 @@
                              <li class="value bullet wow fadeIn" data-wow-delay="0.25s">
                                 
                                     
-                                    <h2 class="text-uppercase value-header"><strong>Serve our customers</strong></h2>
+                                    <h2 class="text-uppercase value-header-small"><strong>Serve our customers</strong></h2>
                                
                                 <p class="wow fadeIn" data-wow-delay="0.25s">
                                     Leaders put our customers first. They listen carefully to our customer's needs and exceed their expectations.
@@ -458,7 +556,7 @@
                           
                              <li class="value bullet wow fadeIn" data-wow-delay="0.25s">
                                
-                                    <h2 class="text-uppercase value-header"><strong>Build on our foundation</strong></h2>
+                                    <h2 class="text-uppercase value-header-mid"><strong>Build on our foundation</strong></h2>
                               
                                 <p class="wow fadeIn" data-wow-delay="0.25s">
                                     Leaders stand on the shoulders of their predecessors. They check their egos at the door and leverage the work of those before them.
@@ -467,7 +565,7 @@
                            
                             <li class="value bullet wow fadeIn" data-wow-delay="0.25s">
                                
-                                    <h2 class="text-uppercase value-header"><strong>Do the right thing</strong></h2>
+                                    <h2 class="text-uppercase value-header-xtrasmall"><strong>Do the right thing</strong></h2>
                                
                                 <p class="wow fadeIn" data-wow-delay="0.25s">
                                     Leaders don't compromise their values. They do what is right, even when doing so is difficult or unpopular.
@@ -481,9 +579,9 @@
                     </div>
                 </div><!-- end .row -->
                 <div class="row">
-                     <div class="span4" id="filler-left"></div>
-                     <div id = "elastic-offset" class="span4">
-                            <ul class='elasticstack wow fadeIn' id='elasticstack' data-wow-delay="0.5s">
+                     <!--<div class="span4" id="filler-left"></div>-->
+                     <div id = "outer-elastic">
+                            <ul class='elasticstack elastic-offset wow fadeIn' id='elasticstack' data-wow-delay="0.5s">
                             <li>
                                 <img id="drag" src="_content/NSH/click-swipe.png" style="position:absolute; top:-30px;height:21px;">
                                 <img class='elasti' src="_content/NSH/elastic-image-2.jpg"  alt="03"/>
@@ -513,8 +611,9 @@
                             </li>
 
                             </ul>
+                       
+                    <!--<div class="span4"></div>-->
                     </div>
-                    <div class="span4"></div>
                 </div>
             </div>  <!-- end .row-content -->
         </div> <!-- end .section -->
