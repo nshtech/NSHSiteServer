@@ -35,6 +35,9 @@ app.get('/team', function(req, res){
 app.get('/about', function(req, res){
   res.render('about-us');
 });
+app.get('/donate', function(req, res){
+  res.render('donate');
+});
 app.get('/contact', function(req, res){
   res.render('contact');
 });
@@ -52,7 +55,7 @@ app.post('/contact', function (req, res){
 	    from: req.body.email,
 	    to: 'tech@studentholdings.org',
 	    subject: 'Message from Contact Form',
-	    text: 'The following message is from the "Contact Us" form on northwesternstudentholdings.com.\nFrom: ' + req.body.email + '\nSubject: ' + req.body.subject + '\nMessage: ' +  req.body.message
+	    text: 'The following message is from the "Contact Us" form on studentholdings.com.\nFrom: ' + req.body.email + '\nSubject: ' + req.body.subject + '\nMessage: ' +  req.body.message
 	});
 	res.render('contact');
 });
