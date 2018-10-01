@@ -35,8 +35,8 @@ app.get('/team', function(req, res){
 app.get('/about', function(req, res){
   res.render('about-us');
 });
-app.get('/donate', function(req, res){
-  res.render('donate');
+app.get('/support', function(req, res){
+  res.render('support');
 });
 app.get('/contact', function(req, res){
   res.render('contact');
