@@ -1,21 +1,18 @@
 {
         "Student Leadership": {
-                "Elana Stettin": "Chief Executive Officer",
-                "Bharat Rao": "Chief Financial Officer",
-                "Michael Benimovich": "Chief Technology Officer",
-                "Rachel Katz": "Chief People Officer",
-                "John Novakovich": "General Manager of Ink Tank",
-                "Mo Ran": "General Manager of NU|Tutors",
-                "Kiley Jarymiszyn": "General Manager of RezEssentials",
-                "Bernetta Li": "Director of Operations, Ink Tank",
-                "Josh Golding": "Director of Sales, Ink Tank",
-                "Jack Nagel": "Director of Operations, NU|Tutors",
-                "Kevin Huang": "Director of Sales, NU|Tutors",
-                "Omkar Venkatesh": "Director of Operations, RezEssentials",
-                "Milan Shah": "Director of Sales, RezEssentials"
+                "Bharat Rao": "Chief Executive Officer",
+                "Alexander Groenendaal-Jones": "Chief Technology Officer",
+                "Josh Golding": "Chief People Officer",
+                "Binayak Pande": "General Manager of Ink Tank",
+                "Jack Nagel": "General Manager of NU|Tutors",
+                "Henry Forcier": "General Manager of RezEssentials",
+                "Sherie Cheng": "General Manager of RezLadunry",
+                "Bryant Wu": "Director of Operations, NU|Tutors",
+                "Mychala Schulz": "Director of Operations, RezEssentials",
+                "Owen Zhang": "Director of Sales, RezEssentials"
         },
         "Ink Tank": {
-                "John Novakovich": "General Manager",
+                "Binayak Pande": "General Manager",
                 "Bernetta Li": "Director of Operations",
                 "Josh Golding": "Director of Sales",
                 "Irena Yang": "Operations Manager",
@@ -24,26 +21,22 @@
                 "Blake Maier": "Sales Manager",
                 "Aleksandar Ojdrovic": "Sales Manager",
                 "Surya Veeravalli": "Sales Manager",
-                "Binayak Pande": "Sales Manager",
                 "Annie Lee": "Marketing Manager",
                 "Tina Zhang": "Marketing Manager",
                 "Aaron Ledsky": "Finance Manager",
                 "Daanish Khazi": "Finance Manager",
                 "Peter Farha": "Finance Manager",
-                "Ronit Basu": "Technology Manager",
                 "Leanna Hue": "Technology Manager",
                 "Adrian Lafont-Mueller": "People Operations Manager"
         },
         "NU|Tutors": {
-                "Mo Ran": "General Manager",
-                "Jack Nagel": "Director of Operations",
-                "Kevin Huang": "Director of Sales",
+                "Jack Nagel": "General Manager",
+                "Bryant Wu": "Director of Operations",
                 "Harrison Catlin": "Operations Manager",
                 "Jay Patel": "Operations Manager",
                 "Sherie Cheng": "Operations Manager",
                 "Saksham Goel": "Sales Manager",
                 "Zachary Verghese": "Sales Manager",
-                "Henry Forcier": "Sales Manager",
                 "Jasmine Teng": "Marketing Manager",
                 "Charlie Hummel": "Finance Manager",
                 "David Nelson": "Finance Manager",
@@ -51,9 +44,9 @@
                 "Elizabeth Hawley": "People Operations Manager"
         },
         "RezEssentials": {
-                "Kiley Jarymiszyn": "General Manager",
-                "Omkar Venkatesh": "Director of Operations",
-                "Milan Shah": "Director of Sales",
+                "Henry Forcier": "General Manager",
+                "Mychala Schulz": "Director of Operations",
+                "Owen Zhang": "Director of Sales",
                 "Katherine Mann": "Operations Manager",
                 "Satvik Garg": "Operations Manager",
                 "Owen Zhang": "Operations Manager",
@@ -61,8 +54,14 @@
                 "Melody Hsu": "Sales Manager",
                 "Mychala Schulz": "Sales Manager",
                 "Min Kim": "Communications Manager",
-                "Alexander Groendaal-Jones": "Technology Manager",
+                "Alexander Groenendaal-Jones": "Technology Manager",
                 "Aaron Ledsky": "Finance Manager"
+        },
+     "RezLaundry": {
+                "Sherie Cheng": "General Manager",
+                "Milan Shah": "Director of Sales",
+                "Katherine Mann": "Operations Manager"
+
         },
         "Finance & Analytics": {
                 "Bharat Rao": "Chief Financial Officer",
@@ -73,21 +72,19 @@
                 "Daanish Khazi": "Finance Manager"
         },
         "People Operations": {
-                "Rachel Katz": "Chief People Officer",
+                "Josh Golding": "Chief People Officer",
                 "Adrian Lafont-Mueller": "People Operations Manager",
                 "Elizabeth Hawley": "People Operations Manager",
                 "Min Kim": "Communications Manager"
         },
         "Technology": {
-                "Michael Benimovich": "Chief Technology Officer",
-                "Alexander Groendaal-Jones": "Technology Manager",
-                "Ronit Basu": "Technology Manager",
+                "Alexander Groenendaal-Jones": "Chief Technology Officer",
                 "Leanna Hue": "Technology Manager",
                 "Bryant Wu": "Technology Manager"
         },
         
         "Board": {
-                "Elana Stettin": "Chief Executive Officer",
+                "Bharat Rao": "Chief Executive Officer",
                 "Alex Onsager": "Charmain of the Board, Treasurer",
                 "Mo Ran": "Secretary",
                 "David Olodort": "Director",
