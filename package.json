@@ -11,7 +11,7 @@
     "fs": "latest",
     "hbs": "^3.0.1",
     "http": "latest",
-    "nodemailer": "^1.3.2",
+    "nodemailer": "^6.4.16",
     "npm": "^6.0.1",
     "path": "latest",
     "paypal-ipn": "~3.0.0"
